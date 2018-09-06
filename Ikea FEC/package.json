@@ -1,7 +1,7 @@
 {
   "name": "IkeaFEC",
   "version": "1.0.0",
-  "description": "A Pokémon API",
+  "description": "IkeaDisplay",
   "main": "server/index.js",
   "scripts": {
     "start": "nodemon server --watch",
