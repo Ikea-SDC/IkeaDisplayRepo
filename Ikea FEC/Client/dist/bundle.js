@@ -22561,7 +22561,7 @@
 	
 	var _TopBar2 = _interopRequireDefault(_TopBar);
 	
-	var _app = __webpack_require__(/*! ../styles/app.css */ 223);
+	var _app = __webpack_require__(/*! ../styles/app.css */ 228);
 	
 	var _app2 = _interopRequireDefault(_app);
 	
@@ -22617,27 +22617,27 @@
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'head' },
-	            'IKEA FAMILY '
+	            'IKEA FAMILY'
 	          ),
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'head' },
-	            ' IKEA for business '
+	            'IKEA for business'
 	          ),
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'head' },
-	            ' Customer Services '
+	            'Customer Services'
 	          ),
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'head' },
-	            ' Financing '
+	            'Financing'
 	          ),
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'head' },
-	            ' Join our email list '
+	            'Join our email list'
 	          )
 	        ),
 	        _react2.default.createElement(_TopBar2.default, null),
@@ -28847,7 +28847,7 @@
 	
 	var _styledComponents2 = _interopRequireDefault(_styledComponents);
 	
-	var _topbar = __webpack_require__(/*! ../styles/topbar.css */ 228);
+	var _topbar = __webpack_require__(/*! ../styles/topbar.css */ 223);
 	
 	var _topbar2 = _interopRequireDefault(_topbar);
 	
@@ -28856,48 +28856,44 @@
 	var TopBar = function TopBar(props) {
 	  return _react2.default.createElement(
 	    'div',
-	    null,
-	    _react2.default.createElement('img', { width: '90px', height: 'auto', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/newHeader/images/logoIKEA.svg' }),
+	    { className: _topbar2.default.bar },
+	    _react2.default.createElement('img', { width: '90px', height: '33px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/newHeader/images/logoIKEA.svg' }),
 	    _react2.default.createElement(
 	      'div',
-	      { className: _topbar2.default.bar },
-	      _react2.default.createElement(
-	        'div',
-	        null,
-	        'Products'
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        null,
-	        'Inspiration'
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        null,
-	        'New'
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        null,
-	        'Offers'
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        null,
-	        'Services'
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        null,
-	        'Back to College'
-	      ),
-	      _react2.default.createElement('input', { type: 'text' })
+	      null,
+	      'Products'
 	    ),
+	    _react2.default.createElement(
+	      'div',
+	      null,
+	      'Inspiration'
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      null,
+	      'New'
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      null,
+	      'Offers'
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      null,
+	      'Services'
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      null,
+	      'Back to College'
+	    ),
+	    _react2.default.createElement('input', { type: 'text' }),
 	    _react2.default.createElement(
 	      'div',
 	      { className: _topbar2.default.icons },
 	      _react2.default.createElement('img', { width: '30px', height: '30px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-list.svg' }),
-	      _react2.default.createElement('img', { width: '31px', hight: '31px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-bag.svg' })
+	      _react2.default.createElement('img', { width: '31px', height: '31px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-bag.svg' })
 	    )
 	  );
 	};
@@ -28906,13 +28902,13 @@
 
 /***/ }),
 /* 223 */
-/*!***********************************!*\
-  !*** ./client/src/styles/app.css ***!
-  \***********************************/
+/*!**************************************!*\
+  !*** ./client/src/styles/topbar.css ***!
+  \**************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 	
-	var content = __webpack_require__(/*! !../../../~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./app.css */ 224);
+	var content = __webpack_require__(/*! !../../../~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./topbar.css */ 224);
 	
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	
@@ -28931,8 +28927,8 @@
 	if(content.locals) module.exports = content.locals;
 	
 	if(false) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./app.css", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./app.css");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./topbar.css", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./topbar.css");
 	
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	
@@ -28959,9 +28955,9 @@
 
 /***/ }),
 /* 224 */
-/*!***************************************************************************************************************************!*\
-  !*** ./~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./client/src/styles/app.css ***!
-  \***************************************************************************************************************************/
+/*!******************************************************************************************************************************!*\
+  !*** ./~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./client/src/styles/topbar.css ***!
+  \******************************************************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(/*! ../../../~/css-loader/lib/css-base.js */ 225)(false);
@@ -28969,12 +28965,12 @@
 	
 	
 	// module
-	exports.push([module.id, ".app__header___1BY_D{\r\n  display: flex;\r\n  justify-content: center;\r\n  font-size: 0.6em;\r\n  color: #000000;\r\n  padding: 0.6em;\r\n  background: #f8f8f8;\r\n}\r\n\r\n.app__wrapper___3ePbp{\r\n  padding: 0.6em;\r\n  background: #f8f8f8;\r\n}", ""]);
+	exports.push([module.id, ".topbar__bar___nA7w7{\r\n  display: flex;\r\njustify-content: space-around;\r\nflex-direction: row;\r\nfont-size: 0.8em;\r\ncolor: #000000;\r\n}\r\n\r\n.topbar__icons___zM2Zn{\r\n  display: flex;\r\n  justify-content: flex-end;\r\n}", ""]);
 	
 	// exports
 	exports.locals = {
-		"header": "app__header___1BY_D",
-		"wrapper": "app__wrapper___3ePbp"
+		"bar": "topbar__bar___nA7w7",
+		"icons": "topbar__icons___zM2Zn"
 	};
 
 /***/ }),
@@ -29569,13 +29565,13 @@
 
 /***/ }),
 /* 228 */
-/*!**************************************!*\
-  !*** ./client/src/styles/topbar.css ***!
-  \**************************************/
+/*!***********************************!*\
+  !*** ./client/src/styles/app.css ***!
+  \***********************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 	
-	var content = __webpack_require__(/*! !../../../~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./topbar.css */ 229);
+	var content = __webpack_require__(/*! !../../../~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./app.css */ 229);
 	
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	
@@ -29594,8 +29590,8 @@
 	if(content.locals) module.exports = content.locals;
 	
 	if(false) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./topbar.css", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./topbar.css");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./app.css", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./app.css");
 	
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	
@@ -29622,9 +29618,9 @@
 
 /***/ }),
 /* 229 */
-/*!******************************************************************************************************************************!*\
-  !*** ./~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./client/src/styles/topbar.css ***!
-  \******************************************************************************************************************************/
+/*!***************************************************************************************************************************!*\
+  !*** ./~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./client/src/styles/app.css ***!
+  \***************************************************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(/*! ../../../~/css-loader/lib/css-base.js */ 225)(false);
@@ -29632,12 +29628,12 @@
 	
 	
 	// module
-	exports.push([module.id, ".topbar__bar___nA7w7{\r\n  display: flex;\r\njustify-content: center;\r\nfont-size: 0.8em;\r\ncolor: #000000;\r\n}\r\n\r\n.topbar__icons___zM2Zn{\r\n  display: flex;\r\n  justify-content: flex-end;\r\n}", ""]);
+	exports.push([module.id, ".app__header___1BY_D{\r\n  display: flex;\r\n  justify-content: space-around;\r\n  font-size: 0.6em;\r\n  top:10px;\r\n  color: #000000;\r\n  padding: 0.6em;\r\n  background: #f8f8f8;\r\n}\r\n\r\n.app__wrapper___3ePbp{\r\n  padding: 0.6em;\r\n  background: #f8f8f8;\r\n}", ""]);
 	
 	// exports
 	exports.locals = {
-		"bar": "topbar__bar___nA7w7",
-		"icons": "topbar__icons___zM2Zn"
+		"header": "app__header___1BY_D",
+		"wrapper": "app__wrapper___3ePbp"
 	};
 
 /***/ })
