@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon server --watch",
     "test": "mocha test",
-    "dev-react": "webpack -d --watch"
+    "build": "webpack -d --watch"
   },
   "author": "BrandonR",
   "private": true,
