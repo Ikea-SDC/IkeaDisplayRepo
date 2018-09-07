@@ -10,7 +10,7 @@ const app = express();
 app.use(parser.json());
 app.use(parser.urlencoded({extended: true}));
 
-app.use(express.static(path.resolve(__dirname + './client')));
+app.use(express.static(path.resolve(__dirname, '../Client/dist')));
 
 app.use('/api', router);
 
