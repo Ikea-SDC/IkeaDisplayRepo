@@ -22541,8 +22541,8 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _templateObject = _taggedTemplateLiteral(['\n  display: flex;\n  justify-content: center;\n  font-size: 0.6em;\n  text-align: center;\n  color: #000000;\n'], ['\n  display: flex;\n  justify-content: center;\n  font-size: 0.6em;\n  text-align: center;\n  color: #000000;\n']),
-	    _templateObject2 = _taggedTemplateLiteral(['\ndisplay: flex;\nfont-size: 0.6em;\ntext-align: right;\ncolor: #000000;\n'], ['\ndisplay: flex;\nfont-size: 0.6em;\ntext-align: right;\ncolor: #000000;\n']),
+	var _templateObject = _taggedTemplateLiteral(['\n  display: flex;\n  justify-content: center;\n  font-size: 0.6em;\n  color: #000000;\n'], ['\n  display: flex;\n  justify-content: center;\n  font-size: 0.6em;\n  color: #000000;\n']),
+	    _templateObject2 = _taggedTemplateLiteral(['\ndisplay: flex;\njustify-content: flex-end;\nfont-size: 0.6em;\ncolor: #000000;\n'], ['\ndisplay: flex;\njustify-content: flex-end;\nfont-size: 0.6em;\ncolor: #000000;\n']),
 	    _templateObject3 = _taggedTemplateLiteral(['\n  padding: 0.6em;\n  background: #f8f8f8;\n'], ['\n  padding: 0.6em;\n  background: #f8f8f8;\n']);
 	
 	var _react = __webpack_require__(/*! react */ 1);

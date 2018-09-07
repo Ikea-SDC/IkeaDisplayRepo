@@ -14,14 +14,13 @@ class App extends React.Component{
   display: flex;
   justify-content: center;
   font-size: 0.6em;
-  text-align: center;
   color: #000000;
 `;
 
 const T2 = styled.h1`
 display: flex;
+justify-content: flex-end;
 font-size: 0.6em;
-text-align: right;
 color: #000000;
 `;
 
@@ -43,6 +42,7 @@ color: #000000;
         {/* <T2>
       <div>login/signup</div>
         </T2> */}
+        
       </Header>
       </div>
     )
