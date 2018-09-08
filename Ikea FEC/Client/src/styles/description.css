@@ -21,6 +21,32 @@
   text-align: left;
 }
 
+.article{
+  color: #000;
+  font-size: 11px;
+  line-height: 2;
+  font-family: verdana;
+}
+
+.review{
+  letter-spacing: normal;
+  color: #3399FD;
+  font-size: 11px;
+  line-height: 35px;
+}
+
+.review1{
+  letter-spacing: normal;
+  color: black;
+  font-size: 11px;
+  line-height: 35px;
+}
+
+.reviewLayout{
+  display: flex;
+  justify-content: space-around;
+}
+
 .button1{
   display: block;
   border-radius: 5px;
@@ -52,4 +78,8 @@
   height: 46px;
   font-size:12px;
   line-height:1px;
+}
+
+.star{
+  font-size: 23px;
 }

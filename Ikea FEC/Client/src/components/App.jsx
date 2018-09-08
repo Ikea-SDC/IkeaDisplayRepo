@@ -44,7 +44,7 @@ class App extends React.Component{
       </div>
       <TopBar/>
       <div className={style.ad}>
-      <img width="1060px" height="55px" margin-bottom="2em" src="https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/promoBanner/images/shipping-banner-update.jpg"></img>
+      <img width="1060px" height="55px" src="https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/promoBanner/images/shipping-banner-update.jpg"></img>
       </div>
       <Description description={this.state.temp}/>
       <MainDisplay display={this.state.temp}/>
