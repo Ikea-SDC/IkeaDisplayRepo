@@ -1,0 +1,19 @@
+.header{
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.6em;
+  top:10px;
+  color: #000000;
+  padding: 0.6em;
+  background: #f8f8f8;
+}
+
+.wrapper{
+  padding: 0.6em;
+  background: #f8f8f8;
+}
+
+.ad{
+  display: flex;
+  justify-content: center;
+}
