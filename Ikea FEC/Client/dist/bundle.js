@@ -25177,8 +25177,8 @@
 	      props.description.title
 	    ),
 	    _react2.default.createElement(
-	      'h1',
-	      null,
+	      'div',
+	      { className: _description2.default.price },
 	      props.description.price
 	    ),
 	    _react2.default.createElement(
@@ -25215,6 +25215,7 @@
 	      _react2.default.createElement(
 	        'button',
 	        { className: _description2.default.button1 },
+	        _react2.default.createElement('img', { width: '23px', height: '23px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-bag.svg' }),
 	        'Available online'
 	      )
 	    ),
@@ -25224,6 +25225,7 @@
 	      _react2.default.createElement(
 	        'button',
 	        { className: _description2.default.button2 },
+	        _react2.default.createElement('img', { width: '23px', height: '23px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-list.svg' }),
 	        'Add to shopping list'
 	      )
 	    ),
@@ -25306,11 +25308,13 @@
 	
 	
 	// module
-	exports.push([module.id, ".description__layout___1fbDu{\r\n  position: fixed;\r\n  right: 300px;\r\n}\r\n\r\n.description__button1___y6foo{\r\n  border-radius: 5px;\r\n  background: #a2bfe6;\r\n  padding: 20px; \r\n  width: 400px;\r\n  height: 50px; \r\n}\r\n\r\n.description__button2___2aw08{\r\n  border-radius: 5px;\r\n  background:#cdcdcd;\r\n  padding: 20px; \r\n  width: 400px;\r\n  height: 50px;\r\n}\r\n\r\n.description__button3___3QkaA{\r\n  border-radius: 5px;\r\n  background:#ffc9ae;\r\n  padding: 20px; \r\n  width: 400px;\r\n  height: 50px;\r\n}", ""]);
+	exports.push([module.id, ".description__layout___1fbDu{\r\n  position: fixed;\r\n  right: 300px;\r\n}\r\n\r\n.description__title___2Kvr5{\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 20px;\r\n  line-height: 30px;\r\n  letter-spacing: -1px;\r\n  display: block;\r\n  font-weight: bold;\r\n  text-align: left;\r\n}\r\n\r\n.description__price___2FqSe{\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 32px;\r\n  letter-spacing: -1.5px;\r\n  font-weight: bold;\r\n  text-align: left;\r\n}\r\n\r\n.description__button1___y6foo{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background: #a2bfe6;\r\n  padding: 0px; \r\n  width: 420px;\r\n  height: 46px; \r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__button2___2aw08{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background:#cdcdcd;\r\n  padding: 0px; \r\n  width: 420px;\r\n  height: 46px;\r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__button3___3QkaA{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background:#ffc9ae;\r\n  padding: 17px; \r\n  width: 420px;\r\n  height: 46px;\r\n  font-size:12px;\r\n  line-height:1px;\r\n}", ""]);
 	
 	// exports
 	exports.locals = {
 		"layout": "description__layout___1fbDu",
+		"title": "description__title___2Kvr5",
+		"price": "description__price___2FqSe",
 		"button1": "description__button1___y6foo",
 		"button2": "description__button2___2aw08",
 		"button3": "description__button3___3QkaA"
