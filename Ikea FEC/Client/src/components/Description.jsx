@@ -28,7 +28,7 @@ let Description = (props) =>(
   </div>
   </div>
   <div>{props.description.description}</div>
-  <div>Quantity: <input type="text" value="1"></input></div>
+  <div>Quantity: <input type="text"></input></div>
   <div>
   <button className={style.button1}>
   <img width="23px" height="23px" src="https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-bag.svg"></img>

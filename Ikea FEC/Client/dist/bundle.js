@@ -25331,7 +25331,7 @@
 	      'div',
 	      null,
 	      'Quantity: ',
-	      _react2.default.createElement('input', { type: 'text', value: '1' })
+	      _react2.default.createElement('input', { type: 'text' })
 	    ),
 	    _react2.default.createElement(
 	      'div',
