@@ -1,8 +1,8 @@
 import React from 'react';
-import styled from 'styled-components';
 import axios from 'axios';
 import MainDisplay from './MainDisplay.jsx';
 import TopBar from './TopBar.jsx';
+import Description from './Description.jsx';
 import style from '../styles/app.css';
 
 class App extends React.Component{
@@ -43,6 +43,10 @@ class App extends React.Component{
       <div className="head">Join our email list</div>
       </div>
       <TopBar/>
+      <div className={style.ad}>
+      <img width="1060px" height="55px" margin-bottom="2em" src="https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/promoBanner/images/shipping-banner-update.jpg"></img>
+      </div>
+      <Description description={this.state.temp}/>
       <MainDisplay display={this.state.temp}/>
       </div>
     )

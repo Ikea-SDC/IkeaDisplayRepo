@@ -2,7 +2,7 @@ const db = require('../database/index.js');
 
 exports.getData = function(req, res){
   console.log('in controller!');
-  db.displayData.find({}, (err, data)=>{
+  db.displayData.findOne({}, (err, data)=>{
     if(err){
       throw(err)
     } else {
