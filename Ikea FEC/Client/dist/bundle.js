@@ -25206,7 +25206,7 @@
 	    _react2.default.createElement(
 	      'div',
 	      null,
-	      'quantity',
+	      'Quantity: ',
 	      _react2.default.createElement('input', { type: 'text', value: '1' })
 	    ),
 	    _react2.default.createElement(
@@ -25214,7 +25214,7 @@
 	      null,
 	      _react2.default.createElement(
 	        'button',
-	        null,
+	        { className: _description2.default.button1 },
 	        'Available online'
 	      )
 	    ),
@@ -25223,7 +25223,7 @@
 	      null,
 	      _react2.default.createElement(
 	        'button',
-	        null,
+	        { className: _description2.default.button2 },
 	        'Add to shopping list'
 	      )
 	    ),
@@ -25232,7 +25232,7 @@
 	      null,
 	      _react2.default.createElement(
 	        'button',
-	        null,
+	        { className: _description2.default.button3 },
 	        'Add to registry'
 	      )
 	    )
@@ -25306,11 +25306,14 @@
 	
 	
 	// module
-	exports.push([module.id, ".description__layout___1fbDu{\r\n  position: fixed;\r\n  right: 300px;\r\n}", ""]);
+	exports.push([module.id, ".description__layout___1fbDu{\r\n  position: fixed;\r\n  right: 300px;\r\n}\r\n\r\n.description__button1___y6foo{\r\n  border-radius: 5px;\r\n  background: #a2bfe6;\r\n  padding: 20px; \r\n  width: 400px;\r\n  height: 50px; \r\n}\r\n\r\n.description__button2___2aw08{\r\n  border-radius: 5px;\r\n  background:#cdcdcd;\r\n  padding: 20px; \r\n  width: 400px;\r\n  height: 50px;\r\n}\r\n\r\n.description__button3___3QkaA{\r\n  border-radius: 5px;\r\n  background:#ffc9ae;\r\n  padding: 20px; \r\n  width: 400px;\r\n  height: 50px;\r\n}", ""]);
 	
 	// exports
 	exports.locals = {
-		"layout": "description__layout___1fbDu"
+		"layout": "description__layout___1fbDu",
+		"button1": "description__button1___y6foo",
+		"button2": "description__button2___2aw08",
+		"button3": "description__button3___3QkaA"
 	};
 
 /***/ }),

@@ -11,15 +11,15 @@ let Description = (props) =>(
   <div>{props.description.starRating}</div>
   <div>{props.description.reviewCount} Reviews</div>
   <div>{props.description.description}</div>
-  <div>quantity<input type="text" value="1"></input></div>
+  <div>Quantity: <input type="text" value="1"></input></div>
   <div>
-  <button>Available online</button>
+  <button className={style.button1}>Available online</button>
   </div>
   <div>
-  <button>Add to shopping list</button>
+  <button className={style.button2}>Add to shopping list</button>
   </div>
   <div>
-  <button>Add to registry</button>
+  <button className={style.button3}>Add to registry</button>
   </div>
   </div>
 )
