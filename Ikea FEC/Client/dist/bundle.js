@@ -25273,93 +25273,96 @@
 	  return _react2.default.createElement(
 	    'div',
 	    { className: _description2.default.layout },
-	    console.log('in description', props.description),
-	    _react2.default.createElement(
-	      'h1',
-	      null,
-	      props.description.type
-	    ),
 	    _react2.default.createElement(
 	      'div',
-	      null,
-	      props.description.title
-	    ),
-	    _react2.default.createElement(
-	      'div',
-	      { className: _description2.default.price },
-	      props.description.price
-	    ),
-	    _react2.default.createElement(
-	      'div',
-	      { className: _description2.default.article },
-	      'Article Number: ',
-	      props.description.articleNumber
-	    ),
-	    _react2.default.createElement(
-	      'div',
-	      { className: _description2.default.reviewLayout },
+	      { className: _description2.default.container },
 	      _react2.default.createElement(
-	        'div',
-	        { className: _description2.default.star },
-	        _react2.default.createElement(_reactStarRatingComponent2.default, {
-	          name: 'star1',
-	          starCount: 5,
-	          value: props.description.starRating,
-	          starColor: '#ffcc00',
-	          emptyStarColor: '#cdcdcd'
-	        })
+	        'h1',
+	        null,
+	        props.description.type
 	      ),
 	      _react2.default.createElement(
 	        'div',
-	        { className: _description2.default.review1 },
-	        props.description.starRating
+	        null,
+	        props.description.title
 	      ),
 	      _react2.default.createElement(
 	        'div',
-	        { className: _description2.default.review },
-	        '(',
-	        props.description.reviewCount,
-	        ') Reviews'
-	      )
-	    ),
-	    _react2.default.createElement(
-	      'div',
-	      null,
-	      props.description.description
-	    ),
-	    _react2.default.createElement(
-	      'div',
-	      null,
-	      'Quantity: ',
-	      _react2.default.createElement('input', { type: 'text' })
-	    ),
-	    _react2.default.createElement(
-	      'div',
-	      null,
+	        { className: _description2.default.price },
+	        props.description.price
+	      ),
 	      _react2.default.createElement(
-	        'button',
-	        { className: _description2.default.button1 },
-	        _react2.default.createElement('img', { width: '23px', height: '23px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-bag.svg' }),
-	        'Available online'
-	      )
-	    ),
-	    _react2.default.createElement(
-	      'div',
-	      null,
+	        'div',
+	        { className: _description2.default.article },
+	        'Article Number: ',
+	        props.description.articleNumber
+	      ),
 	      _react2.default.createElement(
-	        'button',
-	        { className: _description2.default.button2 },
-	        _react2.default.createElement('img', { width: '23px', height: '23px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-list.svg' }),
-	        'Add to shopping list'
-	      )
-	    ),
-	    _react2.default.createElement(
-	      'div',
-	      null,
+	        'div',
+	        { className: _description2.default.reviewLayout },
+	        _react2.default.createElement(
+	          'div',
+	          { className: _description2.default.star },
+	          _react2.default.createElement(_reactStarRatingComponent2.default, {
+	            name: 'star1',
+	            starCount: 5,
+	            value: props.description.starRating,
+	            starColor: '#ffcc00',
+	            emptyStarColor: '#cdcdcd'
+	          })
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: _description2.default.review1 },
+	          props.description.starRating
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: _description2.default.review },
+	          '(',
+	          props.description.reviewCount,
+	          ') Reviews'
+	        )
+	      ),
 	      _react2.default.createElement(
-	        'button',
-	        { className: _description2.default.button3 },
-	        'Add to registry'
+	        'div',
+	        null,
+	        props.description.description
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: _description2.default.quantity1 },
+	        'Quantity: ',
+	        _react2.default.createElement('input', { className: _description2.default.quantity, type: 'text', maxLength: '3', size: '3' })
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'button',
+	          { className: _description2.default.button1 },
+	          _react2.default.createElement('img', { width: '23px', height: '23px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-bag.svg' }),
+	          'Available online'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'button',
+	          { className: _description2.default.button2 },
+	          _react2.default.createElement('img', { width: '23px', height: '23px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-list.svg' }),
+	          'Add to shopping list'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'button',
+	          { className: _description2.default.button3 },
+	          'Add to registry'
+	        )
 	      )
 	    )
 	  );
@@ -25432,10 +25435,11 @@
 	
 	
 	// module
-	exports.push([module.id, ".description__layout___1fbDu{\r\n  position: fixed;\r\n  right: 300px;\r\n}\r\n\r\n.description__title___2Kvr5{\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 20px;\r\n  line-height: 30px;\r\n  letter-spacing: -1px;\r\n  display: block;\r\n  font-weight: bold;\r\n  text-align: left;\r\n}\r\n\r\n.description__price___2FqSe{\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 32px;\r\n  letter-spacing: -1.5px;\r\n  font-weight: bold;\r\n  text-align: left;\r\n}\r\n\r\n.description__article___3YKK_{\r\n  color: #000;\r\n  font-size: 11px;\r\n  line-height: 2;\r\n  font-family: verdana;\r\n}\r\n\r\n.description__review___3JbFf{\r\n  letter-spacing: normal;\r\n  color: #3399FD;\r\n  font-size: 11px;\r\n  line-height: 35px;\r\n}\r\n\r\n.description__review1___1Ejl0{\r\n  letter-spacing: normal;\r\n  color: black;\r\n  font-size: 11px;\r\n  line-height: 35px;\r\n}\r\n\r\n.description__reviewLayout___10kIR{\r\n  display: flex;\r\n  justify-content: space-around;\r\n}\r\n\r\n.description__button1___y6foo{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background: #a2bfe6;\r\n  padding: 0px; \r\n  width: 420px;\r\n  height: 46px; \r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__button2___2aw08{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background:#cdcdcd;\r\n  padding: 0px; \r\n  width: 420px;\r\n  height: 46px;\r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__button3___3QkaA{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background:#ffc9ae;\r\n  padding: 17px; \r\n  width: 420px;\r\n  height: 46px;\r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__star___1PeKk{\r\n  font-size: 23px;\r\n}", ""]);
+	exports.push([module.id, ".description__container___2lRWH{\r\n  float: left;\r\n  margin: 1.364em 0 0 2.9em;\r\n  width: 420px;\r\n  padding: .7em 0 0 1.56em;\r\n}\r\n\r\n.description__layout___1fbDu{\r\n  display: block;\r\n  position: fixed;\r\n  right: 300px;\r\n}\r\n\r\n.description__title___2Kvr5{\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 20px;\r\n  line-height: 30px;\r\n  letter-spacing: -1px;\r\n  display: block;\r\n  font-weight: bold;\r\n  text-align: left;\r\n}\r\n\r\n.description__price___2FqSe{\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 32px;\r\n  letter-spacing: -1.5px;\r\n  font-weight: bold;\r\n  text-align: left;\r\n}\r\n\r\n.description__article___3YKK_{\r\n  color: #000;\r\n  font-size: 11px;\r\n  line-height: 2;\r\n  font-family: verdana;\r\n}\r\n\r\n.description__review___3JbFf{\r\n  letter-spacing: normal;\r\n  color: #3399FD;\r\n  font-size: 11px;\r\n  line-height: 35px;\r\n}\r\n\r\n.description__review1___1Ejl0{\r\n  letter-spacing: normal;\r\n  color: black;\r\n  font-size: 11px;\r\n  line-height: 35px;\r\n}\r\n\r\n.description__reviewLayout___10kIR{\r\n  display: flex;\r\n  justify-content: space-around;\r\n}\r\n\r\n.description__quantity___6wPb6{\r\n  height: 30px;\r\n  width: 56px;\r\n  text-align: center;\r\n  font-size: 13px;\r\n  font-weight: normal;\r\n  float: right;\r\n  border: 1px solid #999;\r\n  margin: 5px 0 10px 0;\r\n  border-radius: 2px;\r\n}\r\n\r\n.description__quantity1___1Ynda{\r\n  color: #767676;\r\n    font-size: 13px;\r\n    line-height: 46px;\r\n}\r\n.description__button1___y6foo{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background: #a2bfe6;\r\n  padding: 0px; \r\n  width: 420px;\r\n  height: 46px; \r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__button2___2aw08{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background:#cdcdcd;\r\n  padding: 0px; \r\n  width: 420px;\r\n  height: 46px;\r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__button3___3QkaA{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background:#ffc9ae;\r\n  padding: 17px; \r\n  width: 420px;\r\n  height: 46px;\r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__star___1PeKk{\r\n  font-size: 23px;\r\n}", ""]);
 	
 	// exports
 	exports.locals = {
+		"container": "description__container___2lRWH",
 		"layout": "description__layout___1fbDu",
 		"title": "description__title___2Kvr5",
 		"price": "description__price___2FqSe",
@@ -25443,6 +25447,8 @@
 		"review": "description__review___3JbFf",
 		"review1": "description__review1___1Ejl0",
 		"reviewLayout": "description__reviewLayout___10kIR",
+		"quantity": "description__quantity___6wPb6",
+		"quantity1": "description__quantity1___1Ynda",
 		"button1": "description__button1___y6foo",
 		"button2": "description__button2___2aw08",
 		"button3": "description__button3___3QkaA",

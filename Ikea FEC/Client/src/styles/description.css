@@ -1,4 +1,12 @@
+.container{
+  float: left;
+  margin: 1.364em 0 0 2.9em;
+  width: 420px;
+  padding: .7em 0 0 1.56em;
+}
+
 .layout{
+  display: block;
   position: fixed;
   right: 300px;
 }
@@ -47,6 +55,23 @@
   justify-content: space-around;
 }
 
+.quantity{
+  height: 30px;
+  width: 56px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: normal;
+  float: right;
+  border: 1px solid #999;
+  margin: 5px 0 10px 0;
+  border-radius: 2px;
+}
+
+.quantity1{
+  color: #767676;
+    font-size: 13px;
+    line-height: 46px;
+}
 .button1{
   display: block;
   border-radius: 5px;
