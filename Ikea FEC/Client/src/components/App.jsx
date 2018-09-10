@@ -46,8 +46,10 @@ class App extends React.Component{
       <div className={style.ad}>
       <img width="1060px" height="55px" src="https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/promoBanner/images/shipping-banner-update.jpg"></img>
       </div>
-      <Description description={this.state.temp}/>
+      <div className={style.display}>
       <MainDisplay display={this.state.temp}/>
+      <Description description={this.state.temp}/>
+      </div>
       </div>
     )
     // if(this.state.temp === null){

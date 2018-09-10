@@ -28,7 +28,7 @@ let Description = (props) =>(
                     Reviews
                   </div>
             </div>
-              <div>{props.description.description}</div>
+              <div className={style.description}>{props.description.description}</div>
               
                 <div className={style.quantity1}>
                   Quantity: <input className={style.quantity} type="text" maxLength="3" size="3"></input>

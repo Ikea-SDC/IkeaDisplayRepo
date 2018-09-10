@@ -4,3 +4,9 @@
 
 
 }
+
+.layout2{
+  display: block;
+  float: right;
+  padding: 0;
+}
