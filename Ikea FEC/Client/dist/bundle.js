@@ -25312,6 +25312,42 @@
 	          { className: _description2.default.button3 },
 	          'Add to registry'
 	        )
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: _description2.default.box },
+	        _react2.default.createElement(
+	          'div',
+	          { className: _description2.default.location },
+	          _react2.default.createElement(
+	            'div',
+	            { className: _description2.default.left },
+	            'Check stock at your local store',
+	            _react2.default.createElement(
+	              'div',
+	              { className: _description2.default.dropDown },
+	              'dropdown'
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: _description2.default.right },
+	            _react2.default.createElement(
+	              'div',
+	              { className: _description2.default.noAvail },
+	              'Not available online'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              null,
+	              _react2.default.createElement(
+	                'div',
+	                { className: _description2.default.availability },
+	                'Check availability at your local store'
+	              )
+	            )
+	          )
+	        )
 	      )
 	    )
 	  );
@@ -25384,7 +25420,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".description__container___2lRWH{\r\n  float: left;\r\n  margin: 1.364em 0 0 2.9em;\r\n  width: 420px;\r\n  height: 371;\r\n  padding: .7em 0 0 1.56em;\r\n}\r\n\r\n.description__layout___1fbDu{\r\n  display: block;\r\n  position: relative;\r\n  float: right;\r\n  right: 50px;\r\n}\r\n\r\n.description__title___2Kvr5{\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 20px;\r\n  line-height: 30px;\r\n  letter-spacing: -1px;\r\n  display: block;\r\n  font-weight: bold;\r\n  text-align: left;\r\n}\r\n\r\n.description__price___2FqSe{\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 32px;\r\n  letter-spacing: -1.5px;\r\n  font-weight: bold;\r\n  text-align: left;\r\n}\r\n\r\n.description__article___3YKK_{\r\n  color: #000;\r\n  font-size: 11px;\r\n  line-height: 2;\r\n  font-family: verdana;\r\n}\r\n\r\n.description__review___3JbFf{\r\n  letter-spacing: normal;\r\n  color: #3399FD;\r\n  font-size: 11px;\r\n  line-height: 35px;\r\n}\r\n\r\n.description__review1___1Ejl0{\r\n  letter-spacing: normal;\r\n  color: black;\r\n  font-size: 11px;\r\n  line-height: 35px;\r\n}\r\n\r\n.description__reviewLayout___10kIR{\r\n  display: flex;\r\n  justify-content: flex-start;\r\n}\r\n\r\n.description__description___ygGkz{\r\n  line-height: 18px;\r\n  color: #333;\r\n  padding-bottom: 15px;\r\n  font-size: 13px;\r\n}\r\n\r\n.description__quantity___6wPb6{\r\n  height: 30px;\r\n  width: 56px;\r\n  text-align: center;\r\n  font-size: 13px;\r\n  font-weight: normal;\r\n  float: right;\r\n  border: 1px solid #999;\r\n  margin: 5px 0 10px 0;\r\n  border-radius: 2px;\r\n}\r\n\r\n.description__quantity1___1Ynda{\r\n  color: #767676;\r\n    font-size: 13px;\r\n    line-height: 46px;\r\n}\r\n.description__button1___y6foo{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background: #a2bfe6;\r\n  padding: 0px; \r\n  width: 420px;\r\n  height: 46px; \r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__button2___2aw08{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background:#cdcdcd;\r\n  padding: 0px; \r\n  width: 420px;\r\n  height: 46px;\r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__button3___3QkaA{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background:#ffc9ae;\r\n  padding: 17px; \r\n  width: 420px;\r\n  height: 46px;\r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__star___1PeKk{\r\n  font-size: 23px;\r\n}", ""]);
+	exports.push([module.id, ".description__container___2lRWH{\r\n  float: left;\r\n  margin: 1.364em 0 0 2.9em;\r\n  width: 420px;\r\n  height: 371;\r\n  padding: .7em 0 0 1.56em;\r\n}\r\n\r\n.description__layout___1fbDu{\r\n  display: block;\r\n  position: relative;\r\n  float: right;\r\n  right: 50px;\r\n}\r\n\r\n.description__title___2Kvr5{\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 20px;\r\n  line-height: 30px;\r\n  letter-spacing: -1px;\r\n  display: block;\r\n  font-weight: bold;\r\n  text-align: left;\r\n}\r\n\r\n.description__price___2FqSe{\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 32px;\r\n  letter-spacing: -1.5px;\r\n  font-weight: bold;\r\n  text-align: left;\r\n}\r\n\r\n.description__article___3YKK_{\r\n  color: #000;\r\n  font-size: 11px;\r\n  line-height: 2;\r\n  font-family: verdana;\r\n}\r\n\r\n.description__review___3JbFf{\r\n  letter-spacing: normal;\r\n  color: #3399FD;\r\n  font-size: 11px;\r\n  line-height: 35px;\r\n}\r\n\r\n.description__review1___1Ejl0{\r\n  letter-spacing: normal;\r\n  color: black;\r\n  font-size: 11px;\r\n  line-height: 35px;\r\n}\r\n\r\n.description__reviewLayout___10kIR{\r\n  display: flex;\r\n  justify-content: flex-start;\r\n}\r\n\r\n.description__description___ygGkz{\r\n  line-height: 18px;\r\n  color: #333;\r\n  padding-bottom: 15px;\r\n  font-size: 13px;\r\n}\r\n\r\n.description__quantity___6wPb6{\r\n  height: 30px;\r\n  width: 56px;\r\n  text-align: center;\r\n  font-size: 13px;\r\n  font-weight: normal;\r\n  float: right;\r\n  border: 1px solid #999;\r\n  margin: 5px 0 10px 0;\r\n  border-radius: 2px;\r\n}\r\n\r\n.description__quantity1___1Ynda{\r\n  color: #767676;\r\n    font-size: 13px;\r\n    line-height: 46px;\r\n}\r\n.description__button1___y6foo{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background: #a2bfe6;\r\n  padding: 0px; \r\n  width: 420px;\r\n  height: 46px; \r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__button2___2aw08{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background:#cdcdcd;\r\n  padding: 0px; \r\n  width: 420px;\r\n  height: 46px;\r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__button3___3QkaA{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background:#ffc9ae;\r\n  padding: 17px; \r\n  width: 420px;\r\n  height: 46px;\r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__star___1PeKk{\r\n  font-size: 23px;\r\n}\r\n\r\n.description__location___2PMEu{\r\n  width: 150%;\r\n  display: flex;\r\n  justify-content: space-between;\r\n}\r\n\r\n.description__left___2LX5W{\r\n  float: left;\r\n  margin: 0 0 5px 0;\r\n  font-size: 1.1462em;\r\n  font-weight: bold;\r\n  color: #333;\r\n  display: block;\r\n}\r\n\r\n.description__dropDown___3fMd3{\r\n  height: 33px;\r\n  margin-top: 5px;\r\n  padding: 0;\r\n  border: 1px solid #999;\r\n  line-height: 33px;\r\n}\r\n\r\n.description__right___1VsZ9{\r\n  box-sizing: border-box;\r\n    width: 80%;\r\n    float: right;\r\n    margin-left: 8px;\r\n    border-left: 1px solid #eee;\r\n    padding-left: 10px;\r\n}\r\n\r\n.description__noAvail___2qIIw{\r\n  font-size: 11px;\r\n  font-weight: bold;\r\n  color: #333;\r\n  display: block;\r\n}\r\n\r\n.description__availability___26wTe{\r\n  font-size: 11px;\r\n    margin: 5px 0;\r\n}\r\n\r\n.description__box___2JTAR{\r\n  display:block;\r\n}", ""]);
 	
 	// exports
 	exports.locals = {
@@ -25402,7 +25438,14 @@
 		"button1": "description__button1___y6foo",
 		"button2": "description__button2___2aw08",
 		"button3": "description__button3___3QkaA",
-		"star": "description__star___1PeKk"
+		"star": "description__star___1PeKk",
+		"location": "description__location___2PMEu",
+		"left": "description__left___2LX5W",
+		"dropDown": "description__dropDown___3fMd3",
+		"right": "description__right___1VsZ9",
+		"noAvail": "description__noAvail___2qIIw",
+		"availability": "description__availability___26wTe",
+		"box": "description__box___2JTAR"
 	};
 
 /***/ }),
@@ -25941,7 +25984,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".app__header___1BY_D{\r\n  display: flex;\r\n  justify-content: space-around;\r\n  font-size: 0.6em;\r\n  top:10px;\r\n  color: #000000;\r\n  padding: 0.6em;\r\n  background: #f8f8f8;\r\n}\r\n\r\n.app__wrapper___3ePbp{\r\n  padding: 0.6em;\r\n  background: #f8f8f8;\r\n}\r\n\r\n.app__ad___2tPp5{\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n\r\n.app__display___1xcJA{\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n\r\n.app__display1___tgcQy{\r\n  display: flex;\r\n  justify-content: center;\r\n}", ""]);
+	exports.push([module.id, ".app__header___1BY_D{\r\n  display: flex;\r\n  justify-content: space-around;\r\n  height: 30px;\r\n  font-size: 0.6em;\r\n  top:10px;\r\n  color: #000000;\r\n  padding: 0.6em;\r\n  background: #f8f8f8;\r\n}\r\n\r\n.app__wrapper___3ePbp{\r\n  padding: 0.6em;\r\n  background: #f8f8f8;\r\n}\r\n\r\n.app__ad___2tPp5{\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n\r\n.app__display___1xcJA{\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n\r\n.app__display1___tgcQy{\r\n  display: flex;\r\n  justify-content: center;\r\n}", ""]);
 	
 	// exports
 	exports.locals = {

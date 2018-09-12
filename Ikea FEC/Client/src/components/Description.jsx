@@ -46,6 +46,26 @@ let Description = (props) =>(
     <div>
       <button className={style.button3}>Add to registry</button>
     </div>
+    <div className={style.box}>
+        <div className={style.location}>
+          <div className={style.left}>
+          Check stock at your local store
+            <div className={style.dropDown}>
+              dropdown
+            </div>
+          </div>
+          <div className={style.right}>
+          <div className={style.noAvail}>
+          Not available online
+          </div>
+            <div>
+            <div className={style.availability}>
+            Check availability at your local store
+            </div>
+            </div>
+          </div>
+        </div>
+    </div>    
     </div>
   </div>
 

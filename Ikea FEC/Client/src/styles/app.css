@@ -1,6 +1,7 @@
 .header{
   display: flex;
   justify-content: space-around;
+  height: 30px;
   font-size: 0.6em;
   top:10px;
   color: #000000;
