@@ -3,13 +3,14 @@ import axios from 'axios';
 import MainDisplay from './MainDisplay.jsx';
 import TopBar from './TopBar.jsx';
 import Description from './Description.jsx';
+import Carousel from './carousel.jsx';
 import style from '../styles/app.css';
 
 class App extends React.Component{
   constructor(props){
     super(props);
     this.state={
-      temp:[{imageUrl:''}]
+      temp:{imageUrl:'', additionalUrl:[{Url:''},{Url:''}]}
     }
   }
 
@@ -17,11 +18,11 @@ class App extends React.Component{
     axios
     .get('/api/display')
     .then((response)=>{
-      console.log(response)
+      // console.log(' this is response', response)
       this.setState({
         temp: response.data
       })
-      //console.log('this is the state', this.state.temp)
+      // console.log('this is the state', this.state.temp)
     })
     .catch((err)=>{
       console.log(err)
@@ -47,9 +48,13 @@ class App extends React.Component{
       <img width="1060px" height="55px" src="https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/promoBanner/images/shipping-banner-update.jpg"></img>
       </div>
       <div className={style.display}>
+      <div></div>
       <MainDisplay display={this.state.temp}/>
       <Description description={this.state.temp}/>
       </div>
+      {/* <div className={style.display1}>
+      <Carousel pics={this.state.temp}/>
+      </div> */}
       </div>
     )
     // if(this.state.temp === null){
