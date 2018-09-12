@@ -1,12 +1,16 @@
 .bar{
-  display: flex;
-justify-content: space-around;
-flex-direction: row;
-font-size: 0.8em;
-color: #000000;
+display: flex;
+justify-content: space-evenly;
+font-weight: 600;
+font-family: Verdana,sans-serif;
+font-size: 12px;
 }
 
 .icons{
   display: flex;
   justify-content: flex-end;
+}
+
+.words{
+  display: block;
 }
