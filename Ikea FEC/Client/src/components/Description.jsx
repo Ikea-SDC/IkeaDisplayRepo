@@ -59,13 +59,23 @@ let Description = (props) =>(
           Not available online
           </div>
             <div>
-            <div className={style.availability}>
+            <span className={style.availability}>
             Check availability at your local store
-            </div>
+            </span>
             </div>
           </div>
         </div>
-    </div>    
+        <div className={style.stock1}>
+          <span className={style.stock}>Not for Sale </span>
+          <span className={style.store}> IKEA CA, Burbank</span>
+        </div>
+    </div>
+      <div>
+        <span className={style.bottom}>Store selection may vary and prices may differ from those online.</span>
+      </div>
+      <div className={style.assembly}>
+        <div className={style.assembly1}>Assembly</div>
+      </div>    
     </div>
   </div>
 

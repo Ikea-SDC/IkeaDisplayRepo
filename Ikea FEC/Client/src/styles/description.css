@@ -165,3 +165,55 @@
 .box{
   display:block;
 }
+
+.stock1{
+  margin: 10px 0 0 0;
+  clear: both;
+  width: inherit;
+  float: none;
+  margin-bottom: 8px;
+}
+.stock{
+  font-size: 11px;
+    text-align: left;
+    font-style: italic;
+    color: #333;
+}
+
+.store{
+  color: #3399fd;
+    font-size: 13px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bottom{
+  font-style: italic;
+  font-size: 11px;
+  text-align: left;
+  padding: .5px 0 2px 0;
+  color: #767676;
+}
+
+.assembly{
+  width: 200px;
+  float: left;
+  line-height: 40px;
+  border-bottom: solid;
+  border-bottom-color: #f2f2f2;
+  border-bottom-width: 1px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.assembly1{
+  background-image: url(/ms/img/ads/vitality/service_offer/assembly_big.jpg);
+  padding-left: 32px;
+  background-size: 30px 20px;
+  background-repeat: no-repeat;
+  background-position: 0% 64%;
+  line-height: 15px;
+    display: table-cell;
+    vertical-align: middle;
+    height: 40px;
+}

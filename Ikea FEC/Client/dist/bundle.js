@@ -22553,19 +22553,19 @@
 	
 	var _MainDisplay2 = _interopRequireDefault(_MainDisplay);
 	
-	var _TopBar = __webpack_require__(/*! ./TopBar.jsx */ 218);
+	var _TopBar = __webpack_require__(/*! ./TopBar.jsx */ 243);
 	
 	var _TopBar2 = _interopRequireDefault(_TopBar);
 	
-	var _Description = __webpack_require__(/*! ./Description.jsx */ 221);
+	var _Description = __webpack_require__(/*! ./Description.jsx */ 246);
 	
 	var _Description2 = _interopRequireDefault(_Description);
 	
-	var _carousel = __webpack_require__(/*! ./carousel.jsx */ 228);
+	var _carousel = __webpack_require__(/*! ./carousel.jsx */ 217);
 	
 	var _carousel2 = _interopRequireDefault(_carousel);
 	
-	var _app = __webpack_require__(/*! ../styles/app.css */ 229);
+	var _app = __webpack_require__(/*! ../styles/app.css */ 251);
 	
 	var _app2 = _interopRequireDefault(_app);
 	
@@ -22617,31 +22617,39 @@
 	        null,
 	        _react2.default.createElement(
 	          'div',
-	          { className: _app2.default.header },
+	          { className: _app2.default.header1 },
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'head' },
-	            'IKEA FAMILY'
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'head' },
-	            'IKEA for business'
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'head' },
-	            'Customer Services'
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'head' },
-	            'Financing'
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'head' },
-	            'Join our email list'
+	            { className: _app2.default.header2 },
+	            _react2.default.createElement(
+	              'div',
+	              { className: _app2.default.header3 },
+	              _react2.default.createElement(
+	                'a',
+	                { className: _app2.default.items },
+	                'IKEA FAMILY'
+	              ),
+	              _react2.default.createElement(
+	                'a',
+	                { className: _app2.default.items },
+	                'IKEA for business'
+	              ),
+	              _react2.default.createElement(
+	                'a',
+	                { className: _app2.default.items },
+	                'Customer Services'
+	              ),
+	              _react2.default.createElement(
+	                'a',
+	                { className: _app2.default.items },
+	                'Financing'
+	              ),
+	              _react2.default.createElement(
+	                'a',
+	                { className: _app2.default.items },
+	                'Join our email list'
+	              )
+	            )
 	          )
 	        ),
 	        _react2.default.createElement(_TopBar2.default, null),
@@ -24317,15 +24325,15 @@
 	
 	var _mainDisplay2 = _interopRequireDefault(_mainDisplay);
 	
-	var _carousel = __webpack_require__(/*! ./carousel.jsx */ 228);
+	var _carousel = __webpack_require__(/*! ./carousel.jsx */ 217);
 	
 	var _carousel2 = _interopRequireDefault(_carousel);
 	
-	var _nukaCarousel = __webpack_require__(/*! nuka-carousel */ 253);
+	var _nukaCarousel = __webpack_require__(/*! nuka-carousel */ 223);
 	
 	var _nukaCarousel2 = _interopRequireDefault(_nukaCarousel);
 	
-	var _List = __webpack_require__(/*! ./List.jsx */ 217);
+	var _List = __webpack_require__(/*! ./List.jsx */ 218);
 	
 	var _List2 = _interopRequireDefault(_List);
 	
@@ -25016,872 +25024,6 @@
 
 /***/ }),
 /* 217 */
-/*!****************************************!*\
-  !*** ./client/src/components/List.jsx ***!
-  \****************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _react = __webpack_require__(/*! react */ 1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _list = __webpack_require__(/*! ../styles/list.css */ 231);
-	
-	var _list2 = _interopRequireDefault(_list);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	var List = function List(props) {
-	  return _react2.default.createElement(
-	    'div',
-	    { className: _list2.default.layout },
-	    _react2.default.createElement('img', { src: props.picture.Url, height: '114', width: '114' })
-	  );
-	};
-	
-	exports.default = List;
-
-/***/ }),
-/* 218 */
-/*!******************************************!*\
-  !*** ./client/src/components/TopBar.jsx ***!
-  \******************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _react = __webpack_require__(/*! react */ 1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _topbar = __webpack_require__(/*! ../styles/topbar.css */ 219);
-	
-	var _topbar2 = _interopRequireDefault(_topbar);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	var TopBar = function TopBar(props) {
-	  return _react2.default.createElement(
-	    'div',
-	    { className: _topbar2.default.bar },
-	    _react2.default.createElement('img', { width: '90px', height: '33px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/newHeader/images/logoIKEA.svg' }),
-	    _react2.default.createElement(
-	      'div',
-	      { className: _topbar2.default.words },
-	      'Products'
-	    ),
-	    _react2.default.createElement(
-	      'div',
-	      { className: _topbar2.default.words },
-	      'Inspiration'
-	    ),
-	    _react2.default.createElement(
-	      'div',
-	      { className: _topbar2.default.words },
-	      'New'
-	    ),
-	    _react2.default.createElement(
-	      'div',
-	      { className: _topbar2.default.words },
-	      'Offers'
-	    ),
-	    _react2.default.createElement(
-	      'div',
-	      { className: _topbar2.default.words },
-	      'Services'
-	    ),
-	    _react2.default.createElement(
-	      'div',
-	      { className: _topbar2.default.words },
-	      'Back to College'
-	    ),
-	    _react2.default.createElement('input', { type: 'text' }),
-	    _react2.default.createElement(
-	      'div',
-	      { className: _topbar2.default.icons },
-	      _react2.default.createElement('img', { width: '30px', height: '30px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-list.svg' }),
-	      _react2.default.createElement('img', { width: '31px', height: '31px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-bag.svg' })
-	    )
-	  );
-	};
-	
-	exports.default = TopBar;
-
-/***/ }),
-/* 219 */
-/*!**************************************!*\
-  !*** ./client/src/styles/topbar.css ***!
-  \**************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-	
-	var content = __webpack_require__(/*! !../../../~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./topbar.css */ 220);
-	
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	
-	var transform;
-	var insertInto;
-	
-	
-	
-	var options = {"hmr":true}
-	
-	options.transform = transform
-	options.insertInto = undefined;
-	
-	var update = __webpack_require__(/*! ../../../~/style-loader/lib/addStyles.js */ 215)(content, options);
-	
-	if(content.locals) module.exports = content.locals;
-	
-	if(false) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./topbar.css", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./topbar.css");
-	
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-	
-			var locals = (function(a, b) {
-				var key, idx = 0;
-	
-				for(key in a) {
-					if(!b || a[key] !== b[key]) return false;
-					idx++;
-				}
-	
-				for(key in b) idx--;
-	
-				return idx === 0;
-			}(content.locals, newContent.locals));
-	
-			if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
-	
-			update(newContent);
-		});
-	
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ }),
-/* 220 */
-/*!******************************************************************************************************************************!*\
-  !*** ./~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./client/src/styles/topbar.css ***!
-  \******************************************************************************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(/*! ../../../~/css-loader/lib/css-base.js */ 214)(false);
-	// imports
-	
-	
-	// module
-	exports.push([module.id, ".topbar__bar___nA7w7{\r\ndisplay: flex;\r\njustify-content: space-evenly;\r\nfont-weight: 600;\r\nfont-family: Verdana,sans-serif;\r\nfont-size: 12px;\r\n}\r\n\r\n.topbar__icons___zM2Zn{\r\n  display: flex;\r\n  justify-content: flex-end;\r\n}\r\n\r\n.topbar__words___1bnxY{\r\n  display: block;\r\n}", ""]);
-	
-	// exports
-	exports.locals = {
-		"bar": "topbar__bar___nA7w7",
-		"icons": "topbar__icons___zM2Zn",
-		"words": "topbar__words___1bnxY"
-	};
-
-/***/ }),
-/* 221 */
-/*!***********************************************!*\
-  !*** ./client/src/components/Description.jsx ***!
-  \***********************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _react = __webpack_require__(/*! react */ 1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _description = __webpack_require__(/*! ../styles/description.css */ 222);
-	
-	var _description2 = _interopRequireDefault(_description);
-	
-	var _reactStarRatingComponent = __webpack_require__(/*! react-star-rating-component */ 224);
-	
-	var _reactStarRatingComponent2 = _interopRequireDefault(_reactStarRatingComponent);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	var Description = function Description(props) {
-	  return _react2.default.createElement(
-	    'div',
-	    { className: _description2.default.layout },
-	    _react2.default.createElement(
-	      'div',
-	      { className: _description2.default.container },
-	      _react2.default.createElement(
-	        'h1',
-	        null,
-	        props.description.type
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        null,
-	        props.description.title
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        { className: _description2.default.price },
-	        props.description.price
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        { className: _description2.default.article },
-	        'Article Number: ',
-	        props.description.articleNumber
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        { className: _description2.default.reviewLayout },
-	        _react2.default.createElement(
-	          'div',
-	          { className: _description2.default.star },
-	          _react2.default.createElement(_reactStarRatingComponent2.default, {
-	            name: 'star1',
-	            starCount: 5,
-	            value: props.description.starRating,
-	            starColor: '#ffcc00',
-	            emptyStarColor: '#cdcdcd'
-	          })
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: _description2.default.review1 },
-	          props.description.starRating
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: _description2.default.review },
-	          '(',
-	          props.description.reviewCount,
-	          ') Reviews'
-	        )
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        { className: _description2.default.description },
-	        props.description.description
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        { className: _description2.default.quantity1 },
-	        'Quantity: ',
-	        _react2.default.createElement('input', { className: _description2.default.quantity, type: 'text', maxLength: '3', size: '3' })
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        null,
-	        _react2.default.createElement(
-	          'button',
-	          { className: _description2.default.button1 },
-	          _react2.default.createElement('img', { width: '23px', height: '23px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-bag.svg' }),
-	          'Available online'
-	        )
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        null,
-	        _react2.default.createElement(
-	          'button',
-	          { className: _description2.default.button2 },
-	          _react2.default.createElement('img', { width: '23px', height: '23px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-list.svg' }),
-	          'Add to shopping list'
-	        )
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        null,
-	        _react2.default.createElement(
-	          'button',
-	          { className: _description2.default.button3 },
-	          'Add to registry'
-	        )
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        { className: _description2.default.box },
-	        _react2.default.createElement(
-	          'div',
-	          { className: _description2.default.location },
-	          _react2.default.createElement(
-	            'div',
-	            { className: _description2.default.left },
-	            'Check stock at your local store',
-	            _react2.default.createElement(
-	              'div',
-	              { className: _description2.default.dropDown },
-	              'dropdown'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: _description2.default.right },
-	            _react2.default.createElement(
-	              'div',
-	              { className: _description2.default.noAvail },
-	              'Not available online'
-	            ),
-	            _react2.default.createElement(
-	              'div',
-	              null,
-	              _react2.default.createElement(
-	                'div',
-	                { className: _description2.default.availability },
-	                'Check availability at your local store'
-	              )
-	            )
-	          )
-	        )
-	      )
-	    )
-	  );
-	};
-	
-	exports.default = Description;
-
-/***/ }),
-/* 222 */
-/*!*******************************************!*\
-  !*** ./client/src/styles/description.css ***!
-  \*******************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-	
-	var content = __webpack_require__(/*! !../../../~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./description.css */ 223);
-	
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	
-	var transform;
-	var insertInto;
-	
-	
-	
-	var options = {"hmr":true}
-	
-	options.transform = transform
-	options.insertInto = undefined;
-	
-	var update = __webpack_require__(/*! ../../../~/style-loader/lib/addStyles.js */ 215)(content, options);
-	
-	if(content.locals) module.exports = content.locals;
-	
-	if(false) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./description.css", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./description.css");
-	
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-	
-			var locals = (function(a, b) {
-				var key, idx = 0;
-	
-				for(key in a) {
-					if(!b || a[key] !== b[key]) return false;
-					idx++;
-				}
-	
-				for(key in b) idx--;
-	
-				return idx === 0;
-			}(content.locals, newContent.locals));
-	
-			if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
-	
-			update(newContent);
-		});
-	
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ }),
-/* 223 */
-/*!***********************************************************************************************************************************!*\
-  !*** ./~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./client/src/styles/description.css ***!
-  \***********************************************************************************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(/*! ../../../~/css-loader/lib/css-base.js */ 214)(false);
-	// imports
-	
-	
-	// module
-	exports.push([module.id, ".description__container___2lRWH{\r\n  float: left;\r\n  margin: 1.364em 0 0 2.9em;\r\n  width: 420px;\r\n  height: 371;\r\n  padding: .7em 0 0 1.56em;\r\n}\r\n\r\n.description__layout___1fbDu{\r\n  display: block;\r\n  position: relative;\r\n  float: right;\r\n  right: 50px;\r\n}\r\n\r\n.description__title___2Kvr5{\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 20px;\r\n  line-height: 30px;\r\n  letter-spacing: -1px;\r\n  display: block;\r\n  font-weight: bold;\r\n  text-align: left;\r\n}\r\n\r\n.description__price___2FqSe{\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 32px;\r\n  letter-spacing: -1.5px;\r\n  font-weight: bold;\r\n  text-align: left;\r\n}\r\n\r\n.description__article___3YKK_{\r\n  color: #000;\r\n  font-size: 11px;\r\n  line-height: 2;\r\n  font-family: verdana;\r\n}\r\n\r\n.description__review___3JbFf{\r\n  letter-spacing: normal;\r\n  color: #3399FD;\r\n  font-size: 11px;\r\n  line-height: 35px;\r\n}\r\n\r\n.description__review1___1Ejl0{\r\n  letter-spacing: normal;\r\n  color: black;\r\n  font-size: 11px;\r\n  line-height: 35px;\r\n}\r\n\r\n.description__reviewLayout___10kIR{\r\n  display: flex;\r\n  justify-content: flex-start;\r\n}\r\n\r\n.description__description___ygGkz{\r\n  line-height: 18px;\r\n  color: #333;\r\n  padding-bottom: 15px;\r\n  font-size: 13px;\r\n}\r\n\r\n.description__quantity___6wPb6{\r\n  height: 30px;\r\n  width: 56px;\r\n  text-align: center;\r\n  font-size: 13px;\r\n  font-weight: normal;\r\n  float: right;\r\n  border: 1px solid #999;\r\n  margin: 5px 0 10px 0;\r\n  border-radius: 2px;\r\n}\r\n\r\n.description__quantity1___1Ynda{\r\n  color: #767676;\r\n    font-size: 13px;\r\n    line-height: 46px;\r\n}\r\n.description__button1___y6foo{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background: #a2bfe6;\r\n  padding: 0px; \r\n  width: 420px;\r\n  height: 46px; \r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__button2___2aw08{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background:#cdcdcd;\r\n  padding: 0px; \r\n  width: 420px;\r\n  height: 46px;\r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__button3___3QkaA{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background:#ffc9ae;\r\n  padding: 17px; \r\n  width: 420px;\r\n  height: 46px;\r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__star___1PeKk{\r\n  font-size: 23px;\r\n}\r\n\r\n.description__location___2PMEu{\r\n  width: 150%;\r\n  display: flex;\r\n  justify-content: space-between;\r\n}\r\n\r\n.description__left___2LX5W{\r\n  float: left;\r\n  margin: 0 0 5px 0;\r\n  font-size: 1.1462em;\r\n  font-weight: bold;\r\n  color: #333;\r\n  display: block;\r\n}\r\n\r\n.description__dropDown___3fMd3{\r\n  height: 33px;\r\n  margin-top: 5px;\r\n  padding: 0;\r\n  border: 1px solid #999;\r\n  line-height: 33px;\r\n}\r\n\r\n.description__right___1VsZ9{\r\n  box-sizing: border-box;\r\n    width: 80%;\r\n    float: right;\r\n    margin-left: 8px;\r\n    border-left: 1px solid #eee;\r\n    padding-left: 10px;\r\n}\r\n\r\n.description__noAvail___2qIIw{\r\n  font-size: 11px;\r\n  font-weight: bold;\r\n  color: #333;\r\n  display: block;\r\n}\r\n\r\n.description__availability___26wTe{\r\n  font-size: 11px;\r\n    margin: 5px 0;\r\n}\r\n\r\n.description__box___2JTAR{\r\n  display:block;\r\n}", ""]);
-	
-	// exports
-	exports.locals = {
-		"container": "description__container___2lRWH",
-		"layout": "description__layout___1fbDu",
-		"title": "description__title___2Kvr5",
-		"price": "description__price___2FqSe",
-		"article": "description__article___3YKK_",
-		"review": "description__review___3JbFf",
-		"review1": "description__review1___1Ejl0",
-		"reviewLayout": "description__reviewLayout___10kIR",
-		"description": "description__description___ygGkz",
-		"quantity": "description__quantity___6wPb6",
-		"quantity1": "description__quantity1___1Ynda",
-		"button1": "description__button1___y6foo",
-		"button2": "description__button2___2aw08",
-		"button3": "description__button3___3QkaA",
-		"star": "description__star___1PeKk",
-		"location": "description__location___2PMEu",
-		"left": "description__left___2LX5W",
-		"dropDown": "description__dropDown___3fMd3",
-		"right": "description__right___1VsZ9",
-		"noAvail": "description__noAvail___2qIIw",
-		"availability": "description__availability___26wTe",
-		"box": "description__box___2JTAR"
-	};
-
-/***/ }),
-/* 224 */
-/*!************************************************!*\
-  !*** ./~/react-star-rating-component/index.js ***!
-  \************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-	
-	var _react = __webpack_require__(/*! react */ 1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _propTypes = __webpack_require__(/*! prop-types */ 225);
-	
-	var _propTypes2 = _interopRequireDefault(_propTypes);
-	
-	var _classnames = __webpack_require__(/*! classnames */ 227);
-	
-	var _classnames2 = _interopRequireDefault(_classnames);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	
-	var StarRatingComponent = function (_Component) {
-	  _inherits(StarRatingComponent, _Component);
-	
-	  function StarRatingComponent(props) {
-	    _classCallCheck(this, StarRatingComponent);
-	
-	    var _this = _possibleConstructorReturn(this, (StarRatingComponent.__proto__ || Object.getPrototypeOf(StarRatingComponent)).call(this));
-	
-	    _this.state = {
-	      value: props.value
-	    };
-	    return _this;
-	  }
-	
-	  _createClass(StarRatingComponent, [{
-	    key: 'componentWillReceiveProps',
-	    value: function componentWillReceiveProps(nextProps) {
-	      var value = nextProps.value;
-	
-	
-	      if (value != null && value !== this.state.value) {
-	        this.setState({ value: value });
-	      }
-	    }
-	  }, {
-	    key: 'onChange',
-	    value: function onChange(inputValue) {
-	      var _props = this.props,
-	          editing = _props.editing,
-	          value = _props.value;
-	
-	
-	      if (!editing) {
-	        return;
-	      }
-	
-	      // do not update internal state based on input value if prop passed
-	      if (value != null) {
-	        return;
-	      }
-	
-	      this.setState({ value: inputValue });
-	    }
-	  }, {
-	    key: 'onStarClick',
-	    value: function onStarClick(index, value, name, e) {
-	      e.stopPropagation();
-	
-	      var _props2 = this.props,
-	          onStarClick = _props2.onStarClick,
-	          editing = _props2.editing;
-	
-	
-	      if (!editing) {
-	        return;
-	      }
-	
-	      onStarClick && onStarClick(index, value, name, e);
-	    }
-	  }, {
-	    key: 'onStarHover',
-	    value: function onStarHover(index, value, name, e) {
-	      e.stopPropagation();
-	
-	      var _props3 = this.props,
-	          onStarHover = _props3.onStarHover,
-	          editing = _props3.editing;
-	
-	
-	      if (!editing) {
-	        return;
-	      }
-	
-	      onStarHover && onStarHover(index, value, name, e);
-	    }
-	  }, {
-	    key: 'onStarHoverOut',
-	    value: function onStarHoverOut(index, value, name, e) {
-	      e.stopPropagation();
-	
-	      var _props4 = this.props,
-	          onStarHoverOut = _props4.onStarHoverOut,
-	          editing = _props4.editing;
-	
-	
-	      if (!editing) {
-	        return;
-	      }
-	
-	      onStarHoverOut && onStarHoverOut(index, value, name, e);
-	    }
-	  }, {
-	    key: 'renderStars',
-	    value: function renderStars() {
-	      var _this2 = this;
-	
-	      var _props5 = this.props,
-	          name = _props5.name,
-	          starCount = _props5.starCount,
-	          starColor = _props5.starColor,
-	          emptyStarColor = _props5.emptyStarColor,
-	          editing = _props5.editing;
-	      var value = this.state.value;
-	
-	
-	      var starStyles = function starStyles(i, value) {
-	        return {
-	          float: 'right',
-	          cursor: editing ? 'pointer' : 'default',
-	          color: value >= i ? starColor : emptyStarColor
-	        };
-	      };
-	      var radioStyles = {
-	        display: 'none',
-	        position: 'absolute',
-	        marginLeft: -9999
-	      };
-	
-	      // populate stars
-	      var starNodes = [];
-	
-	      var _loop = function _loop(i) {
-	        var id = name + '_' + i;
-	        var starNodeInput = _react2.default.createElement('input', {
-	          key: 'input_' + id,
-	          style: radioStyles,
-	          className: 'dv-star-rating-input',
-	          type: 'radio',
-	          name: name,
-	          id: id,
-	          value: i,
-	          checked: value === i,
-	          onChange: _this2.onChange.bind(_this2, i, name)
-	        });
-	        var starNodeLabel = _react2.default.createElement(
-	          'label',
-	          {
-	            key: 'label_' + id,
-	            style: starStyles(i, value),
-	            className: 'dv-star-rating-star ' + (value >= i ? 'dv-star-rating-full-star' : 'dv-star-rating-empty-star'),
-	            htmlFor: id,
-	            onClick: function onClick(e) {
-	              return _this2.onStarClick(i, value, name, e);
-	            },
-	            onMouseOver: function onMouseOver(e) {
-	              return _this2.onStarHover(i, value, name, e);
-	            },
-	            onMouseLeave: function onMouseLeave(e) {
-	              return _this2.onStarHoverOut(i, value, name, e);
-	            }
-	          },
-	          _this2.renderIcon(i, value, name, id)
-	        );
-	
-	        starNodes.push(starNodeInput);
-	        starNodes.push(starNodeLabel);
-	      };
-	
-	      for (var i = starCount; i > 0; i--) {
-	        _loop(i);
-	      }
-	
-	      return starNodes.length ? starNodes : null;
-	    }
-	  }, {
-	    key: 'renderIcon',
-	    value: function renderIcon(index, value, name, id) {
-	      var _props6 = this.props,
-	          renderStarIcon = _props6.renderStarIcon,
-	          renderStarIconHalf = _props6.renderStarIconHalf;
-	
-	
-	      if (typeof renderStarIconHalf === 'function' && Math.ceil(value) === index && value % 1 !== 0) {
-	        return renderStarIconHalf(index, value, name, id);
-	      }
-	
-	      if (typeof renderStarIcon === 'function') {
-	        return renderStarIcon(index, value, name, id);
-	      }
-	
-	      return _react2.default.createElement(
-	        'i',
-	        { key: 'icon_' + id, style: { fontStyle: 'normal' } },
-	        '\u2605'
-	      );
-	    }
-	  }, {
-	    key: 'render',
-	    value: function render() {
-	      var _props7 = this.props,
-	          editing = _props7.editing,
-	          className = _props7.className;
-	
-	      var classes = (0, _classnames2.default)('dv-star-rating', {
-	        'dv-star-rating-non-editable': !editing
-	      }, className);
-	
-	      return _react2.default.createElement(
-	        'div',
-	        { style: { display: 'inline-block', position: 'relative' }, className: classes },
-	        this.renderStars()
-	      );
-	    }
-	  }]);
-	
-	  return StarRatingComponent;
-	}(_react.Component);
-	
-	StarRatingComponent.propTypes = {
-	  name: _propTypes2.default.string.isRequired,
-	  value: _propTypes2.default.number,
-	  editing: _propTypes2.default.bool,
-	  starCount: _propTypes2.default.number,
-	  starColor: _propTypes2.default.string,
-	  onStarClick: _propTypes2.default.func,
-	  onStarHover: _propTypes2.default.func,
-	  onStarHoverOut: _propTypes2.default.func,
-	  renderStarIcon: _propTypes2.default.func,
-	  renderStarIconHalf: _propTypes2.default.func
-	};
-	StarRatingComponent.defaultProps = {
-	  starCount: 5,
-	  editing: true,
-	  starColor: '#ffb400',
-	  emptyStarColor: '#333'
-	};
-	exports.default = StarRatingComponent;
-	module.exports = exports['default'];
-
-
-/***/ }),
-/* 225 */
-/*!*******************************!*\
-  !*** ./~/prop-types/index.js ***!
-  \*******************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(process) {/**
-	 * Copyright (c) 2013-present, Facebook, Inc.
-	 *
-	 * This source code is licensed under the MIT license found in the
-	 * LICENSE file in the root directory of this source tree.
-	 */
-	
-	if (process.env.NODE_ENV !== 'production') {
-	  var REACT_ELEMENT_TYPE = (typeof Symbol === 'function' &&
-	    Symbol.for &&
-	    Symbol.for('react.element')) ||
-	    0xeac7;
-	
-	  var isValidElement = function(object) {
-	    return typeof object === 'object' &&
-	      object !== null &&
-	      object.$$typeof === REACT_ELEMENT_TYPE;
-	  };
-	
-	  // By explicitly using `prop-types` you are opting into new development behavior.
-	  // http://fb.me/prop-types-in-prod
-	  var throwOnDirectAccess = true;
-	  module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ 30)(isValidElement, throwOnDirectAccess);
-	} else {
-	  // By explicitly using `prop-types` you are opting into new production behavior.
-	  // http://fb.me/prop-types-in-prod
-	  module.exports = __webpack_require__(/*! ./factoryWithThrowingShims */ 226)();
-	}
-	
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../process/browser.js */ 3)))
-
-/***/ }),
-/* 226 */
-/*!**************************************************!*\
-  !*** ./~/prop-types/factoryWithThrowingShims.js ***!
-  \**************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-	/**
-	 * Copyright (c) 2013-present, Facebook, Inc.
-	 *
-	 * This source code is licensed under the MIT license found in the
-	 * LICENSE file in the root directory of this source tree.
-	 */
-	
-	'use strict';
-	
-	var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ 31);
-	
-	function emptyFunction() {}
-	
-	module.exports = function() {
-	  function shim(props, propName, componentName, location, propFullName, secret) {
-	    if (secret === ReactPropTypesSecret) {
-	      // It is still safe when called from React.
-	      return;
-	    }
-	    var err = new Error(
-	      'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +
-	      'Use PropTypes.checkPropTypes() to call them. ' +
-	      'Read more at http://fb.me/use-check-prop-types'
-	    );
-	    err.name = 'Invariant Violation';
-	    throw err;
-	  };
-	  shim.isRequired = shim;
-	  function getShim() {
-	    return shim;
-	  };
-	  // Important!
-	  // Keep this list in sync with production version in `./factoryWithTypeCheckers.js`.
-	  var ReactPropTypes = {
-	    array: shim,
-	    bool: shim,
-	    func: shim,
-	    number: shim,
-	    object: shim,
-	    string: shim,
-	    symbol: shim,
-	
-	    any: shim,
-	    arrayOf: getShim,
-	    element: shim,
-	    instanceOf: getShim,
-	    node: shim,
-	    objectOf: getShim,
-	    oneOf: getShim,
-	    oneOfType: getShim,
-	    shape: getShim,
-	    exact: getShim
-	  };
-	
-	  ReactPropTypes.checkPropTypes = emptyFunction;
-	  ReactPropTypes.PropTypes = ReactPropTypes;
-	
-	  return ReactPropTypes;
-	};
-
-
-/***/ }),
-/* 227 */
-/*!*******************************!*\
-  !*** ./~/classnames/index.js ***!
-  \*******************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
-	  Copyright (c) 2017 Jed Watson.
-	  Licensed under the MIT License (MIT), see
-	  http://jedwatson.github.io/classnames
-	*/
-	/* global define */
-	
-	(function () {
-		'use strict';
-	
-		var hasOwn = {}.hasOwnProperty;
-	
-		function classNames () {
-			var classes = [];
-	
-			for (var i = 0; i < arguments.length; i++) {
-				var arg = arguments[i];
-				if (!arg) continue;
-	
-				var argType = typeof arg;
-	
-				if (argType === 'string' || argType === 'number') {
-					classes.push(arg);
-				} else if (Array.isArray(arg) && arg.length) {
-					var inner = classNames.apply(null, arg);
-					if (inner) {
-						classes.push(inner);
-					}
-				} else if (argType === 'object') {
-					for (var key in arg) {
-						if (hasOwn.call(arg, key) && arg[key]) {
-							classes.push(key);
-						}
-					}
-				}
-			}
-	
-			return classes.join(' ');
-		}
-	
-		if (typeof module !== 'undefined' && module.exports) {
-			classNames.default = classNames;
-			module.exports = classNames;
-		} else if (true) {
-			// register as 'classnames', consistent with npm package name
-			!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = function () {
-				return classNames;
-			}.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-		} else {
-			window.classNames = classNames;
-		}
-	}());
-
-
-/***/ }),
-/* 228 */
 /*!********************************************!*\
   !*** ./client/src/components/carousel.jsx ***!
   \********************************************/
@@ -25897,11 +25039,11 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _List = __webpack_require__(/*! ./List.jsx */ 217);
+	var _List = __webpack_require__(/*! ./List.jsx */ 218);
 	
 	var _List2 = _interopRequireDefault(_List);
 	
-	var _carousel = __webpack_require__(/*! ../styles/carousel.css */ 233);
+	var _carousel = __webpack_require__(/*! ../styles/carousel.css */ 221);
 	
 	var _carousel2 = _interopRequireDefault(_carousel);
 	
@@ -25920,90 +25062,47 @@
 	exports.default = Carousel;
 
 /***/ }),
-/* 229 */
-/*!***********************************!*\
-  !*** ./client/src/styles/app.css ***!
-  \***********************************/
+/* 218 */
+/*!****************************************!*\
+  !*** ./client/src/components/List.jsx ***!
+  \****************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
+	'use strict';
 	
-	var content = __webpack_require__(/*! !../../../~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./app.css */ 230);
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
 	
-	if(typeof content === 'string') content = [[module.id, content, '']];
+	var _react = __webpack_require__(/*! react */ 1);
 	
-	var transform;
-	var insertInto;
+	var _react2 = _interopRequireDefault(_react);
 	
+	var _list = __webpack_require__(/*! ../styles/list.css */ 219);
 	
+	var _list2 = _interopRequireDefault(_list);
 	
-	var options = {"hmr":true}
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	options.transform = transform
-	options.insertInto = undefined;
-	
-	var update = __webpack_require__(/*! ../../../~/style-loader/lib/addStyles.js */ 215)(content, options);
-	
-	if(content.locals) module.exports = content.locals;
-	
-	if(false) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./app.css", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./app.css");
-	
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-	
-			var locals = (function(a, b) {
-				var key, idx = 0;
-	
-				for(key in a) {
-					if(!b || a[key] !== b[key]) return false;
-					idx++;
-				}
-	
-				for(key in b) idx--;
-	
-				return idx === 0;
-			}(content.locals, newContent.locals));
-	
-			if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
-	
-			update(newContent);
-		});
-	
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ }),
-/* 230 */
-/*!***************************************************************************************************************************!*\
-  !*** ./~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./client/src/styles/app.css ***!
-  \***************************************************************************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(/*! ../../../~/css-loader/lib/css-base.js */ 214)(false);
-	// imports
-	
-	
-	// module
-	exports.push([module.id, ".app__header___1BY_D{\r\n  display: flex;\r\n  justify-content: space-around;\r\n  height: 30px;\r\n  font-size: 0.6em;\r\n  top:10px;\r\n  color: #000000;\r\n  padding: 0.6em;\r\n  background: #f8f8f8;\r\n}\r\n\r\n.app__wrapper___3ePbp{\r\n  padding: 0.6em;\r\n  background: #f8f8f8;\r\n}\r\n\r\n.app__ad___2tPp5{\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n\r\n.app__display___1xcJA{\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n\r\n.app__display1___tgcQy{\r\n  display: flex;\r\n  justify-content: center;\r\n}", ""]);
-	
-	// exports
-	exports.locals = {
-		"header": "app__header___1BY_D",
-		"wrapper": "app__wrapper___3ePbp",
-		"ad": "app__ad___2tPp5",
-		"display": "app__display___1xcJA",
-		"display1": "app__display1___tgcQy"
+	var List = function List(props) {
+	  return _react2.default.createElement(
+	    'div',
+	    { className: _list2.default.layout },
+	    _react2.default.createElement('img', { src: props.picture.Url, height: '114', width: '114' })
+	  );
 	};
+	
+	exports.default = List;
 
 /***/ }),
-/* 231 */
+/* 219 */
 /*!************************************!*\
   !*** ./client/src/styles/list.css ***!
   \************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 	
-	var content = __webpack_require__(/*! !../../../~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./list.css */ 232);
+	var content = __webpack_require__(/*! !../../../~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./list.css */ 220);
 	
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	
@@ -26049,7 +25148,7 @@
 	}
 
 /***/ }),
-/* 232 */
+/* 220 */
 /*!****************************************************************************************************************************!*\
   !*** ./~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./client/src/styles/list.css ***!
   \****************************************************************************************************************************/
@@ -26068,14 +25167,14 @@
 	};
 
 /***/ }),
-/* 233 */
+/* 221 */
 /*!****************************************!*\
   !*** ./client/src/styles/carousel.css ***!
   \****************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 	
-	var content = __webpack_require__(/*! !../../../~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./carousel.css */ 234);
+	var content = __webpack_require__(/*! !../../../~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./carousel.css */ 222);
 	
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	
@@ -26121,7 +25220,7 @@
 	}
 
 /***/ }),
-/* 234 */
+/* 222 */
 /*!********************************************************************************************************************************!*\
   !*** ./~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./client/src/styles/carousel.css ***!
   \********************************************************************************************************************************/
@@ -26140,36 +25239,18 @@
 	};
 
 /***/ }),
-/* 235 */,
-/* 236 */,
-/* 237 */,
-/* 238 */,
-/* 239 */,
-/* 240 */,
-/* 241 */,
-/* 242 */,
-/* 243 */,
-/* 244 */,
-/* 245 */,
-/* 246 */,
-/* 247 */,
-/* 248 */,
-/* 249 */,
-/* 250 */,
-/* 251 */,
-/* 252 */,
-/* 253 */
+/* 223 */
 /*!**********************************!*\
   !*** ./~/nuka-carousel/index.js ***!
   \**********************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(/*! ./lib */ 254).default;
+	module.exports = __webpack_require__(/*! ./lib */ 224).default;
 	module.exports.default = module.exports;
 
 
 /***/ }),
-/* 254 */
+/* 224 */
 /*!**************************************!*\
   !*** ./~/nuka-carousel/lib/index.js ***!
   \**************************************/
@@ -26204,15 +25285,15 @@
 	
 	var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ 225));
 	
-	var _exenv = _interopRequireDefault(__webpack_require__(/*! exenv */ 255));
+	var _exenv = _interopRequireDefault(__webpack_require__(/*! exenv */ 227));
 	
-	var _Animate = _interopRequireDefault(__webpack_require__(/*! react-move/Animate */ 256));
+	var _Animate = _interopRequireDefault(__webpack_require__(/*! react-move/Animate */ 228));
 	
-	var easing = _interopRequireWildcard(__webpack_require__(/*! d3-ease */ 266));
+	var easing = _interopRequireWildcard(__webpack_require__(/*! d3-ease */ 238));
 	
-	var _defaultControls = __webpack_require__(/*! ./default-controls */ 267);
+	var _defaultControls = __webpack_require__(/*! ./default-controls */ 239);
 	
-	var _allTransitions = _interopRequireDefault(__webpack_require__(/*! ./all-transitions */ 268));
+	var _allTransitions = _interopRequireDefault(__webpack_require__(/*! ./all-transitions */ 240));
 	
 	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 	
@@ -27432,7 +26513,113 @@
 	};
 
 /***/ }),
-/* 255 */
+/* 225 */
+/*!*******************************!*\
+  !*** ./~/prop-types/index.js ***!
+  \*******************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(process) {/**
+	 * Copyright (c) 2013-present, Facebook, Inc.
+	 *
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
+	 */
+	
+	if (process.env.NODE_ENV !== 'production') {
+	  var REACT_ELEMENT_TYPE = (typeof Symbol === 'function' &&
+	    Symbol.for &&
+	    Symbol.for('react.element')) ||
+	    0xeac7;
+	
+	  var isValidElement = function(object) {
+	    return typeof object === 'object' &&
+	      object !== null &&
+	      object.$$typeof === REACT_ELEMENT_TYPE;
+	  };
+	
+	  // By explicitly using `prop-types` you are opting into new development behavior.
+	  // http://fb.me/prop-types-in-prod
+	  var throwOnDirectAccess = true;
+	  module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ 30)(isValidElement, throwOnDirectAccess);
+	} else {
+	  // By explicitly using `prop-types` you are opting into new production behavior.
+	  // http://fb.me/prop-types-in-prod
+	  module.exports = __webpack_require__(/*! ./factoryWithThrowingShims */ 226)();
+	}
+	
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../process/browser.js */ 3)))
+
+/***/ }),
+/* 226 */
+/*!**************************************************!*\
+  !*** ./~/prop-types/factoryWithThrowingShims.js ***!
+  \**************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+	/**
+	 * Copyright (c) 2013-present, Facebook, Inc.
+	 *
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
+	 */
+	
+	'use strict';
+	
+	var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ 31);
+	
+	function emptyFunction() {}
+	
+	module.exports = function() {
+	  function shim(props, propName, componentName, location, propFullName, secret) {
+	    if (secret === ReactPropTypesSecret) {
+	      // It is still safe when called from React.
+	      return;
+	    }
+	    var err = new Error(
+	      'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +
+	      'Use PropTypes.checkPropTypes() to call them. ' +
+	      'Read more at http://fb.me/use-check-prop-types'
+	    );
+	    err.name = 'Invariant Violation';
+	    throw err;
+	  };
+	  shim.isRequired = shim;
+	  function getShim() {
+	    return shim;
+	  };
+	  // Important!
+	  // Keep this list in sync with production version in `./factoryWithTypeCheckers.js`.
+	  var ReactPropTypes = {
+	    array: shim,
+	    bool: shim,
+	    func: shim,
+	    number: shim,
+	    object: shim,
+	    string: shim,
+	    symbol: shim,
+	
+	    any: shim,
+	    arrayOf: getShim,
+	    element: shim,
+	    instanceOf: getShim,
+	    node: shim,
+	    objectOf: getShim,
+	    oneOf: getShim,
+	    oneOfType: getShim,
+	    shape: getShim,
+	    exact: getShim
+	  };
+	
+	  ReactPropTypes.checkPropTypes = emptyFunction;
+	  ReactPropTypes.PropTypes = ReactPropTypes;
+	
+	  return ReactPropTypes;
+	};
+
+
+/***/ }),
+/* 227 */
 /*!**************************!*\
   !*** ./~/exenv/index.js ***!
   \**************************/
@@ -27481,7 +26668,7 @@
 
 
 /***/ }),
-/* 256 */
+/* 228 */
 /*!***************************************!*\
   !*** ./~/react-move/Animate/index.js ***!
   \***************************************/
@@ -27492,7 +26679,7 @@
 	exports.__esModule = true;
 	exports.default = undefined;
 	
-	var _Animate = __webpack_require__(/*! ./Animate */ 257);
+	var _Animate = __webpack_require__(/*! ./Animate */ 229);
 	
 	var _Animate2 = _interopRequireDefault(_Animate);
 	
@@ -27501,7 +26688,7 @@
 	exports.default = _Animate2.default; /* eslint-disable flowtype/require-valid-file-annotation */
 
 /***/ }),
-/* 257 */
+/* 229 */
 /*!*****************************************!*\
   !*** ./~/react-move/Animate/Animate.js ***!
   \*****************************************/
@@ -27515,9 +26702,9 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _d3Timer = __webpack_require__(/*! d3-timer */ 258);
+	var _d3Timer = __webpack_require__(/*! d3-timer */ 230);
 	
-	var _transition = __webpack_require__(/*! ../core/transition */ 259);
+	var _transition = __webpack_require__(/*! ../core/transition */ 231);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -27636,7 +26823,7 @@
 	exports.default = Animate;
 
 /***/ }),
-/* 258 */
+/* 230 */
 /*!*************************************!*\
   !*** ./~/d3-timer/dist/d3-timer.js ***!
   \*************************************/
@@ -27794,7 +26981,7 @@
 
 
 /***/ }),
-/* 259 */
+/* 231 */
 /*!***********************************************!*\
   !*** ./~/react-move/core/transition/index.js ***!
   \***********************************************/
@@ -27804,7 +26991,7 @@
 	
 	exports.__esModule = true;
 	
-	var _transition = __webpack_require__(/*! ./transition */ 260);
+	var _transition = __webpack_require__(/*! ./transition */ 232);
 	
 	Object.defineProperty(exports, 'transition', {
 	  enumerable: true,
@@ -27813,7 +27000,7 @@
 	  }
 	});
 	
-	var _stop = __webpack_require__(/*! ./stop */ 265);
+	var _stop = __webpack_require__(/*! ./stop */ 237);
 	
 	Object.defineProperty(exports, 'stop', {
 	  enumerable: true,
@@ -27825,7 +27012,7 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ }),
-/* 260 */
+/* 232 */
 /*!****************************************************!*\
   !*** ./~/react-move/core/transition/transition.js ***!
   \****************************************************/
@@ -27843,13 +27030,13 @@
 	exports.newId = newId;
 	exports.default = transition;
 	
-	var _d3Timer = __webpack_require__(/*! d3-timer */ 258);
+	var _d3Timer = __webpack_require__(/*! d3-timer */ 230);
 	
-	var _tween = __webpack_require__(/*! ./tween */ 261);
+	var _tween = __webpack_require__(/*! ./tween */ 233);
 	
 	var _tween2 = _interopRequireDefault(_tween);
 	
-	var _schedule = __webpack_require__(/*! ./schedule */ 264);
+	var _schedule = __webpack_require__(/*! ./schedule */ 236);
 	
 	var _schedule2 = _interopRequireDefault(_schedule);
 	
@@ -28007,7 +27194,7 @@
 	}
 
 /***/ }),
-/* 261 */
+/* 233 */
 /*!***********************************************!*\
   !*** ./~/react-move/core/transition/tween.js ***!
   \***********************************************/
@@ -28026,7 +27213,7 @@
 	  return getTween.call(this, nameSpace, attr, value);
 	};
 	
-	var _d3Interpolate = __webpack_require__(/*! d3-interpolate */ 262);
+	var _d3Interpolate = __webpack_require__(/*! d3-interpolate */ 234);
 	
 	function getInterpolator(attr) {
 	  if (attr === 'transform') {
@@ -28073,7 +27260,7 @@
 	}
 
 /***/ }),
-/* 262 */
+/* 234 */
 /*!*************************************************!*\
   !*** ./~/d3-interpolate/dist/d3-interpolate.js ***!
   \*************************************************/
@@ -28081,7 +27268,7 @@
 
 	// https://d3js.org/d3-interpolate/ v1.3.2 Copyright 2018 Mike Bostock
 	(function (global, factory) {
-	 true ? factory(exports, __webpack_require__(/*! d3-color */ 263)) :
+	 true ? factory(exports, __webpack_require__(/*! d3-color */ 235)) :
 	typeof define === 'function' && define.amd ? define(['exports', 'd3-color'], factory) :
 	(factory((global.d3 = global.d3 || {}),global.d3));
 	}(this, (function (exports,d3Color) { 'use strict';
@@ -28654,7 +27841,7 @@
 
 
 /***/ }),
-/* 263 */
+/* 235 */
 /*!*************************************!*\
   !*** ./~/d3-color/dist/d3-color.js ***!
   \*************************************/
@@ -29212,7 +28399,7 @@
 
 
 /***/ }),
-/* 264 */
+/* 236 */
 /*!**************************************************!*\
   !*** ./~/react-move/core/transition/schedule.js ***!
   \**************************************************/
@@ -29240,7 +28427,7 @@
 	  create(node, id, config);
 	};
 	
-	var _d3Timer = __webpack_require__(/*! d3-timer */ 258);
+	var _d3Timer = __webpack_require__(/*! d3-timer */ 230);
 	
 	var CREATED = 0;
 	var SCHEDULED = 1;
@@ -29384,7 +28571,7 @@
 	}
 
 /***/ }),
-/* 265 */
+/* 237 */
 /*!**********************************************!*\
   !*** ./~/react-move/core/transition/stop.js ***!
   \**********************************************/
@@ -29407,7 +28594,7 @@
 	}
 
 /***/ }),
-/* 266 */
+/* 238 */
 /*!***********************************!*\
   !*** ./~/d3-ease/dist/d3-ease.js ***!
   \***********************************/
@@ -29675,7 +28862,7 @@
 
 
 /***/ }),
-/* 267 */
+/* 239 */
 /*!*************************************************!*\
   !*** ./~/nuka-carousel/lib/default-controls.js ***!
   \*************************************************/
@@ -29874,7 +29061,7 @@
 	exports.PagingDots = PagingDots;
 
 /***/ }),
-/* 268 */
+/* 240 */
 /*!************************************************!*\
   !*** ./~/nuka-carousel/lib/all-transitions.js ***!
   \************************************************/
@@ -29887,9 +29074,9 @@
 	});
 	exports.default = void 0;
 	
-	var _scrollTransition = _interopRequireDefault(__webpack_require__(/*! ./transitions/scroll-transition */ 269));
+	var _scrollTransition = _interopRequireDefault(__webpack_require__(/*! ./transitions/scroll-transition */ 241));
 	
-	var _fadeTransition = _interopRequireDefault(__webpack_require__(/*! ./transitions/fade-transition */ 270));
+	var _fadeTransition = _interopRequireDefault(__webpack_require__(/*! ./transitions/fade-transition */ 242));
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -29900,7 +29087,7 @@
 	exports.default = _default;
 
 /***/ }),
-/* 269 */
+/* 241 */
 /*!**************************************************************!*\
   !*** ./~/nuka-carousel/lib/transitions/scroll-transition.js ***!
   \**************************************************************/
@@ -30106,7 +29293,7 @@
 	};
 
 /***/ }),
-/* 270 */
+/* 242 */
 /*!************************************************************!*\
   !*** ./~/nuka-carousel/lib/transitions/fade-transition.js ***!
   \************************************************************/
@@ -30297,6 +29484,859 @@
 	  dragging: false,
 	  wrapAround: false,
 	  slidesToShow: 1
+	};
+
+/***/ }),
+/* 243 */
+/*!******************************************!*\
+  !*** ./client/src/components/TopBar.jsx ***!
+  \******************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _topbar = __webpack_require__(/*! ../styles/topbar.css */ 244);
+	
+	var _topbar2 = _interopRequireDefault(_topbar);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var TopBar = function TopBar(props) {
+	  return _react2.default.createElement(
+	    'div',
+	    { className: _topbar2.default.bar },
+	    _react2.default.createElement('img', { width: '90px', height: '33px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/newHeader/images/logoIKEA.svg' }),
+	    _react2.default.createElement(
+	      'div',
+	      { className: _topbar2.default.words },
+	      'Products'
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { className: _topbar2.default.words },
+	      'Inspiration'
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { className: _topbar2.default.words },
+	      'New'
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { className: _topbar2.default.words },
+	      'Offers'
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { className: _topbar2.default.words },
+	      'Services'
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { className: _topbar2.default.words },
+	      'Back to College'
+	    ),
+	    _react2.default.createElement('input', { type: 'text' }),
+	    _react2.default.createElement(
+	      'div',
+	      { className: _topbar2.default.icons },
+	      _react2.default.createElement('img', { width: '30px', height: '30px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-list.svg' }),
+	      _react2.default.createElement('img', { width: '31px', height: '31px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-bag.svg' })
+	    )
+	  );
+	};
+	
+	exports.default = TopBar;
+
+/***/ }),
+/* 244 */
+/*!**************************************!*\
+  !*** ./client/src/styles/topbar.css ***!
+  \**************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+	
+	var content = __webpack_require__(/*! !../../../~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./topbar.css */ 245);
+	
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	
+	var transform;
+	var insertInto;
+	
+	
+	
+	var options = {"hmr":true}
+	
+	options.transform = transform
+	options.insertInto = undefined;
+	
+	var update = __webpack_require__(/*! ../../../~/style-loader/lib/addStyles.js */ 215)(content, options);
+	
+	if(content.locals) module.exports = content.locals;
+	
+	if(false) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./topbar.css", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./topbar.css");
+	
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+	
+			var locals = (function(a, b) {
+				var key, idx = 0;
+	
+				for(key in a) {
+					if(!b || a[key] !== b[key]) return false;
+					idx++;
+				}
+	
+				for(key in b) idx--;
+	
+				return idx === 0;
+			}(content.locals, newContent.locals));
+	
+			if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+	
+			update(newContent);
+		});
+	
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ }),
+/* 245 */
+/*!******************************************************************************************************************************!*\
+  !*** ./~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./client/src/styles/topbar.css ***!
+  \******************************************************************************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(/*! ../../../~/css-loader/lib/css-base.js */ 214)(false);
+	// imports
+	
+	
+	// module
+	exports.push([module.id, ".topbar__bar___nA7w7{\r\ndisplay: flex;\r\njustify-content: space-evenly;\r\nfont-weight: 600;\r\nfont-family: Verdana,sans-serif;\r\nfont-size: 12px;\r\n}\r\n\r\n.topbar__header1___1ngc6{\r\n  display: block;\r\n  height: 40px;\r\n  width: 100%;\r\n  padding-top: 16px;\r\n  padding-bottom: 8px;\r\n  background-color: white;\r\n  color: #333;\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 9.6px;\r\n  text-align: left;\r\n}\r\n\r\n.topbar__menu___1oolY{\r\n  display: block;\r\n  width: 552px;\r\n  margin-top: 10px;\r\n  float: left;\r\n  text-align: left;\r\n}\r\n\r\n.topbar__logo___1k84B{\r\n  width: 120px;\r\n  float: left;\r\n}\r\n\r\n.topbar__icons___zM2Zn{\r\n  display: flex;\r\n  justify-content: flex-end;\r\n}\r\n\r\n.topbar__icons1___3ta6H{\r\n  display: block;\r\n  width: 111px;\r\n  float: left;\r\n  text-align: right;\r\n  color: black;\r\n}\r\n\r\n.topbar__form___2O_mS{\r\n  display: block;\r\n  float: left;\r\n  padding-left: 0px;\r\n}\r\n\r\n.topbar__search___FtsOA{\r\n  display: block;\r\n  border-style: solid;\r\n  border-width: 1px;\r\n  border-color: rgba(128, 128, 128, 0.54);\r\n  font-family: Verdana,sans-serif;\r\n  color: #333;\r\n  width: 238px;\r\n  padding: 0;\r\n  margin: 0;\r\n  border: 0;\r\n}\r\n\r\n.topbar__words___1bnxY{\r\n  font-size: 12px;\r\n    font-weight: 600;\r\n    padding: 11px;\r\n    font-family: Verdana,sans-serif;\r\n    text-align: left;\r\n}\r\n\r\n.topbar__hr___2oveR{\r\n  padding-top: 48px;\r\n  border: none;\r\n  width: 102%;\r\n  height: 49px;\r\n  margin: -49px -10px 6px;\r\n}\r\n\r\n.topbar__account___1eiBW{\r\n  display: block;\r\n  width: 1067px;\r\n  margin: 0 auto;\r\n  text-decoration: none;\r\n  color: #333;\r\n  font-family: Verdana,sans-serif;\r\n}", ""]);
+	
+	// exports
+	exports.locals = {
+		"bar": "topbar__bar___nA7w7",
+		"header1": "topbar__header1___1ngc6",
+		"menu": "topbar__menu___1oolY",
+		"logo": "topbar__logo___1k84B",
+		"icons": "topbar__icons___zM2Zn",
+		"icons1": "topbar__icons1___3ta6H",
+		"form": "topbar__form___2O_mS",
+		"search": "topbar__search___FtsOA",
+		"words": "topbar__words___1bnxY",
+		"hr": "topbar__hr___2oveR",
+		"account": "topbar__account___1eiBW"
+	};
+
+/***/ }),
+/* 246 */
+/*!***********************************************!*\
+  !*** ./client/src/components/Description.jsx ***!
+  \***********************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _description = __webpack_require__(/*! ../styles/description.css */ 247);
+	
+	var _description2 = _interopRequireDefault(_description);
+	
+	var _reactStarRatingComponent = __webpack_require__(/*! react-star-rating-component */ 249);
+	
+	var _reactStarRatingComponent2 = _interopRequireDefault(_reactStarRatingComponent);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var Description = function Description(props) {
+	  return _react2.default.createElement(
+	    'div',
+	    { className: _description2.default.layout },
+	    _react2.default.createElement(
+	      'div',
+	      { className: _description2.default.container },
+	      _react2.default.createElement(
+	        'h1',
+	        null,
+	        props.description.type
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        null,
+	        props.description.title
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: _description2.default.price },
+	        props.description.price
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: _description2.default.article },
+	        'Article Number: ',
+	        props.description.articleNumber
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: _description2.default.reviewLayout },
+	        _react2.default.createElement(
+	          'div',
+	          { className: _description2.default.star },
+	          _react2.default.createElement(_reactStarRatingComponent2.default, {
+	            name: 'star1',
+	            starCount: 5,
+	            value: props.description.starRating,
+	            starColor: '#ffcc00',
+	            emptyStarColor: '#cdcdcd'
+	          })
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: _description2.default.review1 },
+	          props.description.starRating
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: _description2.default.review },
+	          '(',
+	          props.description.reviewCount,
+	          ') Reviews'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: _description2.default.description },
+	        props.description.description
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: _description2.default.quantity1 },
+	        'Quantity: ',
+	        _react2.default.createElement('input', { className: _description2.default.quantity, type: 'text', maxLength: '3', size: '3' })
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'button',
+	          { className: _description2.default.button1 },
+	          _react2.default.createElement('img', { width: '23px', height: '23px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-bag.svg' }),
+	          'Available online'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'button',
+	          { className: _description2.default.button2 },
+	          _react2.default.createElement('img', { width: '23px', height: '23px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-list.svg' }),
+	          'Add to shopping list'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'button',
+	          { className: _description2.default.button3 },
+	          'Add to registry'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: _description2.default.box },
+	        _react2.default.createElement(
+	          'div',
+	          { className: _description2.default.location },
+	          _react2.default.createElement(
+	            'div',
+	            { className: _description2.default.left },
+	            'Check stock at your local store',
+	            _react2.default.createElement(
+	              'div',
+	              { className: _description2.default.dropDown },
+	              'dropdown'
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: _description2.default.right },
+	            _react2.default.createElement(
+	              'div',
+	              { className: _description2.default.noAvail },
+	              'Not available online'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              null,
+	              _react2.default.createElement(
+	                'span',
+	                { className: _description2.default.availability },
+	                'Check availability at your local store'
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: _description2.default.stock1 },
+	          _react2.default.createElement(
+	            'span',
+	            { className: _description2.default.stock },
+	            'Not for Sale '
+	          ),
+	          _react2.default.createElement(
+	            'span',
+	            { className: _description2.default.store },
+	            ' IKEA CA, Burbank'
+	          )
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'span',
+	          { className: _description2.default.bottom },
+	          'Store selection may vary and prices may differ from those online.'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: _description2.default.assembly },
+	        _react2.default.createElement(
+	          'div',
+	          { className: _description2.default.assembly1 },
+	          'Assembly'
+	        )
+	      )
+	    )
+	  );
+	};
+	
+	exports.default = Description;
+
+/***/ }),
+/* 247 */
+/*!*******************************************!*\
+  !*** ./client/src/styles/description.css ***!
+  \*******************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+	
+	var content = __webpack_require__(/*! !../../../~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./description.css */ 248);
+	
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	
+	var transform;
+	var insertInto;
+	
+	
+	
+	var options = {"hmr":true}
+	
+	options.transform = transform
+	options.insertInto = undefined;
+	
+	var update = __webpack_require__(/*! ../../../~/style-loader/lib/addStyles.js */ 215)(content, options);
+	
+	if(content.locals) module.exports = content.locals;
+	
+	if(false) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./description.css", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./description.css");
+	
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+	
+			var locals = (function(a, b) {
+				var key, idx = 0;
+	
+				for(key in a) {
+					if(!b || a[key] !== b[key]) return false;
+					idx++;
+				}
+	
+				for(key in b) idx--;
+	
+				return idx === 0;
+			}(content.locals, newContent.locals));
+	
+			if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+	
+			update(newContent);
+		});
+	
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ }),
+/* 248 */
+/*!***********************************************************************************************************************************!*\
+  !*** ./~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./client/src/styles/description.css ***!
+  \***********************************************************************************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(/*! ../../../~/css-loader/lib/css-base.js */ 214)(false);
+	// imports
+	
+	
+	// module
+	exports.push([module.id, ".description__container___2lRWH{\r\n  float: left;\r\n  margin: 1.364em 0 0 2.9em;\r\n  width: 420px;\r\n  height: 371;\r\n  padding: .7em 0 0 1.56em;\r\n}\r\n\r\n.description__layout___1fbDu{\r\n  display: block;\r\n  position: relative;\r\n  float: right;\r\n  right: 50px;\r\n}\r\n\r\n.description__title___2Kvr5{\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 20px;\r\n  line-height: 30px;\r\n  letter-spacing: -1px;\r\n  display: block;\r\n  font-weight: bold;\r\n  text-align: left;\r\n}\r\n\r\n.description__price___2FqSe{\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 32px;\r\n  letter-spacing: -1.5px;\r\n  font-weight: bold;\r\n  text-align: left;\r\n}\r\n\r\n.description__article___3YKK_{\r\n  color: #000;\r\n  font-size: 11px;\r\n  line-height: 2;\r\n  font-family: verdana;\r\n}\r\n\r\n.description__review___3JbFf{\r\n  letter-spacing: normal;\r\n  color: #3399FD;\r\n  font-size: 11px;\r\n  line-height: 35px;\r\n}\r\n\r\n.description__review1___1Ejl0{\r\n  letter-spacing: normal;\r\n  color: black;\r\n  font-size: 11px;\r\n  line-height: 35px;\r\n}\r\n\r\n.description__reviewLayout___10kIR{\r\n  display: flex;\r\n  justify-content: flex-start;\r\n}\r\n\r\n.description__description___ygGkz{\r\n  line-height: 18px;\r\n  color: #333;\r\n  padding-bottom: 15px;\r\n  font-size: 13px;\r\n}\r\n\r\n.description__quantity___6wPb6{\r\n  height: 30px;\r\n  width: 56px;\r\n  text-align: center;\r\n  font-size: 13px;\r\n  font-weight: normal;\r\n  float: right;\r\n  border: 1px solid #999;\r\n  margin: 5px 0 10px 0;\r\n  border-radius: 2px;\r\n}\r\n\r\n.description__quantity1___1Ynda{\r\n  color: #767676;\r\n    font-size: 13px;\r\n    line-height: 46px;\r\n}\r\n.description__button1___y6foo{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background: #a2bfe6;\r\n  padding: 0px; \r\n  width: 420px;\r\n  height: 46px; \r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__button2___2aw08{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background:#cdcdcd;\r\n  padding: 0px; \r\n  width: 420px;\r\n  height: 46px;\r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__button3___3QkaA{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background:#ffc9ae;\r\n  padding: 17px; \r\n  width: 420px;\r\n  height: 46px;\r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__star___1PeKk{\r\n  font-size: 23px;\r\n}\r\n\r\n.description__location___2PMEu{\r\n  width: 150%;\r\n  display: flex;\r\n  justify-content: space-between;\r\n}\r\n\r\n.description__left___2LX5W{\r\n  float: left;\r\n  margin: 0 0 5px 0;\r\n  font-size: 1.1462em;\r\n  font-weight: bold;\r\n  color: #333;\r\n  display: block;\r\n}\r\n\r\n.description__dropDown___3fMd3{\r\n  height: 33px;\r\n  margin-top: 5px;\r\n  padding: 0;\r\n  border: 1px solid #999;\r\n  line-height: 33px;\r\n}\r\n\r\n.description__right___1VsZ9{\r\n  box-sizing: border-box;\r\n    width: 80%;\r\n    float: right;\r\n    margin-left: 8px;\r\n    border-left: 1px solid #eee;\r\n    padding-left: 10px;\r\n}\r\n\r\n.description__noAvail___2qIIw{\r\n  font-size: 11px;\r\n  font-weight: bold;\r\n  color: #333;\r\n  display: block;\r\n}\r\n\r\n.description__availability___26wTe{\r\n  font-size: 11px;\r\n    margin: 5px 0;\r\n}\r\n\r\n.description__box___2JTAR{\r\n  display:block;\r\n}\r\n\r\n.description__stock1___3Klk-{\r\n  margin: 10px 0 0 0;\r\n  clear: both;\r\n  width: inherit;\r\n  float: none;\r\n  margin-bottom: 8px;\r\n}\r\n.description__stock___2zGEZ{\r\n  font-size: 11px;\r\n    text-align: left;\r\n    font-style: italic;\r\n    color: #333;\r\n}\r\n\r\n.description__store___3Tq4g{\r\n  color: #3399fd;\r\n    font-size: 13px;\r\n    text-decoration: underline;\r\n    cursor: pointer;\r\n}\r\n\r\n.description__bottom___2jUXw{\r\n  font-style: italic;\r\n  font-size: 11px;\r\n  text-align: left;\r\n  padding: .5px 0 2px 0;\r\n  color: #767676;\r\n}\r\n\r\n.description__assembly___K6UW3{\r\n  width: 200px;\r\n  float: left;\r\n  line-height: 40px;\r\n  border-bottom: solid;\r\n  border-bottom-color: #f2f2f2;\r\n  border-bottom-width: 1px;\r\n  cursor: pointer;\r\n  font-size: 13px;\r\n}\r\n\r\n.description__assembly1___1951T{\r\n  background-image: url(/ms/img/ads/vitality/service_offer/assembly_big.jpg);\r\n  padding-left: 32px;\r\n  background-size: 30px 20px;\r\n  background-repeat: no-repeat;\r\n  background-position: 0% 64%;\r\n  line-height: 15px;\r\n    display: table-cell;\r\n    vertical-align: middle;\r\n    height: 40px;\r\n}", ""]);
+	
+	// exports
+	exports.locals = {
+		"container": "description__container___2lRWH",
+		"layout": "description__layout___1fbDu",
+		"title": "description__title___2Kvr5",
+		"price": "description__price___2FqSe",
+		"article": "description__article___3YKK_",
+		"review": "description__review___3JbFf",
+		"review1": "description__review1___1Ejl0",
+		"reviewLayout": "description__reviewLayout___10kIR",
+		"description": "description__description___ygGkz",
+		"quantity": "description__quantity___6wPb6",
+		"quantity1": "description__quantity1___1Ynda",
+		"button1": "description__button1___y6foo",
+		"button2": "description__button2___2aw08",
+		"button3": "description__button3___3QkaA",
+		"star": "description__star___1PeKk",
+		"location": "description__location___2PMEu",
+		"left": "description__left___2LX5W",
+		"dropDown": "description__dropDown___3fMd3",
+		"right": "description__right___1VsZ9",
+		"noAvail": "description__noAvail___2qIIw",
+		"availability": "description__availability___26wTe",
+		"box": "description__box___2JTAR",
+		"stock1": "description__stock1___3Klk-",
+		"stock": "description__stock___2zGEZ",
+		"store": "description__store___3Tq4g",
+		"bottom": "description__bottom___2jUXw",
+		"assembly": "description__assembly___K6UW3",
+		"assembly1": "description__assembly1___1951T"
+	};
+
+/***/ }),
+/* 249 */
+/*!************************************************!*\
+  !*** ./~/react-star-rating-component/index.js ***!
+  \************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _propTypes = __webpack_require__(/*! prop-types */ 225);
+	
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+	
+	var _classnames = __webpack_require__(/*! classnames */ 250);
+	
+	var _classnames2 = _interopRequireDefault(_classnames);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var StarRatingComponent = function (_Component) {
+	  _inherits(StarRatingComponent, _Component);
+	
+	  function StarRatingComponent(props) {
+	    _classCallCheck(this, StarRatingComponent);
+	
+	    var _this = _possibleConstructorReturn(this, (StarRatingComponent.__proto__ || Object.getPrototypeOf(StarRatingComponent)).call(this));
+	
+	    _this.state = {
+	      value: props.value
+	    };
+	    return _this;
+	  }
+	
+	  _createClass(StarRatingComponent, [{
+	    key: 'componentWillReceiveProps',
+	    value: function componentWillReceiveProps(nextProps) {
+	      var value = nextProps.value;
+	
+	
+	      if (value != null && value !== this.state.value) {
+	        this.setState({ value: value });
+	      }
+	    }
+	  }, {
+	    key: 'onChange',
+	    value: function onChange(inputValue) {
+	      var _props = this.props,
+	          editing = _props.editing,
+	          value = _props.value;
+	
+	
+	      if (!editing) {
+	        return;
+	      }
+	
+	      // do not update internal state based on input value if prop passed
+	      if (value != null) {
+	        return;
+	      }
+	
+	      this.setState({ value: inputValue });
+	    }
+	  }, {
+	    key: 'onStarClick',
+	    value: function onStarClick(index, value, name, e) {
+	      e.stopPropagation();
+	
+	      var _props2 = this.props,
+	          onStarClick = _props2.onStarClick,
+	          editing = _props2.editing;
+	
+	
+	      if (!editing) {
+	        return;
+	      }
+	
+	      onStarClick && onStarClick(index, value, name, e);
+	    }
+	  }, {
+	    key: 'onStarHover',
+	    value: function onStarHover(index, value, name, e) {
+	      e.stopPropagation();
+	
+	      var _props3 = this.props,
+	          onStarHover = _props3.onStarHover,
+	          editing = _props3.editing;
+	
+	
+	      if (!editing) {
+	        return;
+	      }
+	
+	      onStarHover && onStarHover(index, value, name, e);
+	    }
+	  }, {
+	    key: 'onStarHoverOut',
+	    value: function onStarHoverOut(index, value, name, e) {
+	      e.stopPropagation();
+	
+	      var _props4 = this.props,
+	          onStarHoverOut = _props4.onStarHoverOut,
+	          editing = _props4.editing;
+	
+	
+	      if (!editing) {
+	        return;
+	      }
+	
+	      onStarHoverOut && onStarHoverOut(index, value, name, e);
+	    }
+	  }, {
+	    key: 'renderStars',
+	    value: function renderStars() {
+	      var _this2 = this;
+	
+	      var _props5 = this.props,
+	          name = _props5.name,
+	          starCount = _props5.starCount,
+	          starColor = _props5.starColor,
+	          emptyStarColor = _props5.emptyStarColor,
+	          editing = _props5.editing;
+	      var value = this.state.value;
+	
+	
+	      var starStyles = function starStyles(i, value) {
+	        return {
+	          float: 'right',
+	          cursor: editing ? 'pointer' : 'default',
+	          color: value >= i ? starColor : emptyStarColor
+	        };
+	      };
+	      var radioStyles = {
+	        display: 'none',
+	        position: 'absolute',
+	        marginLeft: -9999
+	      };
+	
+	      // populate stars
+	      var starNodes = [];
+	
+	      var _loop = function _loop(i) {
+	        var id = name + '_' + i;
+	        var starNodeInput = _react2.default.createElement('input', {
+	          key: 'input_' + id,
+	          style: radioStyles,
+	          className: 'dv-star-rating-input',
+	          type: 'radio',
+	          name: name,
+	          id: id,
+	          value: i,
+	          checked: value === i,
+	          onChange: _this2.onChange.bind(_this2, i, name)
+	        });
+	        var starNodeLabel = _react2.default.createElement(
+	          'label',
+	          {
+	            key: 'label_' + id,
+	            style: starStyles(i, value),
+	            className: 'dv-star-rating-star ' + (value >= i ? 'dv-star-rating-full-star' : 'dv-star-rating-empty-star'),
+	            htmlFor: id,
+	            onClick: function onClick(e) {
+	              return _this2.onStarClick(i, value, name, e);
+	            },
+	            onMouseOver: function onMouseOver(e) {
+	              return _this2.onStarHover(i, value, name, e);
+	            },
+	            onMouseLeave: function onMouseLeave(e) {
+	              return _this2.onStarHoverOut(i, value, name, e);
+	            }
+	          },
+	          _this2.renderIcon(i, value, name, id)
+	        );
+	
+	        starNodes.push(starNodeInput);
+	        starNodes.push(starNodeLabel);
+	      };
+	
+	      for (var i = starCount; i > 0; i--) {
+	        _loop(i);
+	      }
+	
+	      return starNodes.length ? starNodes : null;
+	    }
+	  }, {
+	    key: 'renderIcon',
+	    value: function renderIcon(index, value, name, id) {
+	      var _props6 = this.props,
+	          renderStarIcon = _props6.renderStarIcon,
+	          renderStarIconHalf = _props6.renderStarIconHalf;
+	
+	
+	      if (typeof renderStarIconHalf === 'function' && Math.ceil(value) === index && value % 1 !== 0) {
+	        return renderStarIconHalf(index, value, name, id);
+	      }
+	
+	      if (typeof renderStarIcon === 'function') {
+	        return renderStarIcon(index, value, name, id);
+	      }
+	
+	      return _react2.default.createElement(
+	        'i',
+	        { key: 'icon_' + id, style: { fontStyle: 'normal' } },
+	        '\u2605'
+	      );
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      var _props7 = this.props,
+	          editing = _props7.editing,
+	          className = _props7.className;
+	
+	      var classes = (0, _classnames2.default)('dv-star-rating', {
+	        'dv-star-rating-non-editable': !editing
+	      }, className);
+	
+	      return _react2.default.createElement(
+	        'div',
+	        { style: { display: 'inline-block', position: 'relative' }, className: classes },
+	        this.renderStars()
+	      );
+	    }
+	  }]);
+	
+	  return StarRatingComponent;
+	}(_react.Component);
+	
+	StarRatingComponent.propTypes = {
+	  name: _propTypes2.default.string.isRequired,
+	  value: _propTypes2.default.number,
+	  editing: _propTypes2.default.bool,
+	  starCount: _propTypes2.default.number,
+	  starColor: _propTypes2.default.string,
+	  onStarClick: _propTypes2.default.func,
+	  onStarHover: _propTypes2.default.func,
+	  onStarHoverOut: _propTypes2.default.func,
+	  renderStarIcon: _propTypes2.default.func,
+	  renderStarIconHalf: _propTypes2.default.func
+	};
+	StarRatingComponent.defaultProps = {
+	  starCount: 5,
+	  editing: true,
+	  starColor: '#ffb400',
+	  emptyStarColor: '#333'
+	};
+	exports.default = StarRatingComponent;
+	module.exports = exports['default'];
+
+
+/***/ }),
+/* 250 */
+/*!*******************************!*\
+  !*** ./~/classnames/index.js ***!
+  \*******************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+	  Copyright (c) 2017 Jed Watson.
+	  Licensed under the MIT License (MIT), see
+	  http://jedwatson.github.io/classnames
+	*/
+	/* global define */
+	
+	(function () {
+		'use strict';
+	
+		var hasOwn = {}.hasOwnProperty;
+	
+		function classNames () {
+			var classes = [];
+	
+			for (var i = 0; i < arguments.length; i++) {
+				var arg = arguments[i];
+				if (!arg) continue;
+	
+				var argType = typeof arg;
+	
+				if (argType === 'string' || argType === 'number') {
+					classes.push(arg);
+				} else if (Array.isArray(arg) && arg.length) {
+					var inner = classNames.apply(null, arg);
+					if (inner) {
+						classes.push(inner);
+					}
+				} else if (argType === 'object') {
+					for (var key in arg) {
+						if (hasOwn.call(arg, key) && arg[key]) {
+							classes.push(key);
+						}
+					}
+				}
+			}
+	
+			return classes.join(' ');
+		}
+	
+		if (typeof module !== 'undefined' && module.exports) {
+			classNames.default = classNames;
+			module.exports = classNames;
+		} else if (true) {
+			// register as 'classnames', consistent with npm package name
+			!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = function () {
+				return classNames;
+			}.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+		} else {
+			window.classNames = classNames;
+		}
+	}());
+
+
+/***/ }),
+/* 251 */
+/*!***********************************!*\
+  !*** ./client/src/styles/app.css ***!
+  \***********************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+	
+	var content = __webpack_require__(/*! !../../../~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./app.css */ 252);
+	
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	
+	var transform;
+	var insertInto;
+	
+	
+	
+	var options = {"hmr":true}
+	
+	options.transform = transform
+	options.insertInto = undefined;
+	
+	var update = __webpack_require__(/*! ../../../~/style-loader/lib/addStyles.js */ 215)(content, options);
+	
+	if(content.locals) module.exports = content.locals;
+	
+	if(false) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./app.css", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./app.css");
+	
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+	
+			var locals = (function(a, b) {
+				var key, idx = 0;
+	
+				for(key in a) {
+					if(!b || a[key] !== b[key]) return false;
+					idx++;
+				}
+	
+				for(key in b) idx--;
+	
+				return idx === 0;
+			}(content.locals, newContent.locals));
+	
+			if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+	
+			update(newContent);
+		});
+	
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ }),
+/* 252 */
+/*!***************************************************************************************************************************!*\
+  !*** ./~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./client/src/styles/app.css ***!
+  \***************************************************************************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(/*! ../../../~/css-loader/lib/css-base.js */ 214)(false);
+	// imports
+	
+	
+	// module
+	exports.push([module.id, ".app__header___1BY_D{\r\n  display: flex;\r\n  justify-content: space-around;\r\n  height: 30px;\r\n  font-size: 0.6em;\r\n  top:10px;\r\n  color: #000000;\r\n  padding: 0.6em;\r\n  background: #f8f8f8;\r\n}\r\n\r\n.app__header1___JQf2w{\r\n  display: inherit;\r\n  height: 49px;\r\n    background-color: #f8f8f8;\r\n}\r\n\r\n.app__header2___1MgOt{\r\n  display: block;\r\n  width: 1064px;\r\n  margin: 0 auto;\r\n}\r\n\r\n.app__header3___3vRo2{\r\n  display: block;\r\n  text-align: center;\r\n  width: 65%;\r\n  white-space: nowrap;\r\n  float: left;\r\n  padding-top: 18px;\r\n}\r\n\r\n.app__items___2wM40{\r\n  text-decoration: none;\r\n  font-size: 11px;\r\n  text-align: center;\r\n  white-space: nowrap;\r\n  padding: 10px;\r\n}\r\n\r\n.app__wrapper___3ePbp{\r\n  padding: 0.6em;\r\n  background: #f8f8f8;\r\n}\r\n\r\n.app__ad___2tPp5{\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n\r\n.app__display___1xcJA{\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n\r\n.app__display1___tgcQy{\r\n  display: flex;\r\n  justify-content: center;\r\n}", ""]);
+	
+	// exports
+	exports.locals = {
+		"header": "app__header___1BY_D",
+		"header1": "app__header1___JQf2w",
+		"header2": "app__header2___1MgOt",
+		"header3": "app__header3___3vRo2",
+		"items": "app__items___2wM40",
+		"wrapper": "app__wrapper___3ePbp",
+		"ad": "app__ad___2tPp5",
+		"display": "app__display___1xcJA",
+		"display1": "app__display1___tgcQy"
 	};
 
 /***/ })
