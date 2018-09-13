@@ -1,6 +1,9 @@
 import React from 'react';
 import style from '../styles/description.css';
 import Star from 'react-star-rating-component';
+import Dropdown from 'react-dropdown';
+import options from './cities.jsx';
+
 
 let Description = (props) =>(
 
@@ -46,6 +49,38 @@ let Description = (props) =>(
     <div>
       <button className={style.button3}>Add to registry</button>
     </div>
+    <div className={style.box}>
+        <div className={style.location}>
+          <div className={style.left}>
+          Check stock at your local store
+            <div className={style.DropdownMenu}>
+            <div >
+              <Dropdown options={options} placeholder="Store: Burbank, CA" />
+              </div>
+            </div>
+          </div>
+          <div className={style.right}>
+          <div className={style.noAvail}>
+          Not available online
+          </div>
+            <div>
+            <span className={style.availability}>
+            Check availability at your local store
+            </span>
+            </div>
+          </div>
+        </div>
+        <div className={style.stock1}>
+          <span className={style.stock}>Not for Sale </span>
+          <span className={style.store}> IKEA CA, Burbank</span>
+        </div>
+    </div>
+      <div>
+        <span className={style.bottom}>Store selection may vary and prices may differ from those online.</span>
+      </div>
+      <div className={style.assembly}>
+        <div className={style.assembly1}>Assembly</div>
+      </div>    
     </div>
   </div>
 

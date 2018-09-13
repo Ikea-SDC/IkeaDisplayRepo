@@ -1,11 +1,41 @@
 .header{
   display: flex;
   justify-content: space-around;
+  height: 30px;
   font-size: 0.6em;
   top:10px;
   color: #000000;
   padding: 0.6em;
   background: #f8f8f8;
+}
+
+.header1{
+  display: inherit;
+  height: 49px;
+    background-color: #f8f8f8;
+}
+
+.header2{
+  display: block;
+  width: 1064px;
+  margin: 0 auto;
+}
+
+.header3{
+  display: block;
+  text-align: center;
+  width: 65%;
+  white-space: nowrap;
+  float: left;
+  padding-top: 18px;
+}
+
+.items{
+  text-decoration: none;
+  font-size: 11px;
+  text-align: center;
+  white-space: nowrap;
+  padding: 10px;
 }
 
 .wrapper{

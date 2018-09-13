@@ -36,12 +36,16 @@ class App extends React.Component{
 
     return (
       <div>
-      <div className={style.header}>
-      <div className="head">IKEA FAMILY</div>
-      <div className="head">IKEA for business</div>
-      <div className="head">Customer Services</div>
-      <div className="head">Financing</div>
-      <div className="head">Join our email list</div>
+        <div className={style.header1}>
+          <div className={style.header2}>
+            <div className={style.header3}>
+            <a className={style.items}>IKEA FAMILY</a>
+            <a className={style.items}>IKEA for business</a>
+            <a className={style.items}>Customer Services</a>
+            <a className={style.items}>Financing</a>
+            <a className={style.items}>Join our email list</a>
+            </div>
+        </div>
       </div>
       <TopBar/>
       <div className={style.ad}>
