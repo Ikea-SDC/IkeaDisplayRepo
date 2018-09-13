@@ -45,6 +45,23 @@ class App extends React.Component{
             <a className={style.items}>Financing</a>
             <a className={style.items}>Join our email list</a>
             </div>
+            <div className={style.chooseStore}>
+              <div className={style.chooseStoreBox}>
+                <div className={style.chooseStoreIcon}>
+                <img src="https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/chooseStoreHeader/images/store_icon_new.svg"width="18px" height="auto" padding-left="5px" padding-top="11px"/>
+                </div>
+                <div className={style.chooseStoreText}>
+                My preferred Store:
+                <br></br>
+                <b>
+                  <span className={style.storeText}>CA, Burbank</span>
+                </b>
+                </div>
+              </div>
+              <div className={style.login}>
+                <a className={style.loginItem}>Log in/Sign up</a>
+              </div>
+            </div>
         </div>
       </div>
       <TopBar/>

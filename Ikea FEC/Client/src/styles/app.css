@@ -106,3 +106,56 @@
   width:510px;
   padding: 0;
 }
+
+.chooseStore{
+  display: block;
+  float: left;
+  width: 350px;
+  height: 40px;
+  font-size: 10px;
+  cursor: pointer;
+  margin-left: 13px;
+}
+
+.chooseStoreBox{
+  /* display: inline; */
+  float: left;
+  width: 169px;
+  height: 38px;
+  font-size: 10px;
+  cursor: pointer;
+  margin-left: 88px;
+}
+
+.chooseStoreIcon{
+  display: block;
+  width: 18%;
+  float: left;
+  padding-left: 6px;
+  padding-top: 7px;
+}
+
+.chooseStoreText{
+  display: block;
+  float: left;
+  text-align: left;
+  padding-top: 9px;
+}
+
+.login{
+  display: block;
+  text-align: right;
+  color: black;
+  padding-top: 19px;
+  height: 24px;
+}
+
+.loginItem{
+  color: black;
+  font-weight: 600;
+  font-size: 8.5px;
+}
+
+.storeText{
+  font-weight: bold;
+}
