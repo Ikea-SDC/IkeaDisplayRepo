@@ -48,7 +48,7 @@ class App extends React.Component{
             <div className={style.chooseStore}>
               <div className={style.chooseStoreBox}>
                 <div className={style.chooseStoreIcon}>
-                <img src="https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/chooseStoreHeader/images/store_icon_new.svg"width="18px" height="auto" padding-left="5px" padding-top="11px"/>
+                <img src="https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/chooseStoreHeader/images/store_icon_new.svg"width="18px" height="auto"/>
                 </div>
                 <div className={style.chooseStoreText}>
                 My preferred Store:
@@ -65,9 +65,9 @@ class App extends React.Component{
         </div>
       </div>
       <TopBar/>
-      <div className={style.ad}>
-      <img width="1060px" height="55px" src="https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/promoBanner/images/shipping-banner-update.jpg"></img>
-      </div>
+        <div>
+          <img className={style.ad} src="https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/promoBanner/images/shipping-banner-update.jpg"></img>
+        </div>
       <div className={style.rightContent}>
       <div>
       <div className={style.pipContainer}>

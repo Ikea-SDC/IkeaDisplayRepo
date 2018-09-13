@@ -22659,7 +22659,7 @@
 	                _react2.default.createElement(
 	                  'div',
 	                  { className: _app2.default.chooseStoreIcon },
-	                  _react2.default.createElement('img', { src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/chooseStoreHeader/images/store_icon_new.svg', width: '18px', height: 'auto', 'padding-left': '5px', 'padding-top': '11px' })
+	                  _react2.default.createElement('img', { src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/chooseStoreHeader/images/store_icon_new.svg', width: '18px', height: 'auto' })
 	                ),
 	                _react2.default.createElement(
 	                  'div',
@@ -22692,8 +22692,8 @@
 	        _react2.default.createElement(_TopBar2.default, null),
 	        _react2.default.createElement(
 	          'div',
-	          { className: _app2.default.ad },
-	          _react2.default.createElement('img', { width: '1060px', height: '55px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/promoBanner/images/shipping-banner-update.jpg' })
+	          null,
+	          _react2.default.createElement('img', { className: _app2.default.ad, src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/promoBanner/images/shipping-banner-update.jpg' })
 	        ),
 	        _react2.default.createElement(
 	          'div',
@@ -29593,44 +29593,85 @@
 	var TopBar = function TopBar(props) {
 	  return _react2.default.createElement(
 	    'div',
-	    { className: _topbar2.default.bar },
-	    _react2.default.createElement('img', { width: '90px', height: '33px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/newHeader/images/logoIKEA.svg' }),
+	    { className: _topbar2.default.form },
+	    _react2.default.createElement('div', { className: _topbar2.default.secondHeader }),
 	    _react2.default.createElement(
 	      'div',
-	      { className: _topbar2.default.words },
-	      'Products'
+	      { className: _topbar2.default.logo },
+	      _react2.default.createElement('img', { width: '90px', height: '33px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/newHeader/images/logoIKEA.svg' })
 	    ),
 	    _react2.default.createElement(
 	      'div',
-	      { className: _topbar2.default.words },
-	      'Inspiration'
+	      { className: _topbar2.default.menu },
+	      _react2.default.createElement(
+	        'span',
+	        { className: _topbar2.default.dropDown },
+	        _react2.default.createElement(
+	          'a',
+	          { className: _topbar2.default.words },
+	          'Products'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'a',
+	        { className: _topbar2.default.words },
+	        'Inspiration'
+	      ),
+	      _react2.default.createElement(
+	        'a',
+	        { className: _topbar2.default.words },
+	        'New'
+	      ),
+	      _react2.default.createElement(
+	        'a',
+	        { className: _topbar2.default.words },
+	        'Offers'
+	      ),
+	      _react2.default.createElement(
+	        'a',
+	        { className: _topbar2.default.words },
+	        'Services'
+	      ),
+	      _react2.default.createElement(
+	        'a',
+	        { className: _topbar2.default.words },
+	        'Back to College'
+	      )
 	    ),
 	    _react2.default.createElement(
 	      'div',
-	      { className: _topbar2.default.words },
-	      'New'
+	      { className: _topbar2.default.logoContainer },
+	      _react2.default.createElement(
+	        'div',
+	        { className: _topbar2.default.searchForm },
+	        _react2.default.createElement(
+	          'div',
+	          { className: _topbar2.default.formInput },
+	          _react2.default.createElement('input', { className: _topbar2.default.search, type: 'text' })
+	        )
+	      )
 	    ),
 	    _react2.default.createElement(
 	      'div',
-	      { className: _topbar2.default.words },
-	      'Offers'
-	    ),
-	    _react2.default.createElement(
-	      'div',
-	      { className: _topbar2.default.words },
-	      'Services'
-	    ),
-	    _react2.default.createElement(
-	      'div',
-	      { className: _topbar2.default.words },
-	      'Back to College'
-	    ),
-	    _react2.default.createElement('input', { type: 'text' }),
-	    _react2.default.createElement(
-	      'div',
-	      { className: _topbar2.default.icons },
-	      _react2.default.createElement('img', { width: '30px', height: '30px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-list.svg' }),
-	      _react2.default.createElement('img', { width: '31px', height: '31px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-bag.svg' })
+	      { className: _topbar2.default.icons1 },
+	      _react2.default.createElement(
+	        'a',
+	        null,
+	        _react2.default.createElement(
+	          'div',
+	          { className: _topbar2.default.myShoppingList },
+	          _react2.default.createElement('img', { className: _topbar2.default.myShoppingListImg, width: '30px', height: '30px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-list.svg' })
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'a',
+	        null,
+	        _react2.default.createElement(
+	          'div',
+	          null,
+	          _react2.default.createElement('img', { className: _topbar2.default.myShoppingCartImg, width: '31px', height: '31px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-bag.svg' })
+	        )
+	      )
 	    )
 	  );
 	};
@@ -29702,21 +29743,28 @@
 	
 	
 	// module
-	exports.push([module.id, ".topbar__bar___nA7w7{\r\ndisplay: flex;\r\njustify-content: space-evenly;\r\nfont-weight: 600;\r\nfont-family: Verdana,sans-serif;\r\nfont-size: 12px;\r\n}\r\n\r\n.topbar__header1___1ngc6{\r\n  display: block;\r\n  height: 40px;\r\n  width: 100%;\r\n  padding-top: 16px;\r\n  padding-bottom: 8px;\r\n  background-color: white;\r\n  color: #333;\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 9.6px;\r\n  text-align: left;\r\n}\r\n\r\n\r\n.topbar__menu___1oolY{\r\n  display: block;\r\n  width: 552px;\r\n  margin-top: 10px;\r\n  float: left;\r\n  text-align: left;\r\n}\r\n\r\n.topbar__logo___1k84B{\r\n  width: 120px;\r\n  float: left;\r\n}\r\n\r\n.topbar__icons___zM2Zn{\r\n  display: flex;\r\n  justify-content: flex-end;\r\n}\r\n\r\n.topbar__icons1___3ta6H{\r\n  display: block;\r\n  width: 111px;\r\n  float: left;\r\n  text-align: right;\r\n  color: black;\r\n}\r\n\r\n.topbar__form___2O_mS{\r\n  display: block;\r\n  float: left;\r\n  padding-left: 0px;\r\n}\r\n\r\n.topbar__search___FtsOA{\r\n  display: block;\r\n  border-style: solid;\r\n  border-width: 1px;\r\n  border-color: rgba(128, 128, 128, 0.54);\r\n  font-family: Verdana,sans-serif;\r\n  color: #333;\r\n  width: 238px;\r\n  padding: 0;\r\n  margin: 0;\r\n  border: 0;\r\n}\r\n\r\n.topbar__words___1bnxY{\r\n  font-size: 12px;\r\n    font-weight: 600;\r\n    padding: 11px;\r\n    font-family: Verdana,sans-serif;\r\n    text-align: left;\r\n}\r\n\r\n.topbar__hr___2oveR{\r\n  padding-top: 48px;\r\n  border: none;\r\n  width: 102%;\r\n  height: 49px;\r\n  margin: -49px -10px 6px;\r\n}\r\n\r\n.topbar__account___1eiBW{\r\n  display: block;\r\n  width: 1067px;\r\n  margin: 0 auto;\r\n  text-decoration: none;\r\n  color: #333;\r\n  font-family: Verdana,sans-serif;\r\n}", ""]);
+	exports.push([module.id, ".topbar__bar___nA7w7{\r\ndisplay: flex;\r\njustify-content: space-evenly;\r\nfont-weight: 600;\r\nfont-family: Verdana,sans-serif;\r\nfont-size: 12px;\r\n}\r\n\r\n.topbar__secondHeader___3JRjZ{\r\n  display: block;\r\n  height: 40px;\r\n  width: 100%;\r\n  padding-top: 16px;\r\n  padding-bottom: 8px;\r\n  background-color: white;\r\n  color: #333;\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 9.6px;\r\n  text-align: left;\r\n}\r\n\r\n\r\n.topbar__menu___1oolY{\r\n  display: block;\r\n  width: 552px;\r\n  margin-top: 10px;\r\n  float: left;\r\n}\r\n\r\n.topbar__logo___1k84B{\r\n  display: block;\r\n  width: 120px;\r\n  float: left;\r\n}\r\n\r\n.topbar__icons___zM2Zn{\r\n  display: flex;\r\n  justify-content: flex-end;\r\n}\r\n\r\n.topbar__icons1___3ta6H{\r\n  display: block;\r\n  width: 111px;\r\n  float: left;\r\n  text-align: right;\r\n  color: black;\r\n}\r\n\r\n.topbar__form1___1fGwE{\r\n  display: block;\r\n  float: left;\r\n  padding-left: 0px;\r\n}\r\n\r\n.topbar__search___FtsOA{\r\n  display: block;\r\n  border-style: solid;\r\n  border-width: 1px;\r\n  border-color: rgba(128, 128, 128, 0.54);\r\n  font-family: Verdana,sans-serif;\r\n  color: #333;\r\n  width: 238px;\r\n  padding: 3px;\r\n  margin-left:0.8em;\r\n  padding-left: 1.1em;\r\n    font-size: 1.3em;\r\n    height: 2.2em;\r\n}\r\n\r\n.topbar__words___1bnxY{\r\n  font-size: 12px;\r\n    font-weight: 600;\r\n    padding: 11px;\r\n}\r\n\r\n.topbar__hr___2oveR{\r\n  padding-top: 48px;\r\n  border: none;\r\n  width: 102%;\r\n  height: 49px;\r\n  margin: -49px -10px 6px;\r\n}\r\n\r\n.topbar__form___2O_mS{\r\n  padding: 0;\r\n  border: 0;\r\n  display: block;\r\n  width: 1067px;\r\n  margin: 0 auto;\r\n  text-decoration: none;\r\n  color: #333;\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 9.6px\r\n}\r\n\r\n.topbar__dropdown___1V1Mo{\r\n  position: relative;\r\n  display: inline-block;\r\n}\r\n\r\n.topbar__logoContainer___1PE8x{\r\nposition: static;\r\n}\r\n\r\n.topbar__searchform___3mISX{\r\n  float: left;\r\n  margin-top: 0.0em;\r\n}\r\n\r\n.topbar__formInput___3exAE{\r\n  display: block;\r\n  float: left;\r\n  padding-left: 0px;\r\n}\r\n\r\n.topbar__myShoppingList___1plyQ{\r\n  display: block;\r\n  margin-left: 32px;\r\n  float: left;\r\n}\r\n\r\n.topbar__myShoppingListImg___3fWpi{\r\n  border: 0;\r\n}\r\n\r\n.topbar__myShoppingCartImg___2G_zG{\r\n  border: 0px;\r\n  width: 31px;\r\n}", ""]);
 	
 	// exports
 	exports.locals = {
 		"bar": "topbar__bar___nA7w7",
-		"header1": "topbar__header1___1ngc6",
+		"secondHeader": "topbar__secondHeader___3JRjZ",
 		"menu": "topbar__menu___1oolY",
 		"logo": "topbar__logo___1k84B",
 		"icons": "topbar__icons___zM2Zn",
 		"icons1": "topbar__icons1___3ta6H",
-		"form": "topbar__form___2O_mS",
+		"form1": "topbar__form1___1fGwE",
 		"search": "topbar__search___FtsOA",
 		"words": "topbar__words___1bnxY",
 		"hr": "topbar__hr___2oveR",
-		"account": "topbar__account___1eiBW"
+		"form": "topbar__form___2O_mS",
+		"dropdown": "topbar__dropdown___1V1Mo",
+		"logoContainer": "topbar__logoContainer___1PE8x",
+		"searchform": "topbar__searchform___3mISX",
+		"formInput": "topbar__formInput___3exAE",
+		"myShoppingList": "topbar__myShoppingList___1plyQ",
+		"myShoppingListImg": "topbar__myShoppingListImg___3fWpi",
+		"myShoppingCartImg": "topbar__myShoppingCartImg___2G_zG"
 	};
 
 /***/ }),
@@ -30426,7 +30474,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".app__header___1BY_D{\r\n  display: flex;\r\n  justify-content: space-around;\r\n  height: 30px;\r\n  font-size: 0.6em;\r\n  top:10px;\r\n  color: #000000;\r\n  padding: 0.6em;\r\n  background: #f8f8f8;\r\n}\r\n\r\n.app__header1___JQf2w{\r\n  display: inherit;\r\n  height: 49px;\r\n    background-color: #f8f8f8;\r\n}\r\n\r\n.app__header2___1MgOt{\r\n  display: block;\r\n  width: 1064px;\r\n  margin: 0 auto;\r\n}\r\n\r\n.app__header3___3vRo2{\r\n  display: block;\r\n  text-align: center;\r\n  width: 65%;\r\n  white-space: nowrap;\r\n  float: left;\r\n  padding-top: 18px;\r\n}\r\n\r\n.app__items___2wM40{\r\n  text-decoration: none;\r\n  font-size: 11px;\r\n  text-align: center;\r\n  white-space: nowrap;\r\n  padding: 10px;\r\n}\r\n\r\n.app__wrapper___3ePbp{\r\n  padding: 0.6em;\r\n  background: #f8f8f8;\r\n}\r\n\r\n.app__ad___2tPp5{\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n\r\n.app__display___1xcJA{\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n\r\n.app__display1___tgcQy{\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n\r\n.app__pipContainer___1jmKV{\r\n  display: inline-block;\r\n  border-bottom: 1px solid #fff;\r\n  margin-left: 435px;\r\n  position:relative;\r\n}\r\n\r\n.app__breadcrumbs___3Wrmr{\r\n  float: left;\r\n  list-style: none;\r\n  margin: .9em 0 .2em 1.26em;\r\n  padding: 0;\r\n  font-size: 13px;\r\n  color: #3399FD;\r\n    text-decoration: underline;\r\n}\r\n\r\n.app__breadcrumbs1___1_S5-{\r\n  float: left;\r\n    margin: 0;\r\n    padding: 0;\r\n    display: list-item;\r\n}\r\n\r\n.app__divider___379qj{\r\n  float: left;\r\n  color: #ccc;\r\n  margin: 0 .4em 0 .4em;\r\n  padding: 0;\r\n}\r\n\r\n.app__rightContent___iFI6t{\r\n  width: 100%;\r\n  overflow: visible;\r\n  float: left;\r\n    margin-left: 0;\r\n    display: block;\r\n    position: static;\r\n    margin-top: -0.25em;\r\n}\r\n\r\n.app__layout2___KEvvR{\r\n  display: block;\r\n  float: left;\r\n  position: relative;\r\n  width:510px;\r\n  padding: 0;\r\n}\r\n\r\n.app__chooseStore___5oXG2{\r\n  display: block;\r\n  float: left;\r\n  width: 350px;\r\n  height: 40px;\r\n  font-size: 10px;\r\n  cursor: pointer;\r\n  margin-left: 13px;\r\n}\r\n\r\n.app__chooseStoreBox___1fHex{\r\n  /* display: inline; */\r\n  float: left;\r\n  width: 169px;\r\n  height: 38px;\r\n  font-size: 10px;\r\n  cursor: pointer;\r\n  margin-left: 88px;\r\n}\r\n\r\n.app__chooseStoreIcon___2f9O6{\r\n  display: block;\r\n  width: 18%;\r\n  float: left;\r\n  padding-left: 6px;\r\n  padding-top: 7px;\r\n}\r\n\r\n.app__chooseStoreText___3ZRHb{\r\n  display: block;\r\n  float: left;\r\n  text-align: left;\r\n  padding-top: 9px;\r\n}\r\n\r\n.app__login___2qI5h{\r\n  display: block;\r\n  text-align: right;\r\n  color: black;\r\n  padding-top: 19px;\r\n  height: 24px;\r\n}\r\n\r\n.app__loginItem___1sqrt{\r\n  color: black;\r\n  font-weight: 600;\r\n  font-size: 8.5px;\r\n}\r\n\r\n.app__storeText___2-vp5{\r\n  font-weight: bold;\r\n}", ""]);
+	exports.push([module.id, ".app__header___1BY_D{\r\n  display: flex;\r\n  justify-content: space-around;\r\n  height: 30px;\r\n  font-size: 0.6em;\r\n  top:10px;\r\n  color: #000000;\r\n  padding: 0.6em;\r\n  background: #f8f8f8;\r\n}\r\n\r\n.app__header1___JQf2w{\r\n  display: inherit;\r\n  height: 49px;\r\n    background-color: #f8f8f8;\r\n}\r\n\r\n.app__header2___1MgOt{\r\n  display: block;\r\n  width: 1064px;\r\n  margin: 0 auto;\r\n}\r\n\r\n.app__header3___3vRo2{\r\n  display: block;\r\n  text-align: center;\r\n  width: 65%;\r\n  white-space: nowrap;\r\n  float: left;\r\n  padding-top: 18px;\r\n}\r\n\r\n.app__items___2wM40{\r\n  text-decoration: none;\r\n  font-size: 11px;\r\n  text-align: center;\r\n  white-space: nowrap;\r\n  padding: 10px;\r\n}\r\n\r\n.app__wrapper___3ePbp{\r\n  padding: 0.6em;\r\n  background: #f8f8f8;\r\n}\r\n\r\n.app__ad___2tPp5{\r\n  width: 1060px;\r\n  cursor: pointer;\r\n  margin-bottom: 2em;\r\n  border: 0;\r\n}\r\n\r\n.app__display___1xcJA{\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n\r\n.app__display1___tgcQy{\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n\r\n.app__pipContainer___1jmKV{\r\n  display: inline-block;\r\n  border-bottom: 1px solid #fff;\r\n  margin-left: 435px;\r\n  position:relative;\r\n}\r\n\r\n.app__breadcrumbs___3Wrmr{\r\n  float: left;\r\n  list-style: none;\r\n  margin: .9em 0 .2em 1.26em;\r\n  padding: 0;\r\n  font-size: 13px;\r\n  color: #3399FD;\r\n    text-decoration: underline;\r\n}\r\n\r\n.app__breadcrumbs1___1_S5-{\r\n  float: left;\r\n    margin: 0;\r\n    padding: 0;\r\n    display: list-item;\r\n}\r\n\r\n.app__divider___379qj{\r\n  float: left;\r\n  color: #ccc;\r\n  margin: 0 .4em 0 .4em;\r\n  padding: 0;\r\n}\r\n\r\n.app__rightContent___iFI6t{\r\n  width: 100%;\r\n  overflow: visible;\r\n  float: left;\r\n    margin-left: 0;\r\n    display: block;\r\n    position: static;\r\n    margin-top: -0.25em;\r\n}\r\n\r\n.app__layout2___KEvvR{\r\n  display: block;\r\n  float: left;\r\n  position: relative;\r\n  width:510px;\r\n  padding: 0;\r\n}\r\n\r\n.app__chooseStore___5oXG2{\r\n  display: block;\r\n  float: left;\r\n  width: 350px;\r\n  height: 40px;\r\n  font-size: 10px;\r\n  cursor: pointer;\r\n  margin-left: 13px;\r\n}\r\n\r\n.app__chooseStoreBox___1fHex{\r\n  /* display: inline; */\r\n  float: left;\r\n  width: 169px;\r\n  height: 38px;\r\n  font-size: 10px;\r\n  cursor: pointer;\r\n  margin-left: 88px;\r\n}\r\n\r\n.app__chooseStoreIcon___2f9O6{\r\n  display: block;\r\n  width: 18%;\r\n  float: left;\r\n  /* padding-left: 6px;\r\n  padding-top: 7px; */\r\n}\r\n\r\n.app__chooseStoreText___3ZRHb{\r\n  display: block;\r\n  float: left;\r\n  text-align: left;\r\n  /* padding-top: 9px; */\r\n}\r\n\r\n.app__login___2qI5h{\r\n  display: block;\r\n  text-align: right;\r\n  color: black;\r\n  /* padding-top: 19px; */\r\n  height: 24px;\r\n}\r\n\r\n.app__loginItem___1sqrt{\r\n  color: black;\r\n  font-weight: 600;\r\n  font-size: 8.5px;\r\n}\r\n\r\n.app__storeText___2-vp5{\r\n  font-weight: bold;\r\n}", ""]);
 	
 	// exports
 	exports.locals = {
