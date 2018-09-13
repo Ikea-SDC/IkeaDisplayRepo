@@ -57,3 +57,52 @@
   display: flex;
   justify-content: center;
 }
+
+.pipContainer{
+  display: inline-block;
+  border-bottom: 1px solid #fff;
+  margin-left: 435px;
+  position:relative;
+}
+
+.breadcrumbs{
+  float: left;
+  list-style: none;
+  margin: .9em 0 .2em 1.26em;
+  padding: 0;
+  font-size: 13px;
+  color: #3399FD;
+    text-decoration: underline;
+}
+
+.breadcrumbs1{
+  float: left;
+    margin: 0;
+    padding: 0;
+    display: list-item;
+}
+
+.divider{
+  float: left;
+  color: #ccc;
+  margin: 0 .4em 0 .4em;
+  padding: 0;
+}
+
+.rightContent{
+  width: 100%;
+  overflow: visible;
+  float: left;
+    margin-left: 0;
+    display: block;
+    position: static;
+    margin-top: -0.25em;
+}
+
+.layout2{
+  display: block;
+  float: left;
+  position: relative;
+  width:510px;
+  padding: 0;
+}

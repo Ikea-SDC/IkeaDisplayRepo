@@ -1,5 +1,6 @@
 import React from 'react';
 import style from '../styles/topbar.css';
+import Modal from 'react-modal';
 
 
 let TopBar = (props) =>(
