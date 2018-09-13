@@ -29621,7 +29621,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".topbar__bar___nA7w7{\r\ndisplay: flex;\r\njustify-content: space-evenly;\r\nfont-weight: 600;\r\nfont-family: Verdana,sans-serif;\r\nfont-size: 12px;\r\n}\r\n\r\n.topbar__header1___1ngc6{\r\n  display: block;\r\n  height: 40px;\r\n  width: 100%;\r\n  padding-top: 16px;\r\n  padding-bottom: 8px;\r\n  background-color: white;\r\n  color: #333;\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 9.6px;\r\n  text-align: left;\r\n}\r\n\r\n.topbar__menu___1oolY{\r\n  display: block;\r\n  width: 552px;\r\n  margin-top: 10px;\r\n  float: left;\r\n  text-align: left;\r\n}\r\n\r\n.topbar__logo___1k84B{\r\n  width: 120px;\r\n  float: left;\r\n}\r\n\r\n.topbar__icons___zM2Zn{\r\n  display: flex;\r\n  justify-content: flex-end;\r\n}\r\n\r\n.topbar__icons1___3ta6H{\r\n  display: block;\r\n  width: 111px;\r\n  float: left;\r\n  text-align: right;\r\n  color: black;\r\n}\r\n\r\n.topbar__form___2O_mS{\r\n  display: block;\r\n  float: left;\r\n  padding-left: 0px;\r\n}\r\n\r\n.topbar__search___FtsOA{\r\n  display: block;\r\n  border-style: solid;\r\n  border-width: 1px;\r\n  border-color: rgba(128, 128, 128, 0.54);\r\n  font-family: Verdana,sans-serif;\r\n  color: #333;\r\n  width: 238px;\r\n  padding: 0;\r\n  margin: 0;\r\n  border: 0;\r\n}\r\n\r\n.topbar__words___1bnxY{\r\n  font-size: 12px;\r\n    font-weight: 600;\r\n    padding: 11px;\r\n    font-family: Verdana,sans-serif;\r\n    text-align: left;\r\n}\r\n\r\n.topbar__hr___2oveR{\r\n  padding-top: 48px;\r\n  border: none;\r\n  width: 102%;\r\n  height: 49px;\r\n  margin: -49px -10px 6px;\r\n}\r\n\r\n.topbar__account___1eiBW{\r\n  display: block;\r\n  width: 1067px;\r\n  margin: 0 auto;\r\n  text-decoration: none;\r\n  color: #333;\r\n  font-family: Verdana,sans-serif;\r\n}", ""]);
+	exports.push([module.id, ".topbar__bar___nA7w7{\r\ndisplay: flex;\r\njustify-content: space-evenly;\r\nfont-weight: 600;\r\nfont-family: Verdana,sans-serif;\r\nfont-size: 12px;\r\n}\r\n\r\n.topbar__header1___1ngc6{\r\n  display: block;\r\n  height: 40px;\r\n  width: 100%;\r\n  padding-top: 16px;\r\n  padding-bottom: 8px;\r\n  background-color: white;\r\n  color: #333;\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 9.6px;\r\n  text-align: left;\r\n}\r\n\r\n\r\n.topbar__menu___1oolY{\r\n  display: block;\r\n  width: 552px;\r\n  margin-top: 10px;\r\n  float: left;\r\n  text-align: left;\r\n}\r\n\r\n.topbar__logo___1k84B{\r\n  width: 120px;\r\n  float: left;\r\n}\r\n\r\n.topbar__icons___zM2Zn{\r\n  display: flex;\r\n  justify-content: flex-end;\r\n}\r\n\r\n.topbar__icons1___3ta6H{\r\n  display: block;\r\n  width: 111px;\r\n  float: left;\r\n  text-align: right;\r\n  color: black;\r\n}\r\n\r\n.topbar__form___2O_mS{\r\n  display: block;\r\n  float: left;\r\n  padding-left: 0px;\r\n}\r\n\r\n.topbar__search___FtsOA{\r\n  display: block;\r\n  border-style: solid;\r\n  border-width: 1px;\r\n  border-color: rgba(128, 128, 128, 0.54);\r\n  font-family: Verdana,sans-serif;\r\n  color: #333;\r\n  width: 238px;\r\n  padding: 0;\r\n  margin: 0;\r\n  border: 0;\r\n}\r\n\r\n.topbar__words___1bnxY{\r\n  font-size: 12px;\r\n    font-weight: 600;\r\n    padding: 11px;\r\n    font-family: Verdana,sans-serif;\r\n    text-align: left;\r\n}\r\n\r\n.topbar__hr___2oveR{\r\n  padding-top: 48px;\r\n  border: none;\r\n  width: 102%;\r\n  height: 49px;\r\n  margin: -49px -10px 6px;\r\n}\r\n\r\n.topbar__account___1eiBW{\r\n  display: block;\r\n  width: 1067px;\r\n  margin: 0 auto;\r\n  text-decoration: none;\r\n  color: #333;\r\n  font-family: Verdana,sans-serif;\r\n}", ""]);
 	
 	// exports
 	exports.locals = {
@@ -29662,6 +29662,14 @@
 	var _reactStarRatingComponent = __webpack_require__(/*! react-star-rating-component */ 249);
 	
 	var _reactStarRatingComponent2 = _interopRequireDefault(_reactStarRatingComponent);
+	
+	var _reactDropdown = __webpack_require__(/*! react-dropdown */ 257);
+	
+	var _reactDropdown2 = _interopRequireDefault(_reactDropdown);
+	
+	var _cities = __webpack_require__(/*! ./cities.jsx */ 259);
+	
+	var _cities2 = _interopRequireDefault(_cities);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -29772,8 +29780,12 @@
 	            'Check stock at your local store',
 	            _react2.default.createElement(
 	              'div',
-	              { className: _description2.default.dropDown },
-	              'dropdown'
+	              { className: _description2.default.DropdownMenu },
+	              _react2.default.createElement(
+	                'div',
+	                null,
+	                _react2.default.createElement(_reactDropdown2.default, { options: _cities2.default, placeholder: 'Store: Burbank, CA' })
+	              )
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -29899,7 +29911,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".description__container___2lRWH{\r\n  float: left;\r\n  margin: 1.364em 0 0 2.9em;\r\n  width: 420px;\r\n  height: 371;\r\n  padding: .7em 0 0 1.56em;\r\n}\r\n\r\n.description__layout___1fbDu{\r\n  display: block;\r\n  position: relative;\r\n  float: right;\r\n  right: 50px;\r\n}\r\n\r\n.description__title___2Kvr5{\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 20px;\r\n  line-height: 30px;\r\n  letter-spacing: -1px;\r\n  display: block;\r\n  font-weight: bold;\r\n  text-align: left;\r\n}\r\n\r\n.description__price___2FqSe{\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 32px;\r\n  letter-spacing: -1.5px;\r\n  font-weight: bold;\r\n  text-align: left;\r\n}\r\n\r\n.description__article___3YKK_{\r\n  color: #000;\r\n  font-size: 11px;\r\n  line-height: 2;\r\n  font-family: verdana;\r\n}\r\n\r\n.description__review___3JbFf{\r\n  letter-spacing: normal;\r\n  color: #3399FD;\r\n  font-size: 11px;\r\n  line-height: 35px;\r\n}\r\n\r\n.description__review1___1Ejl0{\r\n  letter-spacing: normal;\r\n  color: black;\r\n  font-size: 11px;\r\n  line-height: 35px;\r\n}\r\n\r\n.description__reviewLayout___10kIR{\r\n  display: flex;\r\n  justify-content: flex-start;\r\n}\r\n\r\n.description__description___ygGkz{\r\n  line-height: 18px;\r\n  color: #333;\r\n  padding-bottom: 15px;\r\n  font-size: 13px;\r\n}\r\n\r\n.description__quantity___6wPb6{\r\n  height: 30px;\r\n  width: 56px;\r\n  text-align: center;\r\n  font-size: 13px;\r\n  font-weight: normal;\r\n  float: right;\r\n  border: 1px solid #999;\r\n  margin: 5px 0 10px 0;\r\n  border-radius: 2px;\r\n}\r\n\r\n.description__quantity1___1Ynda{\r\n  color: #767676;\r\n    font-size: 13px;\r\n    line-height: 46px;\r\n}\r\n.description__button1___y6foo{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background: #a2bfe6;\r\n  padding: 0px; \r\n  width: 420px;\r\n  height: 46px; \r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__button2___2aw08{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background:#cdcdcd;\r\n  padding: 0px; \r\n  width: 420px;\r\n  height: 46px;\r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__button3___3QkaA{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background:#ffc9ae;\r\n  padding: 17px; \r\n  width: 420px;\r\n  height: 46px;\r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__star___1PeKk{\r\n  font-size: 23px;\r\n}\r\n\r\n.description__location___2PMEu{\r\n  width: 150%;\r\n  display: flex;\r\n  justify-content: space-between;\r\n}\r\n\r\n.description__left___2LX5W{\r\n  float: left;\r\n  margin: 0 0 5px 0;\r\n  font-size: 1.1462em;\r\n  font-weight: bold;\r\n  color: #333;\r\n  display: block;\r\n}\r\n\r\n.description__dropDown___3fMd3{\r\n  height: 33px;\r\n  margin-top: 5px;\r\n  padding: 0;\r\n  border: 1px solid #999;\r\n  line-height: 33px;\r\n}\r\n\r\n.description__right___1VsZ9{\r\n  box-sizing: border-box;\r\n    width: 80%;\r\n    float: right;\r\n    margin-left: 8px;\r\n    border-left: 1px solid #eee;\r\n    padding-left: 10px;\r\n}\r\n\r\n.description__noAvail___2qIIw{\r\n  font-size: 11px;\r\n  font-weight: bold;\r\n  color: #333;\r\n  display: block;\r\n}\r\n\r\n.description__availability___26wTe{\r\n  font-size: 11px;\r\n    margin: 5px 0;\r\n}\r\n\r\n.description__box___2JTAR{\r\n  display:block;\r\n}\r\n\r\n.description__stock1___3Klk-{\r\n  margin: 10px 0 0 0;\r\n  clear: both;\r\n  width: inherit;\r\n  float: none;\r\n  margin-bottom: 8px;\r\n}\r\n.description__stock___2zGEZ{\r\n  font-size: 11px;\r\n    text-align: left;\r\n    font-style: italic;\r\n    color: #333;\r\n}\r\n\r\n.description__store___3Tq4g{\r\n  color: #3399fd;\r\n    font-size: 13px;\r\n    text-decoration: underline;\r\n    cursor: pointer;\r\n}\r\n\r\n.description__bottom___2jUXw{\r\n  font-style: italic;\r\n  font-size: 11px;\r\n  text-align: left;\r\n  padding: .5px 0 2px 0;\r\n  color: #767676;\r\n}\r\n\r\n.description__assembly___K6UW3{\r\n  width: 200px;\r\n  float: left;\r\n  line-height: 40px;\r\n  border-bottom: solid;\r\n  border-bottom-color: #f2f2f2;\r\n  border-bottom-width: 1px;\r\n  cursor: pointer;\r\n  font-size: 13px;\r\n}\r\n\r\n.description__assembly1___1951T{\r\n  background-image: url(/ms/img/ads/vitality/service_offer/assembly_big.jpg);\r\n  padding-left: 32px;\r\n  background-size: 30px 20px;\r\n  background-repeat: no-repeat;\r\n  background-position: 0% 64%;\r\n  line-height: 15px;\r\n    display: table-cell;\r\n    vertical-align: middle;\r\n    height: 40px;\r\n}", ""]);
+	exports.push([module.id, ".description__container___2lRWH{\r\n  float: left;\r\n  margin: 1.364em 0 0 2.9em;\r\n  width: 420px;\r\n  height: 371;\r\n  padding: .7em 0 0 1.56em;\r\n}\r\n\r\n.description__layout___1fbDu{\r\n  display: block;\r\n  position: relative;\r\n  float: right;\r\n  right: 50px;\r\n}\r\n\r\n.description__title___2Kvr5{\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 20px;\r\n  line-height: 30px;\r\n  letter-spacing: -1px;\r\n  display: block;\r\n  font-weight: bold;\r\n  text-align: left;\r\n}\r\n\r\n.description__price___2FqSe{\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 32px;\r\n  letter-spacing: -1.5px;\r\n  font-weight: bold;\r\n  text-align: left;\r\n}\r\n\r\n.description__article___3YKK_{\r\n  color: #000;\r\n  font-size: 11px;\r\n  line-height: 2;\r\n  font-family: verdana;\r\n}\r\n\r\n.description__review___3JbFf{\r\n  letter-spacing: normal;\r\n  color: #3399FD;\r\n  font-size: 11px;\r\n  line-height: 35px;\r\n}\r\n\r\n.description__review1___1Ejl0{\r\n  letter-spacing: normal;\r\n  color: black;\r\n  font-size: 11px;\r\n  line-height: 35px;\r\n}\r\n\r\n.description__reviewLayout___10kIR{\r\n  display: flex;\r\n  justify-content: flex-start;\r\n}\r\n\r\n.description__description___ygGkz{\r\n  line-height: 18px;\r\n  color: #333;\r\n  padding-bottom: 15px;\r\n  font-size: 13px;\r\n}\r\n\r\n.description__quantity___6wPb6{\r\n  height: 30px;\r\n  width: 56px;\r\n  text-align: center;\r\n  font-size: 13px;\r\n  font-weight: normal;\r\n  float: right;\r\n  border: 1px solid #999;\r\n  margin: 5px 0 10px 0;\r\n  border-radius: 2px;\r\n}\r\n\r\n.description__quantity1___1Ynda{\r\n  color: #767676;\r\n    font-size: 13px;\r\n    line-height: 46px;\r\n}\r\n.description__button1___y6foo{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background: #a2bfe6;\r\n  padding: 0px; \r\n  width: 420px;\r\n  height: 46px; \r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__button2___2aw08{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background:#cdcdcd;\r\n  padding: 0px; \r\n  width: 420px;\r\n  height: 46px;\r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__button3___3QkaA{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background:#ffc9ae;\r\n  padding: 17px; \r\n  width: 420px;\r\n  height: 46px;\r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__star___1PeKk{\r\n  font-size: 23px;\r\n}\r\n\r\n.description__location___2PMEu{\r\n  width: 150%;\r\n  display: flex;\r\n  justify-content: space-between;\r\n}\r\n\r\n.description__left___2LX5W{\r\n  float: left;\r\n  margin: 0 0 5px 0;\r\n  font-size: 1.1462em;\r\n  font-weight: bold;\r\n  color: #333;\r\n  display: block;\r\n}\r\n\r\n\r\n\r\n.description__right___1VsZ9{\r\n  box-sizing: border-box;\r\n    width: 80%;\r\n    float: right;\r\n    margin-left: 8px;\r\n    border-left: 1px solid #eee;\r\n    padding-left: 10px;\r\n}\r\n\r\n.description__noAvail___2qIIw{\r\n  font-size: 11px;\r\n  font-weight: bold;\r\n  color: #333;\r\n  display: block;\r\n}\r\n\r\n.description__availability___26wTe{\r\n  font-size: 11px;\r\n    margin: 5px 0;\r\n}\r\n\r\n.description__box___2JTAR{\r\n  display:block;\r\n}\r\n\r\n.description__stock1___3Klk-{\r\n  margin: 10px 0 0 0;\r\n  clear: both;\r\n  width: inherit;\r\n  float: none;\r\n  margin-bottom: 8px;\r\n}\r\n.description__stock___2zGEZ{\r\n  font-size: 11px;\r\n    text-align: left;\r\n    font-style: italic;\r\n    color: #333;\r\n}\r\n\r\n.description__store___3Tq4g{\r\n  color: #3399fd;\r\n    font-size: 13px;\r\n    text-decoration: underline;\r\n    cursor: pointer;\r\n}\r\n\r\n.description__bottom___2jUXw{\r\n  font-style: italic;\r\n  font-size: 11px;\r\n  text-align: left;\r\n  padding: .5px 0 2px 0;\r\n  color: #767676;\r\n}\r\n\r\n.description__assembly___K6UW3{\r\n  width: 200px;\r\n  float: left;\r\n  line-height: 40px;\r\n  border-bottom: solid;\r\n  border-bottom-color: #f2f2f2;\r\n  border-bottom-width: 1px;\r\n  cursor: pointer;\r\n  font-size: 13px;\r\n}\r\n\r\n.description__assembly1___1951T{\r\n  background-image: url(/ms/img/ads/vitality/service_offer/assembly_big.jpg);\r\n  padding-left: 32px;\r\n  background-size: 30px 20px;\r\n  background-repeat: no-repeat;\r\n  background-position: 0% 64%;\r\n  line-height: 15px;\r\n    display: table-cell;\r\n    vertical-align: middle;\r\n    height: 40px;\r\n}\r\n\r\n.description__DropdownControl___XTTTb {\r\n  position: relative;\r\n  overflow: hidden;\r\n  background-color: white;\r\n  border: 1px solid #ccc;\r\n  border-radius: 2px;\r\n  box-sizing: border-box;\r\n  color: #333;\r\n  cursor: default;\r\n  outline: none;\r\n  padding: 8px 52px 8px 10px;\r\n  transition: all 200ms ease;\r\n}\r\n.description__dropDown___3fMd3{\r\n  height: 33px;\r\n  margin-top: 5px;\r\n  padding: 0;\r\n  border: 1px solid #999;\r\n  line-height: 33px;\r\n}\r\n.description__DropdownMenu___109Ab {\r\n  background-color: white;\r\n  border: 1px solid #ccc;\r\n  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);\r\n  box-sizing: border-box;\r\n  margin-top: 5px;\r\n  max-height: 200px;\r\n  line-height: 33px;\r\n  overflow-y: auto;\r\n  top: 100%;\r\n  width: 100%;\r\n  z-index: 1000;\r\n  -webkit-overflow-scrolling: touch;\r\n}", ""]);
 	
 	// exports
 	exports.locals = {
@@ -29920,7 +29932,6 @@
 		"star": "description__star___1PeKk",
 		"location": "description__location___2PMEu",
 		"left": "description__left___2LX5W",
-		"dropDown": "description__dropDown___3fMd3",
 		"right": "description__right___1VsZ9",
 		"noAvail": "description__noAvail___2qIIw",
 		"availability": "description__availability___26wTe",
@@ -29930,7 +29941,10 @@
 		"store": "description__store___3Tq4g",
 		"bottom": "description__bottom___2jUXw",
 		"assembly": "description__assembly___K6UW3",
-		"assembly1": "description__assembly1___1951T"
+		"assembly1": "description__assembly1___1951T",
+		"DropdownControl": "description__DropdownControl___XTTTb",
+		"dropDown": "description__dropDown___3fMd3",
+		"DropdownMenu": "description__DropdownMenu___109Ab"
 	};
 
 /***/ }),
@@ -30338,6 +30352,311 @@
 		"display": "app__display___1xcJA",
 		"display1": "app__display1___tgcQy"
 	};
+
+/***/ }),
+/* 253 */,
+/* 254 */,
+/* 255 */,
+/* 256 */,
+/* 257 */
+/*!****************************************!*\
+  !*** ./~/react-dropdown/dist/index.js ***!
+  \****************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactDom = __webpack_require__(/*! react-dom */ 37);
+	
+	var _reactDom2 = _interopRequireDefault(_reactDom);
+	
+	var _classnames = __webpack_require__(/*! classnames */ 250);
+	
+	var _classnames2 = _interopRequireDefault(_classnames);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var DEFAULT_PLACEHOLDER_STRING = 'Select...';
+	
+	var Dropdown = function (_Component) {
+	  _inherits(Dropdown, _Component);
+	
+	  function Dropdown(props) {
+	    _classCallCheck(this, Dropdown);
+	
+	    var _this = _possibleConstructorReturn(this, (Dropdown.__proto__ || Object.getPrototypeOf(Dropdown)).call(this, props));
+	
+	    _this.state = {
+	      selected: _this.parseValue(props.value, props.options) || {
+	        label: typeof props.placeholder === 'undefined' ? DEFAULT_PLACEHOLDER_STRING : props.placeholder,
+	        value: ''
+	      },
+	      isOpen: false
+	    };
+	    _this.mounted = true;
+	    _this.handleDocumentClick = _this.handleDocumentClick.bind(_this);
+	    _this.fireChangeEvent = _this.fireChangeEvent.bind(_this);
+	    return _this;
+	  }
+	
+	  _createClass(Dropdown, [{
+	    key: 'componentWillReceiveProps',
+	    value: function componentWillReceiveProps(newProps) {
+	      if (newProps.value) {
+	        var selected = this.parseValue(newProps.value, newProps.options);
+	        if (selected !== this.state.selected) {
+	          this.setState({ selected: selected });
+	        }
+	      } else {
+	        this.setState({ selected: {
+	            label: typeof newProps.placeholder === 'undefined' ? DEFAULT_PLACEHOLDER_STRING : newProps.placeholder,
+	            value: ''
+	          } });
+	      }
+	    }
+	  }, {
+	    key: 'componentDidMount',
+	    value: function componentDidMount() {
+	      document.addEventListener('click', this.handleDocumentClick, false);
+	      document.addEventListener('touchend', this.handleDocumentClick, false);
+	    }
+	  }, {
+	    key: 'componentWillUnmount',
+	    value: function componentWillUnmount() {
+	      this.mounted = false;
+	      document.removeEventListener('click', this.handleDocumentClick, false);
+	      document.removeEventListener('touchend', this.handleDocumentClick, false);
+	    }
+	  }, {
+	    key: 'handleMouseDown',
+	    value: function handleMouseDown(event) {
+	      if (this.props.onFocus && typeof this.props.onFocus === 'function') {
+	        this.props.onFocus(this.state.isOpen);
+	      }
+	      if (event.type === 'mousedown' && event.button !== 0) return;
+	      event.stopPropagation();
+	      event.preventDefault();
+	
+	      if (!this.props.disabled) {
+	        this.setState({
+	          isOpen: !this.state.isOpen
+	        });
+	      }
+	    }
+	  }, {
+	    key: 'parseValue',
+	    value: function parseValue(value, options) {
+	      var option = void 0;
+	
+	      if (typeof value === 'string') {
+	        for (var i = 0, num = options.length; i < num; i++) {
+	          if (options[i].type === 'group') {
+	            var match = options[i].items.filter(function (item) {
+	              return item.value === value;
+	            });
+	            if (match.length) {
+	              option = match[0];
+	            }
+	          } else if (typeof options[i].value !== 'undefined' && options[i].value === value) {
+	            option = options[i];
+	          }
+	        }
+	      }
+	
+	      return option || value;
+	    }
+	  }, {
+	    key: 'setValue',
+	    value: function setValue(value, label) {
+	      var newState = {
+	        selected: {
+	          value: value,
+	          label: label },
+	        isOpen: false
+	      };
+	      this.fireChangeEvent(newState);
+	      this.setState(newState);
+	    }
+	  }, {
+	    key: 'fireChangeEvent',
+	    value: function fireChangeEvent(newState) {
+	      if (newState.selected !== this.state.selected && this.props.onChange) {
+	        this.props.onChange(newState.selected);
+	      }
+	    }
+	  }, {
+	    key: 'renderOption',
+	    value: function renderOption(option) {
+	      var _classes;
+	
+	      var value = option.value;
+	      if (typeof value === 'undefined') {
+	        value = option.label || option;
+	      }
+	      var label = option.label || option.value || option;
+	
+	      var classes = (_classes = {}, _defineProperty(_classes, this.props.baseClassName + '-option', true), _defineProperty(_classes, option.className, !!option.className), _defineProperty(_classes, 'is-selected', value === this.state.selected.value || value === this.state.selected), _classes);
+	
+	      var optionClass = (0, _classnames2.default)(classes);
+	
+	      return _react2.default.createElement(
+	        'div',
+	        {
+	          key: value,
+	          className: optionClass,
+	          onMouseDown: this.setValue.bind(this, value, label),
+	          onClick: this.setValue.bind(this, value, label) },
+	        label
+	      );
+	    }
+	  }, {
+	    key: 'buildMenu',
+	    value: function buildMenu() {
+	      var _this2 = this;
+	
+	      var _props = this.props,
+	          options = _props.options,
+	          baseClassName = _props.baseClassName;
+	
+	      var ops = options.map(function (option) {
+	        if (option.type === 'group') {
+	          var groupTitle = _react2.default.createElement(
+	            'div',
+	            { className: baseClassName + '-title' },
+	            option.name
+	          );
+	          var _options = option.items.map(function (item) {
+	            return _this2.renderOption(item);
+	          });
+	
+	          return _react2.default.createElement(
+	            'div',
+	            { className: baseClassName + '-group', key: option.name },
+	            groupTitle,
+	            _options
+	          );
+	        } else {
+	          return _this2.renderOption(option);
+	        }
+	      });
+	
+	      return ops.length ? ops : _react2.default.createElement(
+	        'div',
+	        { className: baseClassName + '-noresults' },
+	        'No options found'
+	      );
+	    }
+	  }, {
+	    key: 'handleDocumentClick',
+	    value: function handleDocumentClick(event) {
+	      if (this.mounted) {
+	        if (!_reactDom2.default.findDOMNode(this).contains(event.target)) {
+	          if (this.state.isOpen) {
+	            this.setState({ isOpen: false });
+	          }
+	        }
+	      }
+	    }
+	  }, {
+	    key: 'isValueSelected',
+	    value: function isValueSelected() {
+	      return typeof this.state.selected === 'string' || this.state.selected.value !== '';
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      var _classNames, _classNames2, _classNames3, _classNames4, _classNames5;
+	
+	      var _props2 = this.props,
+	          baseClassName = _props2.baseClassName,
+	          controlClassName = _props2.controlClassName,
+	          placeholderClassName = _props2.placeholderClassName,
+	          menuClassName = _props2.menuClassName,
+	          arrowClassName = _props2.arrowClassName,
+	          arrowClosed = _props2.arrowClosed,
+	          arrowOpen = _props2.arrowOpen,
+	          className = _props2.className;
+	
+	
+	      var disabledClass = this.props.disabled ? 'Dropdown-disabled' : '';
+	      var placeHolderValue = typeof this.state.selected === 'string' ? this.state.selected : this.state.selected.label;
+	
+	      var dropdownClass = (0, _classnames2.default)((_classNames = {}, _defineProperty(_classNames, baseClassName + '-root', true), _defineProperty(_classNames, className, !!className), _defineProperty(_classNames, 'is-open', this.state.isOpen), _classNames));
+	      var controlClass = (0, _classnames2.default)((_classNames2 = {}, _defineProperty(_classNames2, baseClassName + '-control', true), _defineProperty(_classNames2, controlClassName, !!controlClassName), _defineProperty(_classNames2, disabledClass, !!disabledClass), _classNames2));
+	      var placeholderClass = (0, _classnames2.default)((_classNames3 = {}, _defineProperty(_classNames3, baseClassName + '-placeholder', true), _defineProperty(_classNames3, placeholderClassName, !!placeholderClassName), _defineProperty(_classNames3, 'is-selected', this.isValueSelected()), _classNames3));
+	      var menuClass = (0, _classnames2.default)((_classNames4 = {}, _defineProperty(_classNames4, baseClassName + '-menu', true), _defineProperty(_classNames4, menuClassName, !!menuClassName), _classNames4));
+	      var arrowClass = (0, _classnames2.default)((_classNames5 = {}, _defineProperty(_classNames5, baseClassName + '-arrow', true), _defineProperty(_classNames5, arrowClassName, !!arrowClassName), _classNames5));
+	
+	      var value = _react2.default.createElement(
+	        'div',
+	        { className: placeholderClass },
+	        placeHolderValue
+	      );
+	      var menu = this.state.isOpen ? _react2.default.createElement(
+	        'div',
+	        { className: menuClass },
+	        this.buildMenu()
+	      ) : null;
+	
+	      return _react2.default.createElement(
+	        'div',
+	        { className: dropdownClass },
+	        _react2.default.createElement(
+	          'div',
+	          { className: controlClass, onMouseDown: this.handleMouseDown.bind(this), onTouchEnd: this.handleMouseDown.bind(this) },
+	          value,
+	          _react2.default.createElement(
+	            'div',
+	            { className: baseClassName + '-arrow-wrapper' },
+	            arrowOpen && arrowClosed ? this.state.isOpen ? arrowOpen : arrowClosed : _react2.default.createElement('span', { className: arrowClass })
+	          )
+	        ),
+	        menu
+	      );
+	    }
+	  }]);
+	
+	  return Dropdown;
+	}(_react.Component);
+	
+	Dropdown.defaultProps = { baseClassName: 'Dropdown' };
+	exports.default = Dropdown;
+
+
+/***/ }),
+/* 258 */,
+/* 259 */
+/*!******************************************!*\
+  !*** ./client/src/components/cities.jsx ***!
+  \******************************************/
+/***/ (function(module, exports) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	   value: true
+	});
+	var options = ["Stenungsund", "Bandar-e Ganāveh", "Burnside", "Parung", "Aranđelovac", "Sawoi", "Daitou", "Nanqiao", "Örnsköldsvik", "Nanterre", "Krajan Dua Dawuan Wetan", "Youssoufia", "Bueng Samakkhi", "Savigny-le-Temple", "Mayqayyng", "Bulacan", "Kermānshāh", "Ḩablah", "Rosario", "Dongbei", "Llano de Piedra", "Karakabak", "Sukoanyar", "Jesús María", "Tanashichō", "Bitaogan", "Yasothon", "Spassk", "Los Angeles", "Jayapura", "Kalisabuk", "Inuyama", "Bertoua", "Zamoskvorech’ye", "Silikatnyy", "Wanling", "Cartagena", "Pelópion", "Cedar Rapids", "Zhongcun", "Caen", "Kuala Lumpur", "Krasnosilka", "Qiaonan", "Shihuang", "Darungan", "San Pedro", "Daliuhao", "Metković", "Janas"];
+	
+	exports.default = options;
 
 /***/ })
 /******/ ]);

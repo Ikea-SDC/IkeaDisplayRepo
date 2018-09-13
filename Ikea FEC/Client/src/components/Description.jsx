@@ -1,6 +1,9 @@
 import React from 'react';
 import style from '../styles/description.css';
 import Star from 'react-star-rating-component';
+import Dropdown from 'react-dropdown';
+import options from './cities.jsx';
+
 
 let Description = (props) =>(
 
@@ -50,8 +53,10 @@ let Description = (props) =>(
         <div className={style.location}>
           <div className={style.left}>
           Check stock at your local store
-            <div className={style.dropDown}>
-              dropdown
+            <div className={style.DropdownMenu}>
+            <div >
+              <Dropdown options={options} placeholder="Store: Burbank, CA" />
+              </div>
             </div>
           </div>
           <div className={style.right}>

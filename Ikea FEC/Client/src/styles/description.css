@@ -133,13 +133,7 @@
   display: block;
 }
 
-.dropDown{
-  height: 33px;
-  margin-top: 5px;
-  padding: 0;
-  border: 1px solid #999;
-  line-height: 33px;
-}
+
 
 .right{
   box-sizing: border-box;
@@ -216,4 +210,39 @@
     display: table-cell;
     vertical-align: middle;
     height: 40px;
+}
+
+.DropdownControl {
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  color: #333;
+  cursor: default;
+  outline: none;
+  padding: 8px 52px 8px 10px;
+  transition: all 200ms ease;
+}
+.dropDown{
+  height: 33px;
+  margin-top: 5px;
+  padding: 0;
+  border: 1px solid #999;
+  line-height: 33px;
+}
+.DropdownMenu {
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  margin-top: 5px;
+  max-height: 200px;
+  line-height: 33px;
+  overflow-y: auto;
+  top: 100%;
+  width: 100%;
+  z-index: 1000;
+  -webkit-overflow-scrolling: touch;
 }
