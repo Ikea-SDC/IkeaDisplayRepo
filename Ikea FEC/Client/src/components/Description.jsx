@@ -54,9 +54,10 @@ let Description = (props) =>(
           <div className={style.left}>
           Check stock at your local store
             <div className={style.DropdownMenu}>
-            <div >
-              <Dropdown options={options} placeholder="Store: Burbank, CA" />
-              </div>
+              <span className={style.store1}>Store: </span>
+                <span className={style.store2}>
+                  <Dropdown options={options} placeholder="CA, Burbank" />
+                </span>
             </div>
           </div>
           <div className={style.right}>
