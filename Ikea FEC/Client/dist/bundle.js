@@ -22557,7 +22557,7 @@
 	
 	var _TopBar2 = _interopRequireDefault(_TopBar);
 	
-	var _Description = __webpack_require__(/*! ./Description.jsx */ 246);
+	var _Description = __webpack_require__(/*! ./Description.jsx */ 257);
 	
 	var _Description2 = _interopRequireDefault(_Description);
 	
@@ -22565,7 +22565,7 @@
 	
 	var _carousel2 = _interopRequireDefault(_carousel);
 	
-	var _app = __webpack_require__(/*! ../styles/app.css */ 251);
+	var _app = __webpack_require__(/*! ../styles/app.css */ 264);
 	
 	var _app2 = _interopRequireDefault(_app);
 	
@@ -22690,11 +22690,6 @@
 	          )
 	        ),
 	        _react2.default.createElement(_TopBar2.default, null),
-	        _react2.default.createElement(
-	          'div',
-	          null,
-	          _react2.default.createElement('img', { className: _app2.default.ad, src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/promoBanner/images/shipping-banner-update.jpg' })
-	        ),
 	        _react2.default.createElement(
 	          'div',
 	          { className: _app2.default.rightContent },
@@ -29584,7 +29579,7 @@
 	
 	var _topbar2 = _interopRequireDefault(_topbar);
 	
-	var _reactModal = __webpack_require__(/*! react-modal */ 262);
+	var _reactModal = __webpack_require__(/*! react-modal */ 246);
 	
 	var _reactModal2 = _interopRequireDefault(_reactModal);
 	
@@ -29672,6 +29667,11 @@
 	          _react2.default.createElement('img', { className: _topbar2.default.myShoppingCartImg, width: '31px', height: '31px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-bag.svg' })
 	        )
 	      )
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { className: _topbar2.default.ad },
+	      _react2.default.createElement('img', { src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/promoBanner/images/shipping-banner-update.jpg', width: '1050', height: '55' })
 	    )
 	  );
 	};
@@ -29743,7 +29743,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".topbar__bar___nA7w7{\r\ndisplay: flex;\r\njustify-content: space-evenly;\r\nfont-weight: 600;\r\nfont-family: Verdana,sans-serif;\r\nfont-size: 12px;\r\n}\r\n\r\n.topbar__secondHeader___3JRjZ{\r\n  display: block;\r\n  height: 40px;\r\n  width: 100%;\r\n  padding-top: 16px;\r\n  padding-bottom: 8px;\r\n  background-color: white;\r\n  color: #333;\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 9.6px;\r\n  text-align: left;\r\n}\r\n\r\n\r\n.topbar__menu___1oolY{\r\n  display: block;\r\n  width: 552px;\r\n  margin-top: 10px;\r\n  float: left;\r\n}\r\n\r\n.topbar__logo___1k84B{\r\n  display: block;\r\n  width: 120px;\r\n  float: left;\r\n}\r\n\r\n.topbar__icons___zM2Zn{\r\n  display: flex;\r\n  justify-content: flex-end;\r\n}\r\n\r\n.topbar__icons1___3ta6H{\r\n  display: block;\r\n  width: 111px;\r\n  float: left;\r\n  text-align: right;\r\n  color: black;\r\n}\r\n\r\n.topbar__form1___1fGwE{\r\n  display: block;\r\n  float: left;\r\n  padding-left: 0px;\r\n}\r\n\r\n.topbar__search___FtsOA{\r\n  display: block;\r\n  border-style: solid;\r\n  border-width: 1px;\r\n  border-color: rgba(128, 128, 128, 0.54);\r\n  font-family: Verdana,sans-serif;\r\n  color: #333;\r\n  width: 238px;\r\n  padding: 3px;\r\n  margin-left:0.8em;\r\n  padding-left: 1.1em;\r\n    font-size: 1.3em;\r\n    height: 2.2em;\r\n}\r\n\r\n.topbar__words___1bnxY{\r\n  font-size: 12px;\r\n    font-weight: 600;\r\n    padding: 11px;\r\n}\r\n\r\n.topbar__hr___2oveR{\r\n  padding-top: 48px;\r\n  border: none;\r\n  width: 102%;\r\n  height: 49px;\r\n  margin: -49px -10px 6px;\r\n}\r\n\r\n.topbar__form___2O_mS{\r\n  padding: 0;\r\n  border: 0;\r\n  display: block;\r\n  width: 1067px;\r\n  margin: 0 auto;\r\n  text-decoration: none;\r\n  color: #333;\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 9.6px\r\n}\r\n\r\n.topbar__dropdown___1V1Mo{\r\n  position: relative;\r\n  display: inline-block;\r\n}\r\n\r\n.topbar__logoContainer___1PE8x{\r\nposition: static;\r\n}\r\n\r\n.topbar__searchform___3mISX{\r\n  float: left;\r\n  margin-top: 0.0em;\r\n}\r\n\r\n.topbar__formInput___3exAE{\r\n  display: block;\r\n  float: left;\r\n  padding-left: 0px;\r\n}\r\n\r\n.topbar__myShoppingList___1plyQ{\r\n  display: block;\r\n  margin-left: 32px;\r\n  float: left;\r\n}\r\n\r\n.topbar__myShoppingListImg___3fWpi{\r\n  border: 0;\r\n}\r\n\r\n.topbar__myShoppingCartImg___2G_zG{\r\n  border: 0px;\r\n  width: 31px;\r\n}", ""]);
+	exports.push([module.id, ".topbar__bar___nA7w7{\r\ndisplay: flex;\r\njustify-content: space-evenly;\r\nfont-weight: 600;\r\nfont-family: Verdana,sans-serif;\r\nfont-size: 12px;\r\n}\r\n\r\n.topbar__secondHeader___3JRjZ{\r\n  display: block;\r\n  /* height: 40px; */\r\n  width: 100%;\r\n  padding-top: 16px;\r\n  padding-bottom: 8px;\r\n  background-color: white;\r\n  color: #333;\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 9.6px;\r\n  text-align: left;\r\n}\r\n\r\n\r\n.topbar__menu___1oolY{\r\n  display: block;\r\n  width: 552px;\r\n  margin-top: 10px;\r\n  float: left;\r\n}\r\n\r\n.topbar__logo___1k84B{\r\n  display: block;\r\n  width: 120px;\r\n  float: left;\r\n}\r\n\r\n.topbar__icons___zM2Zn{\r\n  display: flex;\r\n  justify-content: flex-end;\r\n}\r\n\r\n.topbar__icons1___3ta6H{\r\n  display: block;\r\n  width: 111px;\r\n  float: left;\r\n  text-align: right;\r\n  color: black;\r\n}\r\n\r\n.topbar__form1___1fGwE{\r\n  display: block;\r\n  float: left;\r\n  padding-left: 0px;\r\n}\r\n\r\n.topbar__search___FtsOA{\r\n  display: block;\r\n  border-style: solid;\r\n  border-width: 1px;\r\n  border-color: rgba(128, 128, 128, 0.54);\r\n  font-family: Verdana,sans-serif;\r\n  color: #333;\r\n  width: 238px;\r\n  padding: 3px;\r\n  margin-left:0.8em;\r\n  padding-left: 1.1em;\r\n    font-size: 1.3em;\r\n    height: 2.2em;\r\n}\r\n\r\n.topbar__words___1bnxY{\r\n  font-size: 12px;\r\n    font-weight: 600;\r\n    padding: 11px;\r\n}\r\n\r\n.topbar__hr___2oveR{\r\n  padding-top: 48px;\r\n  border: none;\r\n  width: 102%;\r\n  height: 49px;\r\n  margin: -49px -10px 6px;\r\n}\r\n\r\n.topbar__form___2O_mS{\r\n  padding: 0;\r\n  border: 0;\r\n  display: block;\r\n  width: 1067px;\r\n  margin: 0 auto;\r\n  text-decoration: none;\r\n  color: #333;\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 9.6px\r\n}\r\n\r\n.topbar__dropdown___1V1Mo{\r\n  position: relative;\r\n  display: inline-block;\r\n}\r\n\r\n.topbar__logoContainer___1PE8x{\r\nposition: static;\r\n}\r\n\r\n.topbar__searchform___3mISX{\r\n  float: left;\r\n  margin-top: 0.0em;\r\n}\r\n\r\n.topbar__formInput___3exAE{\r\n  display: block;\r\n  float: left;\r\n  padding-left: 0px;\r\n}\r\n\r\n.topbar__myShoppingList___1plyQ{\r\n  display: block;\r\n  margin-left: 32px;\r\n  float: left;\r\n}\r\n\r\n.topbar__myShoppingListImg___3fWpi{\r\n  border: 0;\r\n}\r\n\r\n.topbar__myShoppingCartImg___2G_zG{\r\n  border: 0px;\r\n  width: 31px;\r\n}\r\n\r\n.topbar__ad___3-UH-{\r\n\r\n  width: 1060px;\r\n  cursor: pointer;\r\n  margin-bottom: 2em;\r\n  border: 0;\r\n}", ""]);
 	
 	// exports
 	exports.locals = {
@@ -29764,1053 +29764,12 @@
 		"formInput": "topbar__formInput___3exAE",
 		"myShoppingList": "topbar__myShoppingList___1plyQ",
 		"myShoppingListImg": "topbar__myShoppingListImg___3fWpi",
-		"myShoppingCartImg": "topbar__myShoppingCartImg___2G_zG"
+		"myShoppingCartImg": "topbar__myShoppingCartImg___2G_zG",
+		"ad": "topbar__ad___3-UH-"
 	};
 
 /***/ }),
 /* 246 */
-/*!***********************************************!*\
-  !*** ./client/src/components/Description.jsx ***!
-  \***********************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _react = __webpack_require__(/*! react */ 1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _description = __webpack_require__(/*! ../styles/description.css */ 247);
-	
-	var _description2 = _interopRequireDefault(_description);
-	
-	var _reactStarRatingComponent = __webpack_require__(/*! react-star-rating-component */ 249);
-	
-	var _reactStarRatingComponent2 = _interopRequireDefault(_reactStarRatingComponent);
-	
-	var _reactDropdown = __webpack_require__(/*! react-dropdown */ 257);
-	
-	var _reactDropdown2 = _interopRequireDefault(_reactDropdown);
-	
-	var _cities = __webpack_require__(/*! ./cities.jsx */ 259);
-	
-	var _cities2 = _interopRequireDefault(_cities);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	var Description = function Description(props) {
-	  return _react2.default.createElement(
-	    'div',
-	    { className: _description2.default.layout },
-	    _react2.default.createElement(
-	      'div',
-	      { className: _description2.default.container },
-	      _react2.default.createElement(
-	        'h1',
-	        null,
-	        props.description.type
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        null,
-	        props.description.title
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        { className: _description2.default.price },
-	        props.description.price
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        { className: _description2.default.article },
-	        'Article Number: ',
-	        props.description.articleNumber
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        { className: _description2.default.reviewLayout },
-	        _react2.default.createElement(
-	          'div',
-	          { className: _description2.default.star },
-	          _react2.default.createElement(_reactStarRatingComponent2.default, {
-	            name: 'star1',
-	            starCount: 5,
-	            value: props.description.starRating,
-	            starColor: '#ffcc00',
-	            emptyStarColor: '#cdcdcd'
-	          })
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: _description2.default.review1 },
-	          props.description.starRating
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: _description2.default.review },
-	          '(',
-	          props.description.reviewCount,
-	          ') Reviews'
-	        )
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        { className: _description2.default.description },
-	        props.description.description
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        { className: _description2.default.quantity1 },
-	        'Quantity: ',
-	        _react2.default.createElement('input', { className: _description2.default.quantity, type: 'text', maxLength: '3', size: '3' })
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        null,
-	        _react2.default.createElement(
-	          'button',
-	          { className: _description2.default.button1 },
-	          _react2.default.createElement('img', { width: '23px', height: '23px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-bag.svg' }),
-	          'Available online'
-	        )
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        null,
-	        _react2.default.createElement(
-	          'button',
-	          { className: _description2.default.button2 },
-	          _react2.default.createElement('img', { width: '23px', height: '23px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-list.svg' }),
-	          'Add to shopping list'
-	        )
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        null,
-	        _react2.default.createElement(
-	          'button',
-	          { className: _description2.default.button3 },
-	          'Add to registry'
-	        )
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        { className: _description2.default.box },
-	        _react2.default.createElement(
-	          'div',
-	          { className: _description2.default.location },
-	          _react2.default.createElement(
-	            'div',
-	            { className: _description2.default.left },
-	            'Check stock at your local store',
-	            _react2.default.createElement(
-	              'div',
-	              { className: _description2.default.DropdownMenu },
-	              _react2.default.createElement(
-	                'span',
-	                { className: _description2.default.store1 },
-	                'Store: '
-	              ),
-	              _react2.default.createElement(
-	                'span',
-	                { className: _description2.default.store2 },
-	                _react2.default.createElement(_reactDropdown2.default, { options: _cities2.default, placeholder: 'CA, Burbank' })
-	              )
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: _description2.default.right },
-	            _react2.default.createElement(
-	              'div',
-	              { className: _description2.default.noAvail },
-	              'Not available online'
-	            ),
-	            _react2.default.createElement(
-	              'div',
-	              null,
-	              _react2.default.createElement(
-	                'span',
-	                { className: _description2.default.availability },
-	                'Check availability at your local store'
-	              )
-	            )
-	          )
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: _description2.default.stock1 },
-	          _react2.default.createElement(
-	            'span',
-	            { className: _description2.default.stock },
-	            'Not for Sale '
-	          ),
-	          _react2.default.createElement(
-	            'span',
-	            { className: _description2.default.store },
-	            ' IKEA CA, Burbank'
-	          )
-	        )
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        null,
-	        _react2.default.createElement(
-	          'span',
-	          { className: _description2.default.bottom },
-	          'Store selection may vary and prices may differ from those online.'
-	        )
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        { className: _description2.default.assembly },
-	        _react2.default.createElement(
-	          'div',
-	          { className: _description2.default.assembly1 },
-	          'Assembly'
-	        )
-	      )
-	    )
-	  );
-	};
-	
-	exports.default = Description;
-
-/***/ }),
-/* 247 */
-/*!*******************************************!*\
-  !*** ./client/src/styles/description.css ***!
-  \*******************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-	
-	var content = __webpack_require__(/*! !../../../~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./description.css */ 248);
-	
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	
-	var transform;
-	var insertInto;
-	
-	
-	
-	var options = {"hmr":true}
-	
-	options.transform = transform
-	options.insertInto = undefined;
-	
-	var update = __webpack_require__(/*! ../../../~/style-loader/lib/addStyles.js */ 215)(content, options);
-	
-	if(content.locals) module.exports = content.locals;
-	
-	if(false) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./description.css", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./description.css");
-	
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-	
-			var locals = (function(a, b) {
-				var key, idx = 0;
-	
-				for(key in a) {
-					if(!b || a[key] !== b[key]) return false;
-					idx++;
-				}
-	
-				for(key in b) idx--;
-	
-				return idx === 0;
-			}(content.locals, newContent.locals));
-	
-			if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
-	
-			update(newContent);
-		});
-	
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ }),
-/* 248 */
-/*!***********************************************************************************************************************************!*\
-  !*** ./~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./client/src/styles/description.css ***!
-  \***********************************************************************************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(/*! ../../../~/css-loader/lib/css-base.js */ 214)(false);
-	// imports
-	
-	
-	// module
-	exports.push([module.id, ".description__container___2lRWH{\r\n  float: left;\r\n  margin: 1.364em 0 0 2.9em;\r\n  width: 420px;\r\n  height: 371;\r\n  padding: .7em 0 0 1.56em;\r\n}\r\n\r\n.description__layout___1fbDu{\r\n  display: block;\r\n  position: relative;\r\n  float: right;\r\n  right: 50px;\r\n}\r\n\r\n.description__title___2Kvr5{\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 20px;\r\n  line-height: 30px;\r\n  letter-spacing: -1px;\r\n  display: block;\r\n  font-weight: bold;\r\n  text-align: left;\r\n}\r\n\r\n.description__price___2FqSe{\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 32px;\r\n  letter-spacing: -1.5px;\r\n  font-weight: bold;\r\n  text-align: left;\r\n}\r\n\r\n.description__article___3YKK_{\r\n  color: #000;\r\n  font-size: 11px;\r\n  line-height: 2;\r\n  font-family: verdana;\r\n}\r\n\r\n.description__review___3JbFf{\r\n  letter-spacing: normal;\r\n  color: #3399FD;\r\n  font-size: 11px;\r\n  line-height: 35px;\r\n}\r\n\r\n.description__review1___1Ejl0{\r\n  letter-spacing: normal;\r\n  color: black;\r\n  font-size: 11px;\r\n  line-height: 35px;\r\n}\r\n\r\n.description__reviewLayout___10kIR{\r\n  display: flex;\r\n  justify-content: flex-start;\r\n}\r\n\r\n.description__description___ygGkz{\r\n  line-height: 18px;\r\n  color: #333;\r\n  padding-bottom: 15px;\r\n  font-size: 13px;\r\n}\r\n\r\n.description__quantity___6wPb6{\r\n  height: 30px;\r\n  width: 56px;\r\n  text-align: center;\r\n  font-size: 13px;\r\n  font-weight: normal;\r\n  float: right;\r\n  border: 1px solid #999;\r\n  margin: 5px 0 10px 0;\r\n  border-radius: 2px;\r\n}\r\n\r\n.description__quantity1___1Ynda{\r\n  color: #767676;\r\n    font-size: 13px;\r\n    line-height: 46px;\r\n}\r\n.description__button1___y6foo{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background: #a2bfe6;\r\n  padding: 0px; \r\n  width: 420px;\r\n  height: 46px; \r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__button2___2aw08{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background:#cdcdcd;\r\n  padding: 0px; \r\n  width: 420px;\r\n  height: 46px;\r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__button3___3QkaA{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background:#ffc9ae;\r\n  padding: 17px; \r\n  width: 420px;\r\n  height: 46px;\r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__star___1PeKk{\r\n  font-size: 23px;\r\n}\r\n\r\n.description__location___2PMEu{\r\n  width: 150%;\r\n  display: flex;\r\n  justify-content: space-between;\r\n}\r\n\r\n.description__left___2LX5W{\r\n  float: left;\r\n  margin: 0 0 5px 0;\r\n  font-size: 1.1462em;\r\n  font-weight: bold;\r\n  color: #333;\r\n  display: block;\r\n}\r\n\r\n\r\n\r\n.description__right___1VsZ9{\r\n  box-sizing: border-box;\r\n    width: 80%;\r\n    float: right;\r\n    margin-left: 8px;\r\n    border-left: 1px solid #eee;\r\n    padding-left: 10px;\r\n}\r\n\r\n.description__noAvail___2qIIw{\r\n  font-size: 11px;\r\n  font-weight: bold;\r\n  color: #333;\r\n  display: block;\r\n}\r\n\r\n.description__availability___26wTe{\r\n  font-size: 11px;\r\n    margin: 5px 0;\r\n}\r\n\r\n.description__box___2JTAR{\r\n  display:block;\r\n}\r\n\r\n.description__stock1___3Klk-{\r\n  margin: 10px 0 0 0;\r\n  clear: both;\r\n  width: inherit;\r\n  float: none;\r\n  margin-bottom: 8px;\r\n}\r\n.description__stock___2zGEZ{\r\n  font-size: 11px;\r\n    text-align: left;\r\n    font-style: italic;\r\n    color: #333;\r\n}\r\n\r\n.description__store___3Tq4g{\r\n  color: #3399fd;\r\n    font-size: 13px;\r\n    text-decoration: underline;\r\n    cursor: pointer;\r\n}\r\n\r\n.description__bottom___2jUXw{\r\n  font-style: italic;\r\n  font-size: 11px;\r\n  text-align: left;\r\n  padding: .5px 0 2px 0;\r\n  color: #767676;\r\n}\r\n\r\n.description__assembly___K6UW3{\r\n  width: 200px;\r\n  float: left;\r\n  line-height: 40px;\r\n  border-bottom: solid;\r\n  border-bottom-color: #f2f2f2;\r\n  border-bottom-width: 1px;\r\n  cursor: pointer;\r\n  font-size: 13px;\r\n}\r\n\r\n.description__assembly1___1951T{\r\n  background-image: url(/ms/img/ads/vitality/service_offer/assembly_big.jpg);\r\n  padding-left: 32px;\r\n  background-size: 30px 20px;\r\n  background-repeat: no-repeat;\r\n  background-position: 0% 64%;\r\n  line-height: 15px;\r\n    display: table-cell;\r\n    vertical-align: middle;\r\n    height: 40px;\r\n}\r\n\r\n.description__DropdownControl___XTTTb {\r\n  position: relative;\r\n  overflow: hidden;\r\n  background-color: white;\r\n  border: 1px solid #ccc;\r\n  border-radius: 2px;\r\n  box-sizing: border-box;\r\n  color: #333;\r\n  cursor: default;\r\n  outline: none;\r\n  padding: 8px 52px 8px 10px;\r\n  transition: all 200ms ease;\r\n}\r\n.description__dropDown___3fMd3{\r\n  height: 33px;\r\n  margin-top: 5px;\r\n  padding: 0;\r\n  border: 1px solid #999;\r\n  line-height: 33px;\r\n}\r\n.description__DropdownMenu___109Ab {\r\n  background-color: white;\r\n  border: 1px solid #ccc;\r\n  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);\r\n  box-sizing: border-box;\r\n  margin-top: 5px;\r\n  max-height: 200px;\r\n  line-height: 33px;\r\n  overflow-y: auto;\r\n  top: 100%;\r\n  width: 100%;\r\n  z-index: 1000;\r\n  -webkit-overflow-scrolling: touch;\r\n}\r\n\r\n.description__store1___nkqEm{\r\n  color: #767676;\r\n  vertical-align: middle;\r\n  margin: 0;\r\n  font-weight: normal;\r\n  font-size: 13px;\r\n  padding: 0;\r\n  line-height: 17px;\r\n}\r\n\r\n.description__store2____3P7R{\r\n  text-overflow: ellipsis;\r\n    overflow: hidden;\r\n    max-width: 165px;\r\n    vertical-align: middle;\r\n    display: inline-block;\r\n    white-space: nowrap;\r\n    margin-right: 35px;\r\n    margin: 0;\r\n    font-weight: bold;\r\n    font-size: 13px;\r\n    padding: 0;\r\n    line-height: 17px;\r\n}\r\n\r\n", ""]);
-	
-	// exports
-	exports.locals = {
-		"container": "description__container___2lRWH",
-		"layout": "description__layout___1fbDu",
-		"title": "description__title___2Kvr5",
-		"price": "description__price___2FqSe",
-		"article": "description__article___3YKK_",
-		"review": "description__review___3JbFf",
-		"review1": "description__review1___1Ejl0",
-		"reviewLayout": "description__reviewLayout___10kIR",
-		"description": "description__description___ygGkz",
-		"quantity": "description__quantity___6wPb6",
-		"quantity1": "description__quantity1___1Ynda",
-		"button1": "description__button1___y6foo",
-		"button2": "description__button2___2aw08",
-		"button3": "description__button3___3QkaA",
-		"star": "description__star___1PeKk",
-		"location": "description__location___2PMEu",
-		"left": "description__left___2LX5W",
-		"right": "description__right___1VsZ9",
-		"noAvail": "description__noAvail___2qIIw",
-		"availability": "description__availability___26wTe",
-		"box": "description__box___2JTAR",
-		"stock1": "description__stock1___3Klk-",
-		"stock": "description__stock___2zGEZ",
-		"store": "description__store___3Tq4g",
-		"bottom": "description__bottom___2jUXw",
-		"assembly": "description__assembly___K6UW3",
-		"assembly1": "description__assembly1___1951T",
-		"DropdownControl": "description__DropdownControl___XTTTb",
-		"dropDown": "description__dropDown___3fMd3",
-		"DropdownMenu": "description__DropdownMenu___109Ab",
-		"store1": "description__store1___nkqEm",
-		"store2": "description__store2____3P7R"
-	};
-
-/***/ }),
-/* 249 */
-/*!************************************************!*\
-  !*** ./~/react-star-rating-component/index.js ***!
-  \************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-	
-	var _react = __webpack_require__(/*! react */ 1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _propTypes = __webpack_require__(/*! prop-types */ 225);
-	
-	var _propTypes2 = _interopRequireDefault(_propTypes);
-	
-	var _classnames = __webpack_require__(/*! classnames */ 250);
-	
-	var _classnames2 = _interopRequireDefault(_classnames);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	
-	var StarRatingComponent = function (_Component) {
-	  _inherits(StarRatingComponent, _Component);
-	
-	  function StarRatingComponent(props) {
-	    _classCallCheck(this, StarRatingComponent);
-	
-	    var _this = _possibleConstructorReturn(this, (StarRatingComponent.__proto__ || Object.getPrototypeOf(StarRatingComponent)).call(this));
-	
-	    _this.state = {
-	      value: props.value
-	    };
-	    return _this;
-	  }
-	
-	  _createClass(StarRatingComponent, [{
-	    key: 'componentWillReceiveProps',
-	    value: function componentWillReceiveProps(nextProps) {
-	      var value = nextProps.value;
-	
-	
-	      if (value != null && value !== this.state.value) {
-	        this.setState({ value: value });
-	      }
-	    }
-	  }, {
-	    key: 'onChange',
-	    value: function onChange(inputValue) {
-	      var _props = this.props,
-	          editing = _props.editing,
-	          value = _props.value;
-	
-	
-	      if (!editing) {
-	        return;
-	      }
-	
-	      // do not update internal state based on input value if prop passed
-	      if (value != null) {
-	        return;
-	      }
-	
-	      this.setState({ value: inputValue });
-	    }
-	  }, {
-	    key: 'onStarClick',
-	    value: function onStarClick(index, value, name, e) {
-	      e.stopPropagation();
-	
-	      var _props2 = this.props,
-	          onStarClick = _props2.onStarClick,
-	          editing = _props2.editing;
-	
-	
-	      if (!editing) {
-	        return;
-	      }
-	
-	      onStarClick && onStarClick(index, value, name, e);
-	    }
-	  }, {
-	    key: 'onStarHover',
-	    value: function onStarHover(index, value, name, e) {
-	      e.stopPropagation();
-	
-	      var _props3 = this.props,
-	          onStarHover = _props3.onStarHover,
-	          editing = _props3.editing;
-	
-	
-	      if (!editing) {
-	        return;
-	      }
-	
-	      onStarHover && onStarHover(index, value, name, e);
-	    }
-	  }, {
-	    key: 'onStarHoverOut',
-	    value: function onStarHoverOut(index, value, name, e) {
-	      e.stopPropagation();
-	
-	      var _props4 = this.props,
-	          onStarHoverOut = _props4.onStarHoverOut,
-	          editing = _props4.editing;
-	
-	
-	      if (!editing) {
-	        return;
-	      }
-	
-	      onStarHoverOut && onStarHoverOut(index, value, name, e);
-	    }
-	  }, {
-	    key: 'renderStars',
-	    value: function renderStars() {
-	      var _this2 = this;
-	
-	      var _props5 = this.props,
-	          name = _props5.name,
-	          starCount = _props5.starCount,
-	          starColor = _props5.starColor,
-	          emptyStarColor = _props5.emptyStarColor,
-	          editing = _props5.editing;
-	      var value = this.state.value;
-	
-	
-	      var starStyles = function starStyles(i, value) {
-	        return {
-	          float: 'right',
-	          cursor: editing ? 'pointer' : 'default',
-	          color: value >= i ? starColor : emptyStarColor
-	        };
-	      };
-	      var radioStyles = {
-	        display: 'none',
-	        position: 'absolute',
-	        marginLeft: -9999
-	      };
-	
-	      // populate stars
-	      var starNodes = [];
-	
-	      var _loop = function _loop(i) {
-	        var id = name + '_' + i;
-	        var starNodeInput = _react2.default.createElement('input', {
-	          key: 'input_' + id,
-	          style: radioStyles,
-	          className: 'dv-star-rating-input',
-	          type: 'radio',
-	          name: name,
-	          id: id,
-	          value: i,
-	          checked: value === i,
-	          onChange: _this2.onChange.bind(_this2, i, name)
-	        });
-	        var starNodeLabel = _react2.default.createElement(
-	          'label',
-	          {
-	            key: 'label_' + id,
-	            style: starStyles(i, value),
-	            className: 'dv-star-rating-star ' + (value >= i ? 'dv-star-rating-full-star' : 'dv-star-rating-empty-star'),
-	            htmlFor: id,
-	            onClick: function onClick(e) {
-	              return _this2.onStarClick(i, value, name, e);
-	            },
-	            onMouseOver: function onMouseOver(e) {
-	              return _this2.onStarHover(i, value, name, e);
-	            },
-	            onMouseLeave: function onMouseLeave(e) {
-	              return _this2.onStarHoverOut(i, value, name, e);
-	            }
-	          },
-	          _this2.renderIcon(i, value, name, id)
-	        );
-	
-	        starNodes.push(starNodeInput);
-	        starNodes.push(starNodeLabel);
-	      };
-	
-	      for (var i = starCount; i > 0; i--) {
-	        _loop(i);
-	      }
-	
-	      return starNodes.length ? starNodes : null;
-	    }
-	  }, {
-	    key: 'renderIcon',
-	    value: function renderIcon(index, value, name, id) {
-	      var _props6 = this.props,
-	          renderStarIcon = _props6.renderStarIcon,
-	          renderStarIconHalf = _props6.renderStarIconHalf;
-	
-	
-	      if (typeof renderStarIconHalf === 'function' && Math.ceil(value) === index && value % 1 !== 0) {
-	        return renderStarIconHalf(index, value, name, id);
-	      }
-	
-	      if (typeof renderStarIcon === 'function') {
-	        return renderStarIcon(index, value, name, id);
-	      }
-	
-	      return _react2.default.createElement(
-	        'i',
-	        { key: 'icon_' + id, style: { fontStyle: 'normal' } },
-	        '\u2605'
-	      );
-	    }
-	  }, {
-	    key: 'render',
-	    value: function render() {
-	      var _props7 = this.props,
-	          editing = _props7.editing,
-	          className = _props7.className;
-	
-	      var classes = (0, _classnames2.default)('dv-star-rating', {
-	        'dv-star-rating-non-editable': !editing
-	      }, className);
-	
-	      return _react2.default.createElement(
-	        'div',
-	        { style: { display: 'inline-block', position: 'relative' }, className: classes },
-	        this.renderStars()
-	      );
-	    }
-	  }]);
-	
-	  return StarRatingComponent;
-	}(_react.Component);
-	
-	StarRatingComponent.propTypes = {
-	  name: _propTypes2.default.string.isRequired,
-	  value: _propTypes2.default.number,
-	  editing: _propTypes2.default.bool,
-	  starCount: _propTypes2.default.number,
-	  starColor: _propTypes2.default.string,
-	  onStarClick: _propTypes2.default.func,
-	  onStarHover: _propTypes2.default.func,
-	  onStarHoverOut: _propTypes2.default.func,
-	  renderStarIcon: _propTypes2.default.func,
-	  renderStarIconHalf: _propTypes2.default.func
-	};
-	StarRatingComponent.defaultProps = {
-	  starCount: 5,
-	  editing: true,
-	  starColor: '#ffb400',
-	  emptyStarColor: '#333'
-	};
-	exports.default = StarRatingComponent;
-	module.exports = exports['default'];
-
-
-/***/ }),
-/* 250 */
-/*!*******************************!*\
-  !*** ./~/classnames/index.js ***!
-  \*******************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
-	  Copyright (c) 2017 Jed Watson.
-	  Licensed under the MIT License (MIT), see
-	  http://jedwatson.github.io/classnames
-	*/
-	/* global define */
-	
-	(function () {
-		'use strict';
-	
-		var hasOwn = {}.hasOwnProperty;
-	
-		function classNames () {
-			var classes = [];
-	
-			for (var i = 0; i < arguments.length; i++) {
-				var arg = arguments[i];
-				if (!arg) continue;
-	
-				var argType = typeof arg;
-	
-				if (argType === 'string' || argType === 'number') {
-					classes.push(arg);
-				} else if (Array.isArray(arg) && arg.length) {
-					var inner = classNames.apply(null, arg);
-					if (inner) {
-						classes.push(inner);
-					}
-				} else if (argType === 'object') {
-					for (var key in arg) {
-						if (hasOwn.call(arg, key) && arg[key]) {
-							classes.push(key);
-						}
-					}
-				}
-			}
-	
-			return classes.join(' ');
-		}
-	
-		if (typeof module !== 'undefined' && module.exports) {
-			classNames.default = classNames;
-			module.exports = classNames;
-		} else if (true) {
-			// register as 'classnames', consistent with npm package name
-			!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = function () {
-				return classNames;
-			}.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-		} else {
-			window.classNames = classNames;
-		}
-	}());
-
-
-/***/ }),
-/* 251 */
-/*!***********************************!*\
-  !*** ./client/src/styles/app.css ***!
-  \***********************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-	
-	var content = __webpack_require__(/*! !../../../~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./app.css */ 252);
-	
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	
-	var transform;
-	var insertInto;
-	
-	
-	
-	var options = {"hmr":true}
-	
-	options.transform = transform
-	options.insertInto = undefined;
-	
-	var update = __webpack_require__(/*! ../../../~/style-loader/lib/addStyles.js */ 215)(content, options);
-	
-	if(content.locals) module.exports = content.locals;
-	
-	if(false) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./app.css", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./app.css");
-	
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-	
-			var locals = (function(a, b) {
-				var key, idx = 0;
-	
-				for(key in a) {
-					if(!b || a[key] !== b[key]) return false;
-					idx++;
-				}
-	
-				for(key in b) idx--;
-	
-				return idx === 0;
-			}(content.locals, newContent.locals));
-	
-			if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
-	
-			update(newContent);
-		});
-	
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ }),
-/* 252 */
-/*!***************************************************************************************************************************!*\
-  !*** ./~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./client/src/styles/app.css ***!
-  \***************************************************************************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(/*! ../../../~/css-loader/lib/css-base.js */ 214)(false);
-	// imports
-	
-	
-	// module
-	exports.push([module.id, ".app__header___1BY_D{\r\n  display: flex;\r\n  justify-content: space-around;\r\n  height: 30px;\r\n  font-size: 0.6em;\r\n  top:10px;\r\n  color: #000000;\r\n  padding: 0.6em;\r\n  background: #f8f8f8;\r\n}\r\n\r\n.app__header1___JQf2w{\r\n  display: inherit;\r\n  height: 49px;\r\n    background-color: #f8f8f8;\r\n}\r\n\r\n.app__header2___1MgOt{\r\n  display: block;\r\n  width: 1064px;\r\n  margin: 0 auto;\r\n}\r\n\r\n.app__header3___3vRo2{\r\n  display: block;\r\n  text-align: center;\r\n  width: 65%;\r\n  white-space: nowrap;\r\n  float: left;\r\n  padding-top: 18px;\r\n}\r\n\r\n.app__items___2wM40{\r\n  text-decoration: none;\r\n  font-size: 11px;\r\n  text-align: center;\r\n  white-space: nowrap;\r\n  padding: 10px;\r\n}\r\n\r\n.app__wrapper___3ePbp{\r\n  padding: 0.6em;\r\n  background: #f8f8f8;\r\n}\r\n\r\n.app__ad___2tPp5{\r\n  width: 1060px;\r\n  cursor: pointer;\r\n  margin-bottom: 2em;\r\n  border: 0;\r\n}\r\n\r\n.app__display___1xcJA{\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n\r\n.app__display1___tgcQy{\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n\r\n.app__pipContainer___1jmKV{\r\n  display: inline-block;\r\n  border-bottom: 1px solid #fff;\r\n  margin-left: 435px;\r\n  position:relative;\r\n}\r\n\r\n.app__breadcrumbs___3Wrmr{\r\n  float: left;\r\n  list-style: none;\r\n  margin: .9em 0 .2em 1.26em;\r\n  padding: 0;\r\n  font-size: 13px;\r\n  color: #3399FD;\r\n    text-decoration: underline;\r\n}\r\n\r\n.app__breadcrumbs1___1_S5-{\r\n  float: left;\r\n    margin: 0;\r\n    padding: 0;\r\n    display: list-item;\r\n}\r\n\r\n.app__divider___379qj{\r\n  float: left;\r\n  color: #ccc;\r\n  margin: 0 .4em 0 .4em;\r\n  padding: 0;\r\n}\r\n\r\n.app__rightContent___iFI6t{\r\n  width: 100%;\r\n  overflow: visible;\r\n  float: left;\r\n    margin-left: 0;\r\n    display: block;\r\n    position: static;\r\n    margin-top: -0.25em;\r\n}\r\n\r\n.app__layout2___KEvvR{\r\n  display: block;\r\n  float: left;\r\n  position: relative;\r\n  width:510px;\r\n  padding: 0;\r\n}\r\n\r\n.app__chooseStore___5oXG2{\r\n  display: block;\r\n  float: left;\r\n  width: 350px;\r\n  height: 40px;\r\n  font-size: 10px;\r\n  cursor: pointer;\r\n  margin-left: 13px;\r\n}\r\n\r\n.app__chooseStoreBox___1fHex{\r\n  /* display: inline; */\r\n  float: left;\r\n  width: 169px;\r\n  height: 38px;\r\n  font-size: 10px;\r\n  cursor: pointer;\r\n  margin-left: 88px;\r\n}\r\n\r\n.app__chooseStoreIcon___2f9O6{\r\n  display: block;\r\n  width: 18%;\r\n  float: left;\r\n  /* padding-left: 6px;\r\n  padding-top: 7px; */\r\n}\r\n\r\n.app__chooseStoreText___3ZRHb{\r\n  display: block;\r\n  float: left;\r\n  text-align: left;\r\n  /* padding-top: 9px; */\r\n}\r\n\r\n.app__login___2qI5h{\r\n  display: block;\r\n  text-align: right;\r\n  color: black;\r\n  /* padding-top: 19px; */\r\n  height: 24px;\r\n}\r\n\r\n.app__loginItem___1sqrt{\r\n  color: black;\r\n  font-weight: 600;\r\n  font-size: 8.5px;\r\n}\r\n\r\n.app__storeText___2-vp5{\r\n  font-weight: bold;\r\n}", ""]);
-	
-	// exports
-	exports.locals = {
-		"header": "app__header___1BY_D",
-		"header1": "app__header1___JQf2w",
-		"header2": "app__header2___1MgOt",
-		"header3": "app__header3___3vRo2",
-		"items": "app__items___2wM40",
-		"wrapper": "app__wrapper___3ePbp",
-		"ad": "app__ad___2tPp5",
-		"display": "app__display___1xcJA",
-		"display1": "app__display1___tgcQy",
-		"pipContainer": "app__pipContainer___1jmKV",
-		"breadcrumbs": "app__breadcrumbs___3Wrmr",
-		"breadcrumbs1": "app__breadcrumbs1___1_S5-",
-		"divider": "app__divider___379qj",
-		"rightContent": "app__rightContent___iFI6t",
-		"layout2": "app__layout2___KEvvR",
-		"chooseStore": "app__chooseStore___5oXG2",
-		"chooseStoreBox": "app__chooseStoreBox___1fHex",
-		"chooseStoreIcon": "app__chooseStoreIcon___2f9O6",
-		"chooseStoreText": "app__chooseStoreText___3ZRHb",
-		"login": "app__login___2qI5h",
-		"loginItem": "app__loginItem___1sqrt",
-		"storeText": "app__storeText___2-vp5"
-	};
-
-/***/ }),
-/* 253 */,
-/* 254 */,
-/* 255 */,
-/* 256 */,
-/* 257 */
-/*!****************************************!*\
-  !*** ./~/react-dropdown/dist/index.js ***!
-  \****************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-	
-	var _react = __webpack_require__(/*! react */ 1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _reactDom = __webpack_require__(/*! react-dom */ 37);
-	
-	var _reactDom2 = _interopRequireDefault(_reactDom);
-	
-	var _classnames = __webpack_require__(/*! classnames */ 250);
-	
-	var _classnames2 = _interopRequireDefault(_classnames);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	
-	var DEFAULT_PLACEHOLDER_STRING = 'Select...';
-	
-	var Dropdown = function (_Component) {
-	  _inherits(Dropdown, _Component);
-	
-	  function Dropdown(props) {
-	    _classCallCheck(this, Dropdown);
-	
-	    var _this = _possibleConstructorReturn(this, (Dropdown.__proto__ || Object.getPrototypeOf(Dropdown)).call(this, props));
-	
-	    _this.state = {
-	      selected: _this.parseValue(props.value, props.options) || {
-	        label: typeof props.placeholder === 'undefined' ? DEFAULT_PLACEHOLDER_STRING : props.placeholder,
-	        value: ''
-	      },
-	      isOpen: false
-	    };
-	    _this.mounted = true;
-	    _this.handleDocumentClick = _this.handleDocumentClick.bind(_this);
-	    _this.fireChangeEvent = _this.fireChangeEvent.bind(_this);
-	    return _this;
-	  }
-	
-	  _createClass(Dropdown, [{
-	    key: 'componentWillReceiveProps',
-	    value: function componentWillReceiveProps(newProps) {
-	      if (newProps.value) {
-	        var selected = this.parseValue(newProps.value, newProps.options);
-	        if (selected !== this.state.selected) {
-	          this.setState({ selected: selected });
-	        }
-	      } else {
-	        this.setState({ selected: {
-	            label: typeof newProps.placeholder === 'undefined' ? DEFAULT_PLACEHOLDER_STRING : newProps.placeholder,
-	            value: ''
-	          } });
-	      }
-	    }
-	  }, {
-	    key: 'componentDidMount',
-	    value: function componentDidMount() {
-	      document.addEventListener('click', this.handleDocumentClick, false);
-	      document.addEventListener('touchend', this.handleDocumentClick, false);
-	    }
-	  }, {
-	    key: 'componentWillUnmount',
-	    value: function componentWillUnmount() {
-	      this.mounted = false;
-	      document.removeEventListener('click', this.handleDocumentClick, false);
-	      document.removeEventListener('touchend', this.handleDocumentClick, false);
-	    }
-	  }, {
-	    key: 'handleMouseDown',
-	    value: function handleMouseDown(event) {
-	      if (this.props.onFocus && typeof this.props.onFocus === 'function') {
-	        this.props.onFocus(this.state.isOpen);
-	      }
-	      if (event.type === 'mousedown' && event.button !== 0) return;
-	      event.stopPropagation();
-	      event.preventDefault();
-	
-	      if (!this.props.disabled) {
-	        this.setState({
-	          isOpen: !this.state.isOpen
-	        });
-	      }
-	    }
-	  }, {
-	    key: 'parseValue',
-	    value: function parseValue(value, options) {
-	      var option = void 0;
-	
-	      if (typeof value === 'string') {
-	        for (var i = 0, num = options.length; i < num; i++) {
-	          if (options[i].type === 'group') {
-	            var match = options[i].items.filter(function (item) {
-	              return item.value === value;
-	            });
-	            if (match.length) {
-	              option = match[0];
-	            }
-	          } else if (typeof options[i].value !== 'undefined' && options[i].value === value) {
-	            option = options[i];
-	          }
-	        }
-	      }
-	
-	      return option || value;
-	    }
-	  }, {
-	    key: 'setValue',
-	    value: function setValue(value, label) {
-	      var newState = {
-	        selected: {
-	          value: value,
-	          label: label },
-	        isOpen: false
-	      };
-	      this.fireChangeEvent(newState);
-	      this.setState(newState);
-	    }
-	  }, {
-	    key: 'fireChangeEvent',
-	    value: function fireChangeEvent(newState) {
-	      if (newState.selected !== this.state.selected && this.props.onChange) {
-	        this.props.onChange(newState.selected);
-	      }
-	    }
-	  }, {
-	    key: 'renderOption',
-	    value: function renderOption(option) {
-	      var _classes;
-	
-	      var value = option.value;
-	      if (typeof value === 'undefined') {
-	        value = option.label || option;
-	      }
-	      var label = option.label || option.value || option;
-	
-	      var classes = (_classes = {}, _defineProperty(_classes, this.props.baseClassName + '-option', true), _defineProperty(_classes, option.className, !!option.className), _defineProperty(_classes, 'is-selected', value === this.state.selected.value || value === this.state.selected), _classes);
-	
-	      var optionClass = (0, _classnames2.default)(classes);
-	
-	      return _react2.default.createElement(
-	        'div',
-	        {
-	          key: value,
-	          className: optionClass,
-	          onMouseDown: this.setValue.bind(this, value, label),
-	          onClick: this.setValue.bind(this, value, label) },
-	        label
-	      );
-	    }
-	  }, {
-	    key: 'buildMenu',
-	    value: function buildMenu() {
-	      var _this2 = this;
-	
-	      var _props = this.props,
-	          options = _props.options,
-	          baseClassName = _props.baseClassName;
-	
-	      var ops = options.map(function (option) {
-	        if (option.type === 'group') {
-	          var groupTitle = _react2.default.createElement(
-	            'div',
-	            { className: baseClassName + '-title' },
-	            option.name
-	          );
-	          var _options = option.items.map(function (item) {
-	            return _this2.renderOption(item);
-	          });
-	
-	          return _react2.default.createElement(
-	            'div',
-	            { className: baseClassName + '-group', key: option.name },
-	            groupTitle,
-	            _options
-	          );
-	        } else {
-	          return _this2.renderOption(option);
-	        }
-	      });
-	
-	      return ops.length ? ops : _react2.default.createElement(
-	        'div',
-	        { className: baseClassName + '-noresults' },
-	        'No options found'
-	      );
-	    }
-	  }, {
-	    key: 'handleDocumentClick',
-	    value: function handleDocumentClick(event) {
-	      if (this.mounted) {
-	        if (!_reactDom2.default.findDOMNode(this).contains(event.target)) {
-	          if (this.state.isOpen) {
-	            this.setState({ isOpen: false });
-	          }
-	        }
-	      }
-	    }
-	  }, {
-	    key: 'isValueSelected',
-	    value: function isValueSelected() {
-	      return typeof this.state.selected === 'string' || this.state.selected.value !== '';
-	    }
-	  }, {
-	    key: 'render',
-	    value: function render() {
-	      var _classNames, _classNames2, _classNames3, _classNames4, _classNames5;
-	
-	      var _props2 = this.props,
-	          baseClassName = _props2.baseClassName,
-	          controlClassName = _props2.controlClassName,
-	          placeholderClassName = _props2.placeholderClassName,
-	          menuClassName = _props2.menuClassName,
-	          arrowClassName = _props2.arrowClassName,
-	          arrowClosed = _props2.arrowClosed,
-	          arrowOpen = _props2.arrowOpen,
-	          className = _props2.className;
-	
-	
-	      var disabledClass = this.props.disabled ? 'Dropdown-disabled' : '';
-	      var placeHolderValue = typeof this.state.selected === 'string' ? this.state.selected : this.state.selected.label;
-	
-	      var dropdownClass = (0, _classnames2.default)((_classNames = {}, _defineProperty(_classNames, baseClassName + '-root', true), _defineProperty(_classNames, className, !!className), _defineProperty(_classNames, 'is-open', this.state.isOpen), _classNames));
-	      var controlClass = (0, _classnames2.default)((_classNames2 = {}, _defineProperty(_classNames2, baseClassName + '-control', true), _defineProperty(_classNames2, controlClassName, !!controlClassName), _defineProperty(_classNames2, disabledClass, !!disabledClass), _classNames2));
-	      var placeholderClass = (0, _classnames2.default)((_classNames3 = {}, _defineProperty(_classNames3, baseClassName + '-placeholder', true), _defineProperty(_classNames3, placeholderClassName, !!placeholderClassName), _defineProperty(_classNames3, 'is-selected', this.isValueSelected()), _classNames3));
-	      var menuClass = (0, _classnames2.default)((_classNames4 = {}, _defineProperty(_classNames4, baseClassName + '-menu', true), _defineProperty(_classNames4, menuClassName, !!menuClassName), _classNames4));
-	      var arrowClass = (0, _classnames2.default)((_classNames5 = {}, _defineProperty(_classNames5, baseClassName + '-arrow', true), _defineProperty(_classNames5, arrowClassName, !!arrowClassName), _classNames5));
-	
-	      var value = _react2.default.createElement(
-	        'div',
-	        { className: placeholderClass },
-	        placeHolderValue
-	      );
-	      var menu = this.state.isOpen ? _react2.default.createElement(
-	        'div',
-	        { className: menuClass },
-	        this.buildMenu()
-	      ) : null;
-	
-	      return _react2.default.createElement(
-	        'div',
-	        { className: dropdownClass },
-	        _react2.default.createElement(
-	          'div',
-	          { className: controlClass, onMouseDown: this.handleMouseDown.bind(this), onTouchEnd: this.handleMouseDown.bind(this) },
-	          value,
-	          _react2.default.createElement(
-	            'div',
-	            { className: baseClassName + '-arrow-wrapper' },
-	            arrowOpen && arrowClosed ? this.state.isOpen ? arrowOpen : arrowClosed : _react2.default.createElement('span', { className: arrowClass })
-	          )
-	        ),
-	        menu
-	      );
-	    }
-	  }]);
-	
-	  return Dropdown;
-	}(_react.Component);
-	
-	Dropdown.defaultProps = { baseClassName: 'Dropdown' };
-	exports.default = Dropdown;
-
-
-/***/ }),
-/* 258 */,
-/* 259 */
-/*!******************************************!*\
-  !*** ./client/src/components/cities.jsx ***!
-  \******************************************/
-/***/ (function(module, exports) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	   value: true
-	});
-	var options = ["Stenungsund", "Bandar-e Ganāveh", "Burnside", "Parung", "Aranđelovac", "Sawoi", "Daitou", "Nanqiao", "Örnsköldsvik", "Nanterre", "Krajan Dua Dawuan Wetan", "Youssoufia", "Bueng Samakkhi", "Savigny-le-Temple", "Mayqayyng", "Bulacan", "Kermānshāh", "Ḩablah", "Rosario", "Dongbei", "Llano de Piedra", "Karakabak", "Sukoanyar", "Jesús María", "Tanashichō", "Bitaogan", "Yasothon", "Spassk", "Los Angeles", "Jayapura", "Kalisabuk", "Inuyama", "Bertoua", "Zamoskvorech’ye", "Silikatnyy", "Wanling", "Cartagena", "Pelópion", "Cedar Rapids", "Zhongcun", "Caen", "Kuala Lumpur", "Krasnosilka", "Qiaonan", "Shihuang", "Darungan", "San Pedro", "Daliuhao", "Metković", "Janas"];
-	
-	exports.default = options;
-
-/***/ }),
-/* 260 */,
-/* 261 */,
-/* 262 */
 /*!************************************!*\
   !*** ./~/react-modal/lib/index.js ***!
   \************************************/
@@ -30822,7 +29781,7 @@
 	  value: true
 	});
 	
-	var _Modal = __webpack_require__(/*! ./components/Modal */ 263);
+	var _Modal = __webpack_require__(/*! ./components/Modal */ 247);
 	
 	var _Modal2 = _interopRequireDefault(_Modal);
 	
@@ -30832,7 +29791,7 @@
 	module.exports = exports["default"];
 
 /***/ }),
-/* 263 */
+/* 247 */
 /*!***********************************************!*\
   !*** ./~/react-modal/lib/components/Modal.js ***!
   \***********************************************/
@@ -30861,19 +29820,19 @@
 	
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 	
-	var _ModalPortal = __webpack_require__(/*! ./ModalPortal */ 264);
+	var _ModalPortal = __webpack_require__(/*! ./ModalPortal */ 248);
 	
 	var _ModalPortal2 = _interopRequireDefault(_ModalPortal);
 	
-	var _ariaAppHider = __webpack_require__(/*! ../helpers/ariaAppHider */ 268);
+	var _ariaAppHider = __webpack_require__(/*! ../helpers/ariaAppHider */ 252);
 	
 	var ariaAppHider = _interopRequireWildcard(_ariaAppHider);
 	
-	var _safeHTMLElement = __webpack_require__(/*! ../helpers/safeHTMLElement */ 270);
+	var _safeHTMLElement = __webpack_require__(/*! ../helpers/safeHTMLElement */ 254);
 	
 	var _safeHTMLElement2 = _interopRequireDefault(_safeHTMLElement);
 	
-	var _reactLifecyclesCompat = __webpack_require__(/*! react-lifecycles-compat */ 272);
+	var _reactLifecyclesCompat = __webpack_require__(/*! react-lifecycles-compat */ 256);
 	
 	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 	
@@ -31100,7 +30059,7 @@
 	exports.default = Modal;
 
 /***/ }),
-/* 264 */
+/* 248 */
 /*!*****************************************************!*\
   !*** ./~/react-modal/lib/components/ModalPortal.js ***!
   \*****************************************************/
@@ -31126,23 +30085,23 @@
 	
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 	
-	var _focusManager = __webpack_require__(/*! ../helpers/focusManager */ 265);
+	var _focusManager = __webpack_require__(/*! ../helpers/focusManager */ 249);
 	
 	var focusManager = _interopRequireWildcard(_focusManager);
 	
-	var _scopeTab = __webpack_require__(/*! ../helpers/scopeTab */ 267);
+	var _scopeTab = __webpack_require__(/*! ../helpers/scopeTab */ 251);
 	
 	var _scopeTab2 = _interopRequireDefault(_scopeTab);
 	
-	var _ariaAppHider = __webpack_require__(/*! ../helpers/ariaAppHider */ 268);
+	var _ariaAppHider = __webpack_require__(/*! ../helpers/ariaAppHider */ 252);
 	
 	var ariaAppHider = _interopRequireWildcard(_ariaAppHider);
 	
-	var _classList = __webpack_require__(/*! ../helpers/classList */ 271);
+	var _classList = __webpack_require__(/*! ../helpers/classList */ 255);
 	
 	var classList = _interopRequireWildcard(_classList);
 	
-	var _safeHTMLElement = __webpack_require__(/*! ../helpers/safeHTMLElement */ 270);
+	var _safeHTMLElement = __webpack_require__(/*! ../helpers/safeHTMLElement */ 254);
 	
 	var _safeHTMLElement2 = _interopRequireDefault(_safeHTMLElement);
 	
@@ -31508,7 +30467,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../process/browser.js */ 3)))
 
 /***/ }),
-/* 265 */
+/* 249 */
 /*!***************************************************!*\
   !*** ./~/react-modal/lib/helpers/focusManager.js ***!
   \***************************************************/
@@ -31527,7 +30486,7 @@
 	exports.setupScopedFocus = setupScopedFocus;
 	exports.teardownScopedFocus = teardownScopedFocus;
 	
-	var _tabbable = __webpack_require__(/*! ../helpers/tabbable */ 266);
+	var _tabbable = __webpack_require__(/*! ../helpers/tabbable */ 250);
 	
 	var _tabbable2 = _interopRequireDefault(_tabbable);
 	
@@ -31610,7 +30569,7 @@
 	}
 
 /***/ }),
-/* 266 */
+/* 250 */
 /*!***********************************************!*\
   !*** ./~/react-modal/lib/helpers/tabbable.js ***!
   \***********************************************/
@@ -31676,7 +30635,7 @@
 	module.exports = exports["default"];
 
 /***/ }),
-/* 267 */
+/* 251 */
 /*!***********************************************!*\
   !*** ./~/react-modal/lib/helpers/scopeTab.js ***!
   \***********************************************/
@@ -31689,7 +30648,7 @@
 	});
 	exports.default = scopeTab;
 	
-	var _tabbable = __webpack_require__(/*! ./tabbable */ 266);
+	var _tabbable = __webpack_require__(/*! ./tabbable */ 250);
 	
 	var _tabbable2 = _interopRequireDefault(_tabbable);
 	
@@ -31761,7 +30720,7 @@
 	module.exports = exports["default"];
 
 /***/ }),
-/* 268 */
+/* 252 */
 /*!***************************************************!*\
   !*** ./~/react-modal/lib/helpers/ariaAppHider.js ***!
   \***************************************************/
@@ -31780,11 +30739,11 @@
 	exports.documentNotReadyOrSSRTesting = documentNotReadyOrSSRTesting;
 	exports.resetForTesting = resetForTesting;
 	
-	var _warning = __webpack_require__(/*! warning */ 269);
+	var _warning = __webpack_require__(/*! warning */ 253);
 	
 	var _warning2 = _interopRequireDefault(_warning);
 	
-	var _safeHTMLElement = __webpack_require__(/*! ./safeHTMLElement */ 270);
+	var _safeHTMLElement = __webpack_require__(/*! ./safeHTMLElement */ 254);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -31838,7 +30797,7 @@
 	}
 
 /***/ }),
-/* 269 */
+/* 253 */
 /*!********************************************!*\
   !*** ./~/react-modal/~/warning/browser.js ***!
   \********************************************/
@@ -31908,7 +30867,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../process/browser.js */ 3)))
 
 /***/ }),
-/* 270 */
+/* 254 */
 /*!******************************************************!*\
   !*** ./~/react-modal/lib/helpers/safeHTMLElement.js ***!
   \******************************************************/
@@ -31936,7 +30895,7 @@
 	exports.default = SafeHTMLElement;
 
 /***/ }),
-/* 271 */
+/* 255 */
 /*!************************************************!*\
   !*** ./~/react-modal/lib/helpers/classList.js ***!
   \************************************************/
@@ -32052,7 +31011,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../process/browser.js */ 3)))
 
 /***/ }),
-/* 272 */
+/* 256 */
 /*!******************************************************************!*\
   !*** ./~/react-lifecycles-compat/react-lifecycles-compat.cjs.js ***!
   \******************************************************************/
@@ -32221,6 +31180,1041 @@
 	
 	exports.polyfill = polyfill;
 
+
+/***/ }),
+/* 257 */
+/*!***********************************************!*\
+  !*** ./client/src/components/Description.jsx ***!
+  \***********************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _description = __webpack_require__(/*! ../styles/description.css */ 258);
+	
+	var _description2 = _interopRequireDefault(_description);
+	
+	var _reactStarRatingComponent = __webpack_require__(/*! react-star-rating-component */ 260);
+	
+	var _reactStarRatingComponent2 = _interopRequireDefault(_reactStarRatingComponent);
+	
+	var _reactDropdown = __webpack_require__(/*! react-dropdown */ 262);
+	
+	var _reactDropdown2 = _interopRequireDefault(_reactDropdown);
+	
+	var _cities = __webpack_require__(/*! ./cities.jsx */ 263);
+	
+	var _cities2 = _interopRequireDefault(_cities);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var Description = function Description(props) {
+	  return _react2.default.createElement(
+	    'div',
+	    { className: _description2.default.layout },
+	    _react2.default.createElement(
+	      'div',
+	      { className: _description2.default.container },
+	      _react2.default.createElement(
+	        'h1',
+	        null,
+	        props.description.type
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        null,
+	        props.description.title
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: _description2.default.price },
+	        props.description.price
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: _description2.default.article },
+	        'Article Number: ',
+	        props.description.articleNumber
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: _description2.default.reviewLayout },
+	        _react2.default.createElement(
+	          'div',
+	          { className: _description2.default.star },
+	          _react2.default.createElement(_reactStarRatingComponent2.default, {
+	            name: 'star1',
+	            starCount: 5,
+	            value: props.description.starRating,
+	            starColor: '#ffcc00',
+	            emptyStarColor: '#cdcdcd'
+	          })
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: _description2.default.review1 },
+	          props.description.starRating
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: _description2.default.review },
+	          '(',
+	          props.description.reviewCount,
+	          ') Reviews'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: _description2.default.description },
+	        props.description.description
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: _description2.default.quantity1 },
+	        'Quantity: ',
+	        _react2.default.createElement('input', { className: _description2.default.quantity, type: 'text', maxLength: '3', size: '3' })
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'button',
+	          { className: _description2.default.button1 },
+	          _react2.default.createElement('img', { width: '23px', height: '23px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-bag.svg' }),
+	          'Available online'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'button',
+	          { className: _description2.default.button2 },
+	          _react2.default.createElement('img', { width: '23px', height: '23px', src: 'https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/responsiveHeader/images/nav-shopping-list.svg' }),
+	          'Add to shopping list'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'button',
+	          { className: _description2.default.button3 },
+	          'Add to registry'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: _description2.default.box },
+	        _react2.default.createElement(
+	          'div',
+	          { className: _description2.default.location },
+	          _react2.default.createElement(
+	            'div',
+	            { className: _description2.default.left },
+	            'Check stock at your local store',
+	            _react2.default.createElement(
+	              'div',
+	              { className: _description2.default.DropdownMenu },
+	              _react2.default.createElement(
+	                'span',
+	                { className: _description2.default.store1 },
+	                'Store: '
+	              ),
+	              _react2.default.createElement(
+	                'span',
+	                { className: _description2.default.store2 },
+	                _react2.default.createElement(_reactDropdown2.default, { options: _cities2.default, placeholder: 'CA, Burbank' })
+	              )
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: _description2.default.right },
+	            _react2.default.createElement(
+	              'div',
+	              { className: _description2.default.noAvail },
+	              'Not available online'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              null,
+	              _react2.default.createElement(
+	                'span',
+	                { className: _description2.default.availability },
+	                'Check availability at your local store'
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: _description2.default.stock1 },
+	          _react2.default.createElement(
+	            'span',
+	            { className: _description2.default.stock },
+	            'Not for Sale '
+	          ),
+	          _react2.default.createElement(
+	            'span',
+	            { className: _description2.default.store },
+	            ' IKEA CA, Burbank'
+	          )
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'span',
+	          { className: _description2.default.bottom },
+	          'Store selection may vary and prices may differ from those online.'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: _description2.default.assembly },
+	        _react2.default.createElement(
+	          'div',
+	          { className: _description2.default.assembly1 },
+	          'Assembly'
+	        )
+	      )
+	    )
+	  );
+	};
+	
+	exports.default = Description;
+
+/***/ }),
+/* 258 */
+/*!*******************************************!*\
+  !*** ./client/src/styles/description.css ***!
+  \*******************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+	
+	var content = __webpack_require__(/*! !../../../~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./description.css */ 259);
+	
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	
+	var transform;
+	var insertInto;
+	
+	
+	
+	var options = {"hmr":true}
+	
+	options.transform = transform
+	options.insertInto = undefined;
+	
+	var update = __webpack_require__(/*! ../../../~/style-loader/lib/addStyles.js */ 215)(content, options);
+	
+	if(content.locals) module.exports = content.locals;
+	
+	if(false) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./description.css", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./description.css");
+	
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+	
+			var locals = (function(a, b) {
+				var key, idx = 0;
+	
+				for(key in a) {
+					if(!b || a[key] !== b[key]) return false;
+					idx++;
+				}
+	
+				for(key in b) idx--;
+	
+				return idx === 0;
+			}(content.locals, newContent.locals));
+	
+			if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+	
+			update(newContent);
+		});
+	
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ }),
+/* 259 */
+/*!***********************************************************************************************************************************!*\
+  !*** ./~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./client/src/styles/description.css ***!
+  \***********************************************************************************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(/*! ../../../~/css-loader/lib/css-base.js */ 214)(false);
+	// imports
+	
+	
+	// module
+	exports.push([module.id, ".description__container___2lRWH{\r\n  float: left;\r\n  margin: 1.364em 0 0 2.9em;\r\n  width: 420px;\r\n  height: 371;\r\n  padding: .7em 0 0 1.56em;\r\n}\r\n\r\n.description__layout___1fbDu{\r\n  display: block;\r\n  position: relative;\r\n  float: right;\r\n  right: 50px;\r\n}\r\n\r\n.description__title___2Kvr5{\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 20px;\r\n  line-height: 30px;\r\n  letter-spacing: -1px;\r\n  display: block;\r\n  font-weight: bold;\r\n  text-align: left;\r\n}\r\n\r\n.description__price___2FqSe{\r\n  font-family: Verdana,sans-serif;\r\n  font-size: 32px;\r\n  letter-spacing: -1.5px;\r\n  font-weight: bold;\r\n  text-align: left;\r\n}\r\n\r\n.description__article___3YKK_{\r\n  color: #000;\r\n  font-size: 11px;\r\n  line-height: 2;\r\n  font-family: verdana;\r\n}\r\n\r\n.description__review___3JbFf{\r\n  letter-spacing: normal;\r\n  color: #3399FD;\r\n  font-size: 11px;\r\n  line-height: 35px;\r\n}\r\n\r\n.description__review1___1Ejl0{\r\n  letter-spacing: normal;\r\n  color: black;\r\n  font-size: 11px;\r\n  line-height: 35px;\r\n}\r\n\r\n.description__reviewLayout___10kIR{\r\n  display: flex;\r\n  justify-content: flex-start;\r\n}\r\n\r\n.description__description___ygGkz{\r\n  line-height: 18px;\r\n  color: #333;\r\n  padding-bottom: 15px;\r\n  font-size: 13px;\r\n}\r\n\r\n.description__quantity___6wPb6{\r\n  height: 30px;\r\n  width: 56px;\r\n  text-align: center;\r\n  font-size: 13px;\r\n  font-weight: normal;\r\n  float: right;\r\n  border: 1px solid #999;\r\n  margin: 5px 0 10px 0;\r\n  border-radius: 2px;\r\n}\r\n\r\n.description__quantity1___1Ynda{\r\n  color: #767676;\r\n    font-size: 13px;\r\n    line-height: 46px;\r\n}\r\n.description__button1___y6foo{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background: #a2bfe6;\r\n  padding: 0px; \r\n  width: 420px;\r\n  height: 46px; \r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__button2___2aw08{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background:#cdcdcd;\r\n  padding: 0px; \r\n  width: 420px;\r\n  height: 46px;\r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__button3___3QkaA{\r\n  display: block;\r\n  border-radius: 5px;\r\n  background:#ffc9ae;\r\n  padding: 17px; \r\n  width: 420px;\r\n  height: 46px;\r\n  font-size:12px;\r\n  line-height:1px;\r\n}\r\n\r\n.description__star___1PeKk{\r\n  font-size: 23px;\r\n}\r\n\r\n.description__location___2PMEu{\r\n  width: 150%;\r\n  display: flex;\r\n  justify-content: space-between;\r\n}\r\n\r\n.description__left___2LX5W{\r\n  float: left;\r\n  margin: 0 0 5px 0;\r\n  font-size: 1.1462em;\r\n  font-weight: bold;\r\n  color: #333;\r\n  display: block;\r\n}\r\n\r\n\r\n\r\n.description__right___1VsZ9{\r\n  box-sizing: border-box;\r\n    width: 80%;\r\n    float: right;\r\n    margin-left: 8px;\r\n    border-left: 1px solid #eee;\r\n    padding-left: 10px;\r\n}\r\n\r\n.description__noAvail___2qIIw{\r\n  font-size: 11px;\r\n  font-weight: bold;\r\n  color: #333;\r\n  display: block;\r\n}\r\n\r\n.description__availability___26wTe{\r\n  font-size: 11px;\r\n    margin: 5px 0;\r\n}\r\n\r\n.description__box___2JTAR{\r\n  display:block;\r\n}\r\n\r\n.description__stock1___3Klk-{\r\n  margin: 10px 0 0 0;\r\n  clear: both;\r\n  width: inherit;\r\n  float: none;\r\n  margin-bottom: 8px;\r\n}\r\n.description__stock___2zGEZ{\r\n  font-size: 11px;\r\n    text-align: left;\r\n    font-style: italic;\r\n    color: #333;\r\n}\r\n\r\n.description__store___3Tq4g{\r\n  color: #3399fd;\r\n    font-size: 13px;\r\n    text-decoration: underline;\r\n    cursor: pointer;\r\n}\r\n\r\n.description__bottom___2jUXw{\r\n  font-style: italic;\r\n  font-size: 11px;\r\n  text-align: left;\r\n  padding: .5px 0 2px 0;\r\n  color: #767676;\r\n}\r\n\r\n.description__assembly___K6UW3{\r\n  width: 200px;\r\n  float: left;\r\n  line-height: 40px;\r\n  border-bottom: solid;\r\n  border-bottom-color: #f2f2f2;\r\n  border-bottom-width: 1px;\r\n  cursor: pointer;\r\n  font-size: 13px;\r\n}\r\n\r\n.description__assembly1___1951T{\r\n  background-image: url(/ms/img/ads/vitality/service_offer/assembly_big.jpg);\r\n  padding-left: 32px;\r\n  background-size: 30px 20px;\r\n  background-repeat: no-repeat;\r\n  background-position: 0% 64%;\r\n  line-height: 15px;\r\n    display: table-cell;\r\n    vertical-align: middle;\r\n    height: 40px;\r\n}\r\n\r\n.description__DropdownControl___XTTTb {\r\n  position: relative;\r\n  overflow: hidden;\r\n  background-color: white;\r\n  border: 1px solid #ccc;\r\n  border-radius: 2px;\r\n  box-sizing: border-box;\r\n  color: #333;\r\n  cursor: default;\r\n  outline: none;\r\n  padding: 8px 52px 8px 10px;\r\n  transition: all 200ms ease;\r\n}\r\n.description__dropDown___3fMd3{\r\n  height: 33px;\r\n  margin-top: 5px;\r\n  padding: 0;\r\n  border: 1px solid #999;\r\n  line-height: 33px;\r\n}\r\n.description__DropdownMenu___109Ab {\r\n  background-color: white;\r\n  border: 1px solid #ccc;\r\n  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);\r\n  box-sizing: border-box;\r\n  margin-top: 5px;\r\n  max-height: 200px;\r\n  line-height: 33px;\r\n  overflow-y: auto;\r\n  top: 100%;\r\n  width: 100%;\r\n  z-index: 1000;\r\n  -webkit-overflow-scrolling: touch;\r\n}\r\n\r\n.description__store1___nkqEm{\r\n  color: #767676;\r\n  vertical-align: middle;\r\n  margin: 0;\r\n  font-weight: normal;\r\n  font-size: 13px;\r\n  padding: 0;\r\n  line-height: 17px;\r\n}\r\n\r\n.description__store2____3P7R{\r\n  text-overflow: ellipsis;\r\n    overflow: hidden;\r\n    max-width: 165px;\r\n    vertical-align: middle;\r\n    display: inline-block;\r\n    white-space: nowrap;\r\n    margin-right: 35px;\r\n    margin: 0;\r\n    font-weight: bold;\r\n    font-size: 13px;\r\n    padding: 0;\r\n    line-height: 17px;\r\n}\r\n\r\n", ""]);
+	
+	// exports
+	exports.locals = {
+		"container": "description__container___2lRWH",
+		"layout": "description__layout___1fbDu",
+		"title": "description__title___2Kvr5",
+		"price": "description__price___2FqSe",
+		"article": "description__article___3YKK_",
+		"review": "description__review___3JbFf",
+		"review1": "description__review1___1Ejl0",
+		"reviewLayout": "description__reviewLayout___10kIR",
+		"description": "description__description___ygGkz",
+		"quantity": "description__quantity___6wPb6",
+		"quantity1": "description__quantity1___1Ynda",
+		"button1": "description__button1___y6foo",
+		"button2": "description__button2___2aw08",
+		"button3": "description__button3___3QkaA",
+		"star": "description__star___1PeKk",
+		"location": "description__location___2PMEu",
+		"left": "description__left___2LX5W",
+		"right": "description__right___1VsZ9",
+		"noAvail": "description__noAvail___2qIIw",
+		"availability": "description__availability___26wTe",
+		"box": "description__box___2JTAR",
+		"stock1": "description__stock1___3Klk-",
+		"stock": "description__stock___2zGEZ",
+		"store": "description__store___3Tq4g",
+		"bottom": "description__bottom___2jUXw",
+		"assembly": "description__assembly___K6UW3",
+		"assembly1": "description__assembly1___1951T",
+		"DropdownControl": "description__DropdownControl___XTTTb",
+		"dropDown": "description__dropDown___3fMd3",
+		"DropdownMenu": "description__DropdownMenu___109Ab",
+		"store1": "description__store1___nkqEm",
+		"store2": "description__store2____3P7R"
+	};
+
+/***/ }),
+/* 260 */
+/*!************************************************!*\
+  !*** ./~/react-star-rating-component/index.js ***!
+  \************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _propTypes = __webpack_require__(/*! prop-types */ 225);
+	
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+	
+	var _classnames = __webpack_require__(/*! classnames */ 261);
+	
+	var _classnames2 = _interopRequireDefault(_classnames);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var StarRatingComponent = function (_Component) {
+	  _inherits(StarRatingComponent, _Component);
+	
+	  function StarRatingComponent(props) {
+	    _classCallCheck(this, StarRatingComponent);
+	
+	    var _this = _possibleConstructorReturn(this, (StarRatingComponent.__proto__ || Object.getPrototypeOf(StarRatingComponent)).call(this));
+	
+	    _this.state = {
+	      value: props.value
+	    };
+	    return _this;
+	  }
+	
+	  _createClass(StarRatingComponent, [{
+	    key: 'componentWillReceiveProps',
+	    value: function componentWillReceiveProps(nextProps) {
+	      var value = nextProps.value;
+	
+	
+	      if (value != null && value !== this.state.value) {
+	        this.setState({ value: value });
+	      }
+	    }
+	  }, {
+	    key: 'onChange',
+	    value: function onChange(inputValue) {
+	      var _props = this.props,
+	          editing = _props.editing,
+	          value = _props.value;
+	
+	
+	      if (!editing) {
+	        return;
+	      }
+	
+	      // do not update internal state based on input value if prop passed
+	      if (value != null) {
+	        return;
+	      }
+	
+	      this.setState({ value: inputValue });
+	    }
+	  }, {
+	    key: 'onStarClick',
+	    value: function onStarClick(index, value, name, e) {
+	      e.stopPropagation();
+	
+	      var _props2 = this.props,
+	          onStarClick = _props2.onStarClick,
+	          editing = _props2.editing;
+	
+	
+	      if (!editing) {
+	        return;
+	      }
+	
+	      onStarClick && onStarClick(index, value, name, e);
+	    }
+	  }, {
+	    key: 'onStarHover',
+	    value: function onStarHover(index, value, name, e) {
+	      e.stopPropagation();
+	
+	      var _props3 = this.props,
+	          onStarHover = _props3.onStarHover,
+	          editing = _props3.editing;
+	
+	
+	      if (!editing) {
+	        return;
+	      }
+	
+	      onStarHover && onStarHover(index, value, name, e);
+	    }
+	  }, {
+	    key: 'onStarHoverOut',
+	    value: function onStarHoverOut(index, value, name, e) {
+	      e.stopPropagation();
+	
+	      var _props4 = this.props,
+	          onStarHoverOut = _props4.onStarHoverOut,
+	          editing = _props4.editing;
+	
+	
+	      if (!editing) {
+	        return;
+	      }
+	
+	      onStarHoverOut && onStarHoverOut(index, value, name, e);
+	    }
+	  }, {
+	    key: 'renderStars',
+	    value: function renderStars() {
+	      var _this2 = this;
+	
+	      var _props5 = this.props,
+	          name = _props5.name,
+	          starCount = _props5.starCount,
+	          starColor = _props5.starColor,
+	          emptyStarColor = _props5.emptyStarColor,
+	          editing = _props5.editing;
+	      var value = this.state.value;
+	
+	
+	      var starStyles = function starStyles(i, value) {
+	        return {
+	          float: 'right',
+	          cursor: editing ? 'pointer' : 'default',
+	          color: value >= i ? starColor : emptyStarColor
+	        };
+	      };
+	      var radioStyles = {
+	        display: 'none',
+	        position: 'absolute',
+	        marginLeft: -9999
+	      };
+	
+	      // populate stars
+	      var starNodes = [];
+	
+	      var _loop = function _loop(i) {
+	        var id = name + '_' + i;
+	        var starNodeInput = _react2.default.createElement('input', {
+	          key: 'input_' + id,
+	          style: radioStyles,
+	          className: 'dv-star-rating-input',
+	          type: 'radio',
+	          name: name,
+	          id: id,
+	          value: i,
+	          checked: value === i,
+	          onChange: _this2.onChange.bind(_this2, i, name)
+	        });
+	        var starNodeLabel = _react2.default.createElement(
+	          'label',
+	          {
+	            key: 'label_' + id,
+	            style: starStyles(i, value),
+	            className: 'dv-star-rating-star ' + (value >= i ? 'dv-star-rating-full-star' : 'dv-star-rating-empty-star'),
+	            htmlFor: id,
+	            onClick: function onClick(e) {
+	              return _this2.onStarClick(i, value, name, e);
+	            },
+	            onMouseOver: function onMouseOver(e) {
+	              return _this2.onStarHover(i, value, name, e);
+	            },
+	            onMouseLeave: function onMouseLeave(e) {
+	              return _this2.onStarHoverOut(i, value, name, e);
+	            }
+	          },
+	          _this2.renderIcon(i, value, name, id)
+	        );
+	
+	        starNodes.push(starNodeInput);
+	        starNodes.push(starNodeLabel);
+	      };
+	
+	      for (var i = starCount; i > 0; i--) {
+	        _loop(i);
+	      }
+	
+	      return starNodes.length ? starNodes : null;
+	    }
+	  }, {
+	    key: 'renderIcon',
+	    value: function renderIcon(index, value, name, id) {
+	      var _props6 = this.props,
+	          renderStarIcon = _props6.renderStarIcon,
+	          renderStarIconHalf = _props6.renderStarIconHalf;
+	
+	
+	      if (typeof renderStarIconHalf === 'function' && Math.ceil(value) === index && value % 1 !== 0) {
+	        return renderStarIconHalf(index, value, name, id);
+	      }
+	
+	      if (typeof renderStarIcon === 'function') {
+	        return renderStarIcon(index, value, name, id);
+	      }
+	
+	      return _react2.default.createElement(
+	        'i',
+	        { key: 'icon_' + id, style: { fontStyle: 'normal' } },
+	        '\u2605'
+	      );
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      var _props7 = this.props,
+	          editing = _props7.editing,
+	          className = _props7.className;
+	
+	      var classes = (0, _classnames2.default)('dv-star-rating', {
+	        'dv-star-rating-non-editable': !editing
+	      }, className);
+	
+	      return _react2.default.createElement(
+	        'div',
+	        { style: { display: 'inline-block', position: 'relative' }, className: classes },
+	        this.renderStars()
+	      );
+	    }
+	  }]);
+	
+	  return StarRatingComponent;
+	}(_react.Component);
+	
+	StarRatingComponent.propTypes = {
+	  name: _propTypes2.default.string.isRequired,
+	  value: _propTypes2.default.number,
+	  editing: _propTypes2.default.bool,
+	  starCount: _propTypes2.default.number,
+	  starColor: _propTypes2.default.string,
+	  onStarClick: _propTypes2.default.func,
+	  onStarHover: _propTypes2.default.func,
+	  onStarHoverOut: _propTypes2.default.func,
+	  renderStarIcon: _propTypes2.default.func,
+	  renderStarIconHalf: _propTypes2.default.func
+	};
+	StarRatingComponent.defaultProps = {
+	  starCount: 5,
+	  editing: true,
+	  starColor: '#ffb400',
+	  emptyStarColor: '#333'
+	};
+	exports.default = StarRatingComponent;
+	module.exports = exports['default'];
+
+
+/***/ }),
+/* 261 */
+/*!*******************************!*\
+  !*** ./~/classnames/index.js ***!
+  \*******************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+	  Copyright (c) 2017 Jed Watson.
+	  Licensed under the MIT License (MIT), see
+	  http://jedwatson.github.io/classnames
+	*/
+	/* global define */
+	
+	(function () {
+		'use strict';
+	
+		var hasOwn = {}.hasOwnProperty;
+	
+		function classNames () {
+			var classes = [];
+	
+			for (var i = 0; i < arguments.length; i++) {
+				var arg = arguments[i];
+				if (!arg) continue;
+	
+				var argType = typeof arg;
+	
+				if (argType === 'string' || argType === 'number') {
+					classes.push(arg);
+				} else if (Array.isArray(arg) && arg.length) {
+					var inner = classNames.apply(null, arg);
+					if (inner) {
+						classes.push(inner);
+					}
+				} else if (argType === 'object') {
+					for (var key in arg) {
+						if (hasOwn.call(arg, key) && arg[key]) {
+							classes.push(key);
+						}
+					}
+				}
+			}
+	
+			return classes.join(' ');
+		}
+	
+		if (typeof module !== 'undefined' && module.exports) {
+			classNames.default = classNames;
+			module.exports = classNames;
+		} else if (true) {
+			// register as 'classnames', consistent with npm package name
+			!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = function () {
+				return classNames;
+			}.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+		} else {
+			window.classNames = classNames;
+		}
+	}());
+
+
+/***/ }),
+/* 262 */
+/*!****************************************!*\
+  !*** ./~/react-dropdown/dist/index.js ***!
+  \****************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactDom = __webpack_require__(/*! react-dom */ 37);
+	
+	var _reactDom2 = _interopRequireDefault(_reactDom);
+	
+	var _classnames = __webpack_require__(/*! classnames */ 261);
+	
+	var _classnames2 = _interopRequireDefault(_classnames);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var DEFAULT_PLACEHOLDER_STRING = 'Select...';
+	
+	var Dropdown = function (_Component) {
+	  _inherits(Dropdown, _Component);
+	
+	  function Dropdown(props) {
+	    _classCallCheck(this, Dropdown);
+	
+	    var _this = _possibleConstructorReturn(this, (Dropdown.__proto__ || Object.getPrototypeOf(Dropdown)).call(this, props));
+	
+	    _this.state = {
+	      selected: _this.parseValue(props.value, props.options) || {
+	        label: typeof props.placeholder === 'undefined' ? DEFAULT_PLACEHOLDER_STRING : props.placeholder,
+	        value: ''
+	      },
+	      isOpen: false
+	    };
+	    _this.mounted = true;
+	    _this.handleDocumentClick = _this.handleDocumentClick.bind(_this);
+	    _this.fireChangeEvent = _this.fireChangeEvent.bind(_this);
+	    return _this;
+	  }
+	
+	  _createClass(Dropdown, [{
+	    key: 'componentWillReceiveProps',
+	    value: function componentWillReceiveProps(newProps) {
+	      if (newProps.value) {
+	        var selected = this.parseValue(newProps.value, newProps.options);
+	        if (selected !== this.state.selected) {
+	          this.setState({ selected: selected });
+	        }
+	      } else {
+	        this.setState({ selected: {
+	            label: typeof newProps.placeholder === 'undefined' ? DEFAULT_PLACEHOLDER_STRING : newProps.placeholder,
+	            value: ''
+	          } });
+	      }
+	    }
+	  }, {
+	    key: 'componentDidMount',
+	    value: function componentDidMount() {
+	      document.addEventListener('click', this.handleDocumentClick, false);
+	      document.addEventListener('touchend', this.handleDocumentClick, false);
+	    }
+	  }, {
+	    key: 'componentWillUnmount',
+	    value: function componentWillUnmount() {
+	      this.mounted = false;
+	      document.removeEventListener('click', this.handleDocumentClick, false);
+	      document.removeEventListener('touchend', this.handleDocumentClick, false);
+	    }
+	  }, {
+	    key: 'handleMouseDown',
+	    value: function handleMouseDown(event) {
+	      if (this.props.onFocus && typeof this.props.onFocus === 'function') {
+	        this.props.onFocus(this.state.isOpen);
+	      }
+	      if (event.type === 'mousedown' && event.button !== 0) return;
+	      event.stopPropagation();
+	      event.preventDefault();
+	
+	      if (!this.props.disabled) {
+	        this.setState({
+	          isOpen: !this.state.isOpen
+	        });
+	      }
+	    }
+	  }, {
+	    key: 'parseValue',
+	    value: function parseValue(value, options) {
+	      var option = void 0;
+	
+	      if (typeof value === 'string') {
+	        for (var i = 0, num = options.length; i < num; i++) {
+	          if (options[i].type === 'group') {
+	            var match = options[i].items.filter(function (item) {
+	              return item.value === value;
+	            });
+	            if (match.length) {
+	              option = match[0];
+	            }
+	          } else if (typeof options[i].value !== 'undefined' && options[i].value === value) {
+	            option = options[i];
+	          }
+	        }
+	      }
+	
+	      return option || value;
+	    }
+	  }, {
+	    key: 'setValue',
+	    value: function setValue(value, label) {
+	      var newState = {
+	        selected: {
+	          value: value,
+	          label: label },
+	        isOpen: false
+	      };
+	      this.fireChangeEvent(newState);
+	      this.setState(newState);
+	    }
+	  }, {
+	    key: 'fireChangeEvent',
+	    value: function fireChangeEvent(newState) {
+	      if (newState.selected !== this.state.selected && this.props.onChange) {
+	        this.props.onChange(newState.selected);
+	      }
+	    }
+	  }, {
+	    key: 'renderOption',
+	    value: function renderOption(option) {
+	      var _classes;
+	
+	      var value = option.value;
+	      if (typeof value === 'undefined') {
+	        value = option.label || option;
+	      }
+	      var label = option.label || option.value || option;
+	
+	      var classes = (_classes = {}, _defineProperty(_classes, this.props.baseClassName + '-option', true), _defineProperty(_classes, option.className, !!option.className), _defineProperty(_classes, 'is-selected', value === this.state.selected.value || value === this.state.selected), _classes);
+	
+	      var optionClass = (0, _classnames2.default)(classes);
+	
+	      return _react2.default.createElement(
+	        'div',
+	        {
+	          key: value,
+	          className: optionClass,
+	          onMouseDown: this.setValue.bind(this, value, label),
+	          onClick: this.setValue.bind(this, value, label) },
+	        label
+	      );
+	    }
+	  }, {
+	    key: 'buildMenu',
+	    value: function buildMenu() {
+	      var _this2 = this;
+	
+	      var _props = this.props,
+	          options = _props.options,
+	          baseClassName = _props.baseClassName;
+	
+	      var ops = options.map(function (option) {
+	        if (option.type === 'group') {
+	          var groupTitle = _react2.default.createElement(
+	            'div',
+	            { className: baseClassName + '-title' },
+	            option.name
+	          );
+	          var _options = option.items.map(function (item) {
+	            return _this2.renderOption(item);
+	          });
+	
+	          return _react2.default.createElement(
+	            'div',
+	            { className: baseClassName + '-group', key: option.name },
+	            groupTitle,
+	            _options
+	          );
+	        } else {
+	          return _this2.renderOption(option);
+	        }
+	      });
+	
+	      return ops.length ? ops : _react2.default.createElement(
+	        'div',
+	        { className: baseClassName + '-noresults' },
+	        'No options found'
+	      );
+	    }
+	  }, {
+	    key: 'handleDocumentClick',
+	    value: function handleDocumentClick(event) {
+	      if (this.mounted) {
+	        if (!_reactDom2.default.findDOMNode(this).contains(event.target)) {
+	          if (this.state.isOpen) {
+	            this.setState({ isOpen: false });
+	          }
+	        }
+	      }
+	    }
+	  }, {
+	    key: 'isValueSelected',
+	    value: function isValueSelected() {
+	      return typeof this.state.selected === 'string' || this.state.selected.value !== '';
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      var _classNames, _classNames2, _classNames3, _classNames4, _classNames5;
+	
+	      var _props2 = this.props,
+	          baseClassName = _props2.baseClassName,
+	          controlClassName = _props2.controlClassName,
+	          placeholderClassName = _props2.placeholderClassName,
+	          menuClassName = _props2.menuClassName,
+	          arrowClassName = _props2.arrowClassName,
+	          arrowClosed = _props2.arrowClosed,
+	          arrowOpen = _props2.arrowOpen,
+	          className = _props2.className;
+	
+	
+	      var disabledClass = this.props.disabled ? 'Dropdown-disabled' : '';
+	      var placeHolderValue = typeof this.state.selected === 'string' ? this.state.selected : this.state.selected.label;
+	
+	      var dropdownClass = (0, _classnames2.default)((_classNames = {}, _defineProperty(_classNames, baseClassName + '-root', true), _defineProperty(_classNames, className, !!className), _defineProperty(_classNames, 'is-open', this.state.isOpen), _classNames));
+	      var controlClass = (0, _classnames2.default)((_classNames2 = {}, _defineProperty(_classNames2, baseClassName + '-control', true), _defineProperty(_classNames2, controlClassName, !!controlClassName), _defineProperty(_classNames2, disabledClass, !!disabledClass), _classNames2));
+	      var placeholderClass = (0, _classnames2.default)((_classNames3 = {}, _defineProperty(_classNames3, baseClassName + '-placeholder', true), _defineProperty(_classNames3, placeholderClassName, !!placeholderClassName), _defineProperty(_classNames3, 'is-selected', this.isValueSelected()), _classNames3));
+	      var menuClass = (0, _classnames2.default)((_classNames4 = {}, _defineProperty(_classNames4, baseClassName + '-menu', true), _defineProperty(_classNames4, menuClassName, !!menuClassName), _classNames4));
+	      var arrowClass = (0, _classnames2.default)((_classNames5 = {}, _defineProperty(_classNames5, baseClassName + '-arrow', true), _defineProperty(_classNames5, arrowClassName, !!arrowClassName), _classNames5));
+	
+	      var value = _react2.default.createElement(
+	        'div',
+	        { className: placeholderClass },
+	        placeHolderValue
+	      );
+	      var menu = this.state.isOpen ? _react2.default.createElement(
+	        'div',
+	        { className: menuClass },
+	        this.buildMenu()
+	      ) : null;
+	
+	      return _react2.default.createElement(
+	        'div',
+	        { className: dropdownClass },
+	        _react2.default.createElement(
+	          'div',
+	          { className: controlClass, onMouseDown: this.handleMouseDown.bind(this), onTouchEnd: this.handleMouseDown.bind(this) },
+	          value,
+	          _react2.default.createElement(
+	            'div',
+	            { className: baseClassName + '-arrow-wrapper' },
+	            arrowOpen && arrowClosed ? this.state.isOpen ? arrowOpen : arrowClosed : _react2.default.createElement('span', { className: arrowClass })
+	          )
+	        ),
+	        menu
+	      );
+	    }
+	  }]);
+	
+	  return Dropdown;
+	}(_react.Component);
+	
+	Dropdown.defaultProps = { baseClassName: 'Dropdown' };
+	exports.default = Dropdown;
+
+
+/***/ }),
+/* 263 */
+/*!******************************************!*\
+  !*** ./client/src/components/cities.jsx ***!
+  \******************************************/
+/***/ (function(module, exports) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	   value: true
+	});
+	var options = ["Stenungsund", "Bandar-e Ganāveh", "Burnside", "Parung", "Aranđelovac", "Sawoi", "Daitou", "Nanqiao", "Örnsköldsvik", "Nanterre", "Krajan Dua Dawuan Wetan", "Youssoufia", "Bueng Samakkhi", "Savigny-le-Temple", "Mayqayyng", "Bulacan", "Kermānshāh", "Ḩablah", "Rosario", "Dongbei", "Llano de Piedra", "Karakabak", "Sukoanyar", "Jesús María", "Tanashichō", "Bitaogan", "Yasothon", "Spassk", "Los Angeles", "Jayapura", "Kalisabuk", "Inuyama", "Bertoua", "Zamoskvorech’ye", "Silikatnyy", "Wanling", "Cartagena", "Pelópion", "Cedar Rapids", "Zhongcun", "Caen", "Kuala Lumpur", "Krasnosilka", "Qiaonan", "Shihuang", "Darungan", "San Pedro", "Daliuhao", "Metković", "Janas"];
+	
+	exports.default = options;
+
+/***/ }),
+/* 264 */
+/*!***********************************!*\
+  !*** ./client/src/styles/app.css ***!
+  \***********************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+	
+	var content = __webpack_require__(/*! !../../../~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./app.css */ 265);
+	
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	
+	var transform;
+	var insertInto;
+	
+	
+	
+	var options = {"hmr":true}
+	
+	options.transform = transform
+	options.insertInto = undefined;
+	
+	var update = __webpack_require__(/*! ../../../~/style-loader/lib/addStyles.js */ 215)(content, options);
+	
+	if(content.locals) module.exports = content.locals;
+	
+	if(false) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./app.css", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./app.css");
+	
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+	
+			var locals = (function(a, b) {
+				var key, idx = 0;
+	
+				for(key in a) {
+					if(!b || a[key] !== b[key]) return false;
+					idx++;
+				}
+	
+				for(key in b) idx--;
+	
+				return idx === 0;
+			}(content.locals, newContent.locals));
+	
+			if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+	
+			update(newContent);
+		});
+	
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ }),
+/* 265 */
+/*!***************************************************************************************************************************!*\
+  !*** ./~/css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./client/src/styles/app.css ***!
+  \***************************************************************************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(/*! ../../../~/css-loader/lib/css-base.js */ 214)(false);
+	// imports
+	
+	
+	// module
+	exports.push([module.id, ".app__header___1BY_D{\r\n  display: flex;\r\n  justify-content: space-around;\r\n  height: 30px;\r\n  font-size: 0.6em;\r\n  top:10px;\r\n  color: #000000;\r\n  padding: 0.6em;\r\n  background: #f8f8f8;\r\n}\r\n\r\n.app__header1___JQf2w{\r\n  display: inherit;\r\n  height: 49px;\r\n    background-color: #f8f8f8;\r\n}\r\n\r\n.app__header2___1MgOt{\r\n  display: block;\r\n  width: 1064px;\r\n  margin: 0 auto;\r\n}\r\n\r\n.app__header3___3vRo2{\r\n  display: block;\r\n  text-align: center;\r\n  width: 65%;\r\n  white-space: nowrap;\r\n  float: left;\r\n  padding-top: 18px;\r\n}\r\n\r\n.app__items___2wM40{\r\n  text-decoration: none;\r\n  font-size: 11px;\r\n  text-align: center;\r\n  white-space: nowrap;\r\n  padding: 10px;\r\n}\r\n\r\n.app__wrapper___3ePbp{\r\n  padding: 0.6em;\r\n  background: #f8f8f8;\r\n}\r\n\r\n.app__ad___2tPp5{\r\n  width: 1060px;\r\n  cursor: pointer;\r\n  margin-bottom: 2em;\r\n  border: 0;\r\n}\r\n\r\n.app__display___1xcJA{\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n\r\n.app__display1___tgcQy{\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n\r\n.app__pipContainer___1jmKV{\r\n  display: inline-block;\r\n  border-bottom: 1px solid #fff;\r\n  margin-left: 435px;\r\n  position:relative;\r\n}\r\n\r\n.app__breadcrumbs___3Wrmr{\r\n  float: left;\r\n  list-style: none;\r\n  margin: .9em 0 .2em 1.26em;\r\n  padding: 0;\r\n  font-size: 13px;\r\n  color: #3399FD;\r\n    text-decoration: underline;\r\n}\r\n\r\n.app__breadcrumbs1___1_S5-{\r\n  float: left;\r\n    margin: 0;\r\n    padding: 0;\r\n    display: list-item;\r\n}\r\n\r\n.app__divider___379qj{\r\n  float: left;\r\n  color: #ccc;\r\n  margin: 0 .4em 0 .4em;\r\n  padding: 0;\r\n}\r\n\r\n.app__rightContent___iFI6t{\r\n  width: 100%;\r\n  overflow: visible;\r\n  float: left;\r\n    margin-left: 0;\r\n    display: block;\r\n    position: static;\r\n    margin-top: -0.25em;\r\n}\r\n\r\n.app__layout2___KEvvR{\r\n  display: block;\r\n  float: left;\r\n  position: relative;\r\n  width:510px;\r\n  padding: 0;\r\n}\r\n\r\n.app__chooseStore___5oXG2{\r\n  display: block;\r\n  float: left;\r\n  width: 350px;\r\n  height: 40px;\r\n  font-size: 10px;\r\n  cursor: pointer;\r\n  margin-left: 13px;\r\n}\r\n\r\n.app__chooseStoreBox___1fHex{\r\n  /* display: inline; */\r\n  float: left;\r\n  width: 169px;\r\n  height: 38px;\r\n  font-size: 10px;\r\n  cursor: pointer;\r\n  margin-left: 88px;\r\n}\r\n\r\n.app__chooseStoreIcon___2f9O6{\r\n  display: block;\r\n  width: 18%;\r\n  float: left;\r\n  /* padding-left: 6px;\r\n  padding-top: 7px; */\r\n}\r\n\r\n.app__chooseStoreText___3ZRHb{\r\n  display: block;\r\n  float: left;\r\n  text-align: left;\r\n  /* padding-top: 9px; */\r\n}\r\n\r\n.app__login___2qI5h{\r\n  display: block;\r\n  text-align: right;\r\n  color: black;\r\n  /* padding-top: 19px; */\r\n  height: 24px;\r\n}\r\n\r\n.app__loginItem___1sqrt{\r\n  color: black;\r\n  font-weight: 600;\r\n  font-size: 8.5px;\r\n}\r\n\r\n.app__storeText___2-vp5{\r\n  font-weight: bold;\r\n}", ""]);
+	
+	// exports
+	exports.locals = {
+		"header": "app__header___1BY_D",
+		"header1": "app__header1___JQf2w",
+		"header2": "app__header2___1MgOt",
+		"header3": "app__header3___3vRo2",
+		"items": "app__items___2wM40",
+		"wrapper": "app__wrapper___3ePbp",
+		"ad": "app__ad___2tPp5",
+		"display": "app__display___1xcJA",
+		"display1": "app__display1___tgcQy",
+		"pipContainer": "app__pipContainer___1jmKV",
+		"breadcrumbs": "app__breadcrumbs___3Wrmr",
+		"breadcrumbs1": "app__breadcrumbs1___1_S5-",
+		"divider": "app__divider___379qj",
+		"rightContent": "app__rightContent___iFI6t",
+		"layout2": "app__layout2___KEvvR",
+		"chooseStore": "app__chooseStore___5oXG2",
+		"chooseStoreBox": "app__chooseStoreBox___1fHex",
+		"chooseStoreIcon": "app__chooseStoreIcon___2f9O6",
+		"chooseStoreText": "app__chooseStoreText___3ZRHb",
+		"login": "app__login___2qI5h",
+		"loginItem": "app__loginItem___1sqrt",
+		"storeText": "app__storeText___2-vp5"
+	};
 
 /***/ })
 /******/ ]);

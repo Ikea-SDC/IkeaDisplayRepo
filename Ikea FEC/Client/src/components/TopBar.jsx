@@ -38,6 +38,9 @@ let TopBar = (props) =>(
         </div>
       </a>
     </div>
+    <div className={style.ad}>
+          <img src="https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/promoBanner/images/shipping-banner-update.jpg" width="1050" height="55"></img>
+    </div>
   {/* <div className={style.icons}>
   
 

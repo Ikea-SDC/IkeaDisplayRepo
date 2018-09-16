@@ -8,7 +8,7 @@ font-size: 12px;
 
 .secondHeader{
   display: block;
-  height: 40px;
+  /* height: 40px; */
   width: 100%;
   padding-top: 16px;
   padding-bottom: 8px;
@@ -126,4 +126,12 @@ position: static;
 .myShoppingCartImg{
   border: 0px;
   width: 31px;
+}
+
+.ad{
+
+  width: 1060px;
+  cursor: pointer;
+  margin-bottom: 2em;
+  border: 0;
 }
