@@ -1,5 +1,5 @@
 const options = [
-   "Stenungsund", 
+   "Stenungsund",
    "Bandar-e Ganāveh", 
    "Burnside", 
    "Parung", 

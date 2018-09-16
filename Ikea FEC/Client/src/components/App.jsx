@@ -45,20 +45,50 @@ class App extends React.Component{
             <a className={style.items}>Financing</a>
             <a className={style.items}>Join our email list</a>
             </div>
+            <div className={style.chooseStore}>
+              <div className={style.chooseStoreBox}>
+                <div className={style.chooseStoreIcon}>
+                <img src="https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/chooseStoreHeader/images/store_icon_new.svg"width="18px" height="auto"/>
+                </div>
+                <div className={style.chooseStoreText}>
+                My preferred Store:
+                <br></br>
+                <b>
+                  <span className={style.storeText}>CA, Burbank</span>
+                </b>
+                </div>
+              </div>
+              <div className={style.login}>
+                <a className={style.loginItem}>Log in/Sign up</a>
+              </div>
+            </div>
         </div>
       </div>
       <TopBar/>
-      <div className={style.ad}>
-      <img width="1060px" height="55px" src="https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/promoBanner/images/shipping-banner-update.jpg"></img>
+        {/* <div className={style.ad}>
+          <img  src="https://ww8.ikea.com/ext/iplugins/en_US/development/plugins/promoBanner/images/shipping-banner-update.jpg"></img>
+        </div> */}
+      <div className={style.rightContent}>
+      <div>
+      <div className={style.pipContainer}>
+        <ul className={style.breadcrumbs}>
+          <li className={style.breadcrumbs1}>Home</li>
+          <li className={style.divider}>/</li>
+          <li className={style.breadcrumbs1}>Office Furniture</li>
+          <li className={style.divider}>/</li>
+          <li className={style.breadcrumbs1}>Work Lamps</li>
+        </ul>
+      </div>
       </div>
       <div className={style.display}>
-      <div></div>
+      
       <MainDisplay display={this.state.temp}/>
       <Description description={this.state.temp}/>
       </div>
       {/* <div className={style.display1}>
       <Carousel pics={this.state.temp}/>
       </div> */}
+      </div>
       </div>
     )
     // if(this.state.temp === null){

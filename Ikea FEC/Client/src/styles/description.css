@@ -246,3 +246,29 @@
   z-index: 1000;
   -webkit-overflow-scrolling: touch;
 }
+
+.store1{
+  color: #767676;
+  vertical-align: middle;
+  margin: 0;
+  font-weight: normal;
+  font-size: 13px;
+  padding: 0;
+  line-height: 17px;
+}
+
+.store2{
+  text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 165px;
+    vertical-align: middle;
+    display: inline-block;
+    white-space: nowrap;
+    margin-right: 35px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 0;
+    line-height: 17px;
+}
+
