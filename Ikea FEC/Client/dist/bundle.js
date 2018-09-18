@@ -63,7 +63,7 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	_reactDom2.default.render(_react2.default.createElement(_App2.default, null), document.getElementById('app'));
+	_reactDom2.default.render(_react2.default.createElement(_App2.default, null), document.getElementById('display'));
 
 /***/ }),
 /* 1 */
@@ -22596,7 +22596,7 @@
 	    value: function componentDidMount() {
 	      var _this2 = this;
 	
-	      _axios2.default.get('/api/display').then(function (response) {
+	      _axios2.default.get('http://localhost:3000/api/display').then(function (response) {
 	        // console.log(' this is response', response)
 	        _this2.setState({
 	          temp: response.data
