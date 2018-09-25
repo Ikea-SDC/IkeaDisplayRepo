@@ -62,9 +62,12 @@
 }
 
 .pipContainer{
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
   border-bottom: 1px solid #fff;
-  margin-left: 435px;
+  width: 1060px;
+  margin: 0 auto;
+  padding-left: 25px;
   position:relative;
 }
 

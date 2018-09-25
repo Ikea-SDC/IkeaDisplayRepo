@@ -16,7 +16,7 @@ class App extends React.Component{
 
   componentDidMount(){
     axios
-    .get('http://localhost:3000/api/display')
+    .get('http://18.144.67.238:5050/api/display')
     .then((response)=>{
       // console.log(' this is response', response)
       this.setState({

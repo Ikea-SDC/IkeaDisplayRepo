@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/IkeaDB');
+mongoose.connect('mongodb://mongo/IkeaDB');
 
 let db = mongoose.connection;
 
