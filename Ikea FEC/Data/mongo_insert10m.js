@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const fs = require("fs");
 
 let total = 0;
-const limit = 10000000;
+const limit = 1000000;
 const Files1 = fs.createWriteStream("./mongo_data2.json");
 
 // const doit = () => {
@@ -33,24 +33,5 @@ for (var i = 0; i < limit; i++) {
   var stringDocs = JSON.stringify(docs);
   Files1.write(stringDocs);
 }
-// };
-// doit();
 
-//   db.displayData.insertMany(docs, err => {
-//     if (err) {
-//       console.error(err);
-//       process.exit();
-//     }
-//     total += limit;
-//     console.log(`[${new Date()}] Current total: ${total}`);
-//     if (total < limit * 10) {
-//       delete docs;
-//       doit();
-//     } else {
-//       console.log("fuckin did it");
-//       process.exit();
-//     }
-//   });
-// };
-
-// // console.log(`[${new Date()}] Current total: ${total}`);
+// node --max-old-space-size=8192 mongo_insert10m.js
