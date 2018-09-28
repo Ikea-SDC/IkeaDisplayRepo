@@ -8,7 +8,7 @@
     "test": "mocha test",
     "build": "webpack -d --watch"
   },
-  "author": "BrandonR",
+  "author": "Hannah",
   "private": true,
   "license": "UNLICENSED",
   "dependencies": {
@@ -19,8 +19,10 @@
     "cors": "^2.8.4",
     "css-loader": "^1.0.0",
     "express": "^4.14.0",
+    "faker": "^4.1.0",
+    "file-system": "^2.2.2",
     "jquery": "^3.1.1",
-    "mongoose": "^4.5.7",
+    "mongoose": "^5.2.17",
     "morgan": "^1.7.0",
     "nuka-carousel": "^4.3.9",
     "react": "^15.3.2",
