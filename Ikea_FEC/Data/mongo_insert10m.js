@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const fs = require("fs");
 
 let total = 0;
-const limit = 1000000;
+const limit = 100;
 const Files1 = fs.createWriteStream("./mongo_data2.json");
 
 // const doit = () => {
