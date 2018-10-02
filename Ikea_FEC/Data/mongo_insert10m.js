@@ -3,15 +3,17 @@ const mongoose = require("mongoose");
 const fs = require("fs");
 
 let total = 0;
-const limit = 100;
-const Files1 = fs.createWriteStream("./mongo_data2.json");
+const limit = 10000000;
+const Files1 = fs.createWriteStream("./mongo_data.json");
 
+console.log(`[${new Date()}]`);
 // const doit = () => {
 for (var i = 0; i < limit; i++) {
   if (i % 1000000 === 0) {
     console.log(i + total, "num");
   }
   docs = {
+    title_id: i,
     type: faker.name.lastName(),
     productLine: faker.lorem.word(),
     title: faker.internet.domainWord(),
@@ -33,5 +35,5 @@ for (var i = 0; i < limit; i++) {
   var stringDocs = JSON.stringify(docs);
   Files1.write(stringDocs);
 }
-
+console.log(`[${new Date()}]`);
 // node --max-old-space-size=8192 mongo_insert10m.js
