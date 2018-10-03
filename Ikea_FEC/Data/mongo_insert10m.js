@@ -37,3 +37,5 @@ for (var i = 0; i < limit; i++) {
 }
 console.log(`[${new Date()}]`);
 // node --max-old-space-size=8192 mongo_insert10m.js
+// mongoimport --db IkeaDB --collection displaydatas --file mongo_data.json
+// above done in file itself, not in mongo
