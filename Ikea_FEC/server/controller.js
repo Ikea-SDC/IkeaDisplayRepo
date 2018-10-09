@@ -1,16 +1,23 @@
-const db = require('../database/index.js');
+const db = require("../database/index.js");
 
-exports.getData = function(req, res){
-  console.log('in controller!');
-  db.displayData.findOne({}, (err, data)=>{
-    if(err){
-      throw(err)
-    } else {
-      res.status(200).send(data);
+exports.getData = function(req, res) {
+  console.log(req.params.id, "this is req");
+  db.Displaydatas.find({
+    where: {
+      item_id: req.params.id
     }
   })
-}
+    .then(item => {
+      console.log("Getting the data...");
+      res.json(item);
+    })
+    .catch(err => {
+      console.log(err, "You have an error in the get request");
+    });
+};
 
-exports.addData = function(req, res){
-  console.log('in post');
-}
+exports.addData = function(req, res) {};
+
+exports.deleteData = function(req, res) {};
+
+exports.editData = function(req, res) {};
