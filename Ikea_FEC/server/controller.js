@@ -1,6 +1,7 @@
 const db = require("../database/index.js");
 
 exports.getData = function(req, res) {
+  // cache.route();
   console.log(req.params.id, "this is req");
   db.Displaydatas.find({
     where: {

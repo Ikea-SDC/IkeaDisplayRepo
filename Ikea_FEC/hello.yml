@@ -9,4 +9,4 @@ config:
 scenarios:
   - flow:
       - get:
-          url: "/api/item/7893"
+          url: "/api/item/78993"
